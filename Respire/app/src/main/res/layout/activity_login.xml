@@ -7,31 +7,82 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.respireapp.Login">
+    tools:context=".LoginActivity"
+    android:clickable="false"
+    android:background="@drawable/loginbackground"
+    >
 
-    <EditText
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/usernameText"
-        android:layout_centerVertical="true"
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="User Name"
-        />
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
 
-    <EditText
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        android:ems="10"
-        android:id="@+id/passwordText"
-        android:layout_below="@+id/usernameText"
-        android:layout_centerHorizontal="true"/>
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@drawable/loginfieldbg"
+            android:layout_marginTop="213dp"
+            />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/loginButton"
-        android:layout_below="@+id/passwordText"
-        android:layout_centerHorizontal="true" />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:id="@+id/usernameText"
+            android:hint="  User Name"
+            android:layout_marginTop="285dp"
+            android:layout_alignParentRight="true"
+            android:drawableLeft="@drawable/loginusernameicon" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/passwordText"
+            android:layout_marginTop="345dp"
+            android:layout_alignParentRight="true"
+            android:drawableLeft="@drawable/loginpasswordicon"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:id="@+id/loginButton"
+            android:onClick="loginClick"
+            android:src="@drawable/loginbuttonbg"
+            android:adjustViewBounds="false"
+            android:clickable="true"
+            android:layout_marginTop="401dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log In"
+            android:id="@+id/textView"
+            android:layout_marginTop="410dp"
+            android:layout_marginLeft="138dp"
+            android:textSize="30dp"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:layout_width="167dp"
+            android:layout_height="129dp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/loginlogo"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="75dp"
+            android:layout_marginLeft="95dp"
+
+            />
+
+
+    </FrameLayout>
+
 </RelativeLayout>
