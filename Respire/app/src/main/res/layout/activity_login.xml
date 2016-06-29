@@ -24,18 +24,18 @@
         >
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="130dp"
             android:id="@+id/imageView"
             android:src="@drawable/loginfieldbg"
-            android:layout_marginTop="213dp"
-            />
+            android:layout_marginTop="287dp"
+            android:adjustViewBounds="false" />
 
         <EditText
             android:layout_width="fill_parent"
             android:layout_height="50dp"
-            android:id="@+id/usernameText"
+            android:id="@+id/textUsername"
             android:hint="  User Name"
-            android:layout_marginTop="285dp"
+            android:layout_marginTop="295dp"
             android:layout_alignParentRight="true"
             android:drawableLeft="@drawable/loginusernameicon" />
 
@@ -45,14 +45,14 @@
             android:inputType="textPassword"
             android:ems="10"
             android:id="@+id/passwordText"
-            android:layout_marginTop="345dp"
+            android:layout_marginTop="350dp"
             android:layout_alignParentRight="true"
             android:drawableLeft="@drawable/loginpasswordicon"
             />
 
         <ImageButton
             android:layout_width="wrap_content"
-            android:layout_height="60dp"
+            android:layout_height="55dp"
             android:id="@+id/loginButton"
             android:onClick="loginClick"
             android:src="@drawable/loginbuttonbg"
@@ -81,6 +81,15 @@
             android:layout_marginLeft="95dp"
 
             />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:id="@+id/registerbutton"
+            android:layout_marginTop="470dp"
+            android:layout_marginLeft="250dp" />
 
 
     </FrameLayout>
