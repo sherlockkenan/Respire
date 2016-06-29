@@ -3,6 +3,7 @@ package respire.Dao;
 import javax.transaction.Transactional;
 
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
 
 import respire.Entity.User;
 
@@ -15,14 +16,13 @@ import respire.Entity.User;
  * 
  * @author respire
  */
-@Transactional
+//@Transactional
+@Repository 
 public interface UserDao extends CrudRepository<User, Long> {
 
-  /**
-   * Return the user having the passed email or null if no user is found.
-   * 
-   * @param email the user email.
-   */
-  public User findByEmail(String email);
+
+  public User findByUsernameAndPassword(String username,String password);
+  
+ 
 
 } // class UserDao

@@ -1,12 +1,25 @@
 package respire.Controller;
 
+import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
+
+import org.aspectj.weaver.ast.Test;
+import org.hibernate.loader.custom.Return;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.CookieValue;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.ModelAndView;
 
+import respire.Server.UserServer;
 import respire.Entity.User;
-import respire.Dao.UserDao;
+import respire.Result.ReturnValue;
+
 
 /**
  * A class to test interactions with the MySQL database using the UserDao class.
@@ -16,68 +29,71 @@ import respire.Dao.UserDao;
 @Controller
 public class UserController {
 
-  // ------------------------
-  // PUBLIC METHODS
-  // ------------------------
-  
-  /**
-   * /create  --> Create a new user and save it in the database.
-   * 
-   * @param email User's email
-   * @param name User's name
-   * @return A string describing if the user is succesfully created or not.
-   */
-  @RequestMapping("/create")
+  @RequestMapping("/register")
   @ResponseBody
-  public String create(String email, String name) {
-    User user = null;
+  public ReturnValue register(@ModelAttribute User user) {
+      ReturnValue result=new ReturnValue();
     try {
-      user = new User(email, name);
-      userDao.save(user);
+         userServer.register(user);
+  
+         result.setReturn_type("success");
+         result.setData("success to register");
+         return result;
     }
     catch (Exception ex) {
-      return "Error creating the user: " + ex.toString();
+
+         result.setReturn_type("fail");
+         result.setData(ex.toString());
+         return result;
     }
-    return "User succesfully created! (id = " + user.getId() + ")";
+
   }
   
-  /**
-   * /delete  --> Delete the user having the passed id.
-   * 
-   * @param id The id of the user to delete
-   * @return A string describing if the user is succesfully deleted or not.
-   */
-  @RequestMapping("/delete")
+  
+  @RequestMapping(value="/login",method=RequestMethod.POST)
   @ResponseBody
-  public String delete(long id) {
+  public ReturnValue login(String username,String password,HttpServletRequest request,@CookieValue("JSESSIONID") String cookie) {
+	    ReturnValue result=new ReturnValue();
+	    
     try {
-      User user = new User(id);
-      userDao.delete(user);
-    }
-    catch (Exception ex) {
-      return "Error deleting the user: " + ex.toString();
-    }
-    return "User succesfully deleted!";
+      User userfind = userServer.login(username, password);
+      if(userfind!=null){
+    	  //登录成功
+    	  request.getSession().setAttribute("user", userfind);
+          result.setReturn_type("success");
+          result.setData(cookie);
+          return result;
+      }else{
+          result.setReturn_type("fail");
+          result.setData("fail to login");
+          return result;
+      }
+    }catch (Exception ex) {
+  
+        result.setReturn_type("fail");
+        result.setData(ex.toString());
+        return result;
+      }
+   
   }
   
-  /**
-   * /get-by-email  --> Return the id for the user having the passed email.
-   * 
-   * @param email The email to search in the database.
-   * @return The user id or a message error if the user is not found.
-   */
-  @RequestMapping("/get-by-email")
+ 
+  
+  @RequestMapping("/logout")
   @ResponseBody
-  public String getByEmail(String email) {
-    String userId;
+  public ReturnValue logout(HttpServletRequest request) {
+	  ReturnValue result=new ReturnValue();
     try {
-      User user = userDao.findByEmail(email);
-      userId = String.valueOf(user.getId());
+      request.getSession().removeAttribute("user");
+      result.setReturn_type("success");
+      result.setData("succeed to login");
+      return result;
     }
     catch (Exception ex) {
-      return "User not found";
+    	result.setReturn_type("fail");
+        result.setData(ex.toString());
+        return result;
     }
-    return "The user id is: " + userId;
   }
   
   /**
@@ -89,26 +105,28 @@ public class UserController {
    * @param name The new name.
    * @return A string describing if the user is succesfully updated or not.
    */
-  @RequestMapping("/update")
-  @ResponseBody
-  public String updateUser(long id, String email, String name) {
-    try {
-      User user = userDao.findOne(id);
-      user.setEmail(email);
-      user.setName(name);
-      userDao.save(user);
-    }
-    catch (Exception ex) {
-      return "Error updating the user: " + ex.toString();
-    }
-    return "User succesfully updated!";
-  }
+//  @RequestMapping("/update")
+//  @ResponseBody
+//  public String updateUser(long id, String email, String name) {
+//    try {
+//      User user = userDao.findOne(id);
+//      user.setEmail(email);
+//      user.setName(name);
+//      userDao.save(user);
+//    }
+//    catch (Exception ex) {
+//      return "Error updating the user: " + ex.toString();
+//    }
+//    return "User succesfully updated!";
+//  }
 
   // ------------------------
   // PRIVATE FIELDS
   // ------------------------
 
+//  @Autowired
+//  private UserDao userDao;
   @Autowired
-  private UserDao userDao;
+  private UserServer userServer;
   
 } // class UserController
