@@ -1,4 +1,4 @@
-package Entity;
+package respire.Entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

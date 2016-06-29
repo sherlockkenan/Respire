@@ -1,10 +1,10 @@
-package Dao;
+package respire.Dao;
 
 import javax.transaction.Transactional;
 
 import org.springframework.data.repository.CrudRepository;
 
-import Entity.User;
+import respire.Entity.User;
 
 /**
  * A DAO for the entity User is simply created by extending the CrudRepository

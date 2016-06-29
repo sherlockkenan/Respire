@@ -1,4 +1,4 @@
-package Controller;
+package respire.Controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,7 +11,7 @@ public class MainController {
   @ResponseBody
   public String index() {
     return "Proudly handcrafted by " +
-        "<a href='http://respire.com/en'>Netgloo</a> :)";
+        "<a href='http://respire.com/en'>Respire</a> :)";
   }
 
 }

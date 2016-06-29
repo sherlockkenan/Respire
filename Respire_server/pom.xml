@@ -3,11 +3,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>netgloo</groupId>
-  <artifactId>spring-boot-mysql-springdatajpa-hibernate</artifactId>
+  <groupId>familyMart</groupId>
+  <artifactId>respire</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>spring-boot-mysql-springdatajpa-hibernate</name>
+  <name>respire</name>
   <description>Use Spring Data JPA + Hibernate + MySQL in Spring Boot</description>
 
   <parent>
@@ -34,7 +34,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <start-class>netgloo.Application</start-class>
+    <start-class>respire.Application</start-class>
     <java.version>1.8</java.version>
   </properties>
 
