@@ -6,6 +6,7 @@ import javax.servlet.http.HttpServletRequest;
 import org.aspectj.weaver.ast.Test;
 import org.hibernate.loader.custom.Return;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.metadata.PostgresCallMetaDataProvider;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.CookieValue;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -17,6 +18,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import respire.Server.UserServer;
+import respire.Entity.Datanow;
 import respire.Entity.User;
 import respire.Result.ReturnValue;
 
@@ -50,9 +52,9 @@ public class UserController {
   }
   
   
-  @RequestMapping(value="/login",method=RequestMethod.POST)
+  @RequestMapping(value="/login",method=RequestMethod.GET)
   @ResponseBody
-  public ReturnValue login(String username,String password,HttpServletRequest request,@CookieValue("JSESSIONID") String cookie) {
+  public ReturnValue login(String username,String password,HttpServletRequest request) {
 	    ReturnValue result=new ReturnValue();
 	    
     try {
@@ -60,8 +62,9 @@ public class UserController {
       if(userfind!=null){
     	  //登录成功
     	  request.getSession().setAttribute("user", userfind);
+    	  request.getSession().getId();
           result.setReturn_type("success");
-          result.setData(cookie);
+          result.setData("success to login");
           return result;
       }else{
           result.setReturn_type("fail");
@@ -96,36 +99,32 @@ public class UserController {
     }
   }
   
-  /**
-   * /update  --> Update the email and the name for the user in the database 
-   * having the passed id.
-   * 
-   * @param id The id for the user to update.
-   * @param email The new email.
-   * @param name The new name.
-   * @return A string describing if the user is succesfully updated or not.
-   */
-//  @RequestMapping("/update")
-//  @ResponseBody
-//  public String updateUser(long id, String email, String name) {
-//    try {
-//      User user = userDao.findOne(id);
-//      user.setEmail(email);
-//      user.setName(name);
-//      userDao.save(user);
-//    }
-//    catch (Exception ex) {
-//      return "Error updating the user: " + ex.toString();
-//    }
-//    return "User succesfully updated!";
-//  }
-
-  // ------------------------
-  // PRIVATE FIELDS
-  // ------------------------
-
-//  @Autowired
-//  private UserDao userDao;
+  
+  @RequestMapping("/postdata")
+  @ResponseBody
+  public ReturnValue postdata(@ModelAttribute Datanow datanow,HttpServletRequest request){
+	 ReturnValue result=new ReturnValue();
+	 
+	 User user=(User) request.getSession().getAttribute("user");
+	 if(user==null) {
+		 result.setReturn_type("fail");
+         result.setData("user not register"); 
+         return result;
+	}
+	 try{
+	    datanow.setUserid(user.getUserid());
+	    datanow.setTime(new java.util.Date());
+	    userServer.postdata(datanow);
+	    result.setReturn_type("success");
+        result.setData("succees to postdata");
+        return result;
+     }catch (Exception e){
+    	 result.setReturn_type("fail");
+         result.setData(e); 
+         return result;
+     }
+  }
+  
   @Autowired
   private UserServer userServer;
   

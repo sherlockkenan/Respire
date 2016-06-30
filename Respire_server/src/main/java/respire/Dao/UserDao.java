@@ -22,7 +22,7 @@ public interface UserDao extends CrudRepository<User, Long> {
 
 
   public User findByUsernameAndPassword(String username,String password);
-  
+
  
 
 } // class UserDao
