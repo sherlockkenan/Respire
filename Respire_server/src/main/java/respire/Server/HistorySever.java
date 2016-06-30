@@ -14,7 +14,7 @@ public class HistorySever {
 	@Autowired
 	DatanowDao datanowDao;
 	
-	public List<Object> getday(long userid,Date date){
+	public List<Object> getday(long userid){
 		return datanowDao.getbyday(userid);
 	}
 }

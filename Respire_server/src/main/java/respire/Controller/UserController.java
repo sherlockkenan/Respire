@@ -1,24 +1,18 @@
 package respire.Controller;
 
-import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 
-import org.aspectj.weaver.ast.Test;
-import org.hibernate.loader.custom.Return;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.jdbc.core.metadata.PostgresCallMetaDataProvider;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.CookieValue;
 import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.servlet.ModelAndView;
-
 import respire.Server.UserServer;
+
 import respire.Entity.Datanow;
+
+
 import respire.Entity.User;
 import respire.Result.ReturnValue;
 
@@ -64,7 +58,9 @@ public class UserController {
     	  request.getSession().setAttribute("user", userfind);
     	  request.getSession().getId();
           result.setReturn_type("success");
+
           result.setData("success to login");
+
           return result;
       }else{
           result.setReturn_type("fail");
@@ -89,7 +85,7 @@ public class UserController {
     try {
       request.getSession().removeAttribute("user");
       result.setReturn_type("success");
-      result.setData("succeed to login");
+      result.setData("succeed to logout");
       return result;
     }
     catch (Exception ex) {
@@ -99,6 +95,7 @@ public class UserController {
     }
   }
   
+
   
   @RequestMapping("/postdata")
   @ResponseBody
@@ -125,6 +122,46 @@ public class UserController {
      }
   }
   
+
+  @RequestMapping("/update")
+  @ResponseBody
+  public ReturnValue updateUser(@ModelAttribute User user) {
+	  ReturnValue result=new ReturnValue();
+	  try {
+		  long id = user.getUserid();
+		  User oldUser = userServer.find(id);
+		  
+		  if(oldUser == null){
+			  result.setReturn_type("fail");
+		      result.setData("Error updating the user: User not found!");
+		      return result;
+		  }
+		  
+		  if(oldUser.getUsername() != user.getUsername()){
+			  result.setReturn_type("fail");
+		      result.setData("Error updating the user: Userid or username is not correct.");
+		      return result;
+		  }
+		  
+		  userServer.update(user);
+		  result.setReturn_type("success");
+		  result.setData("User succesfully updated.");
+		  return result;
+	  }
+	  catch (Exception ex) {
+         result.setReturn_type("fail");
+         result.setData("Error updating the user: " +ex.toString());
+         return result;
+	  }
+  }
+
+  // ------------------------
+  // PRIVATE FIELDS
+  // ------------------------
+
+//  @Autowired
+//  private UserDao userDao;
+
   @Autowired
   private UserServer userServer;
   
