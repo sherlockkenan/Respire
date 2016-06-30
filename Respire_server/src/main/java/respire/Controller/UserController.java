@@ -9,7 +9,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import respire.Server.UserServer;
-import respire.Dao.UserDao;
+
+import respire.Entity.Datanow;
+
+
 import respire.Entity.User;
 import respire.Result.ReturnValue;
 
@@ -43,7 +46,7 @@ public class UserController {
   }
   
   
-  @RequestMapping(value="/login",method=RequestMethod.POST)
+  @RequestMapping(value="/login",method=RequestMethod.GET)
   @ResponseBody
   public ReturnValue login(String username,String password,HttpServletRequest request) {
 	    ReturnValue result=new ReturnValue();
@@ -53,7 +56,11 @@ public class UserController {
       if(userfind!=null){
     	  //登录成功
     	  request.getSession().setAttribute("user", userfind);
+    	  request.getSession().getId();
           result.setReturn_type("success");
+
+          result.setData("success to login");
+
           return result;
       }else{
           result.setReturn_type("fail");
@@ -88,6 +95,34 @@ public class UserController {
     }
   }
   
+
+  
+  @RequestMapping("/postdata")
+  @ResponseBody
+  public ReturnValue postdata(@ModelAttribute Datanow datanow,HttpServletRequest request){
+	 ReturnValue result=new ReturnValue();
+	 
+	 User user=(User) request.getSession().getAttribute("user");
+	 if(user==null) {
+		 result.setReturn_type("fail");
+         result.setData("user not register"); 
+         return result;
+	}
+	 try{
+	    datanow.setUserid(user.getUserid());
+	    datanow.setTime(new java.util.Date());
+	    userServer.postdata(datanow);
+	    result.setReturn_type("success");
+        result.setData("succees to postdata");
+        return result;
+     }catch (Exception e){
+    	 result.setReturn_type("fail");
+         result.setData(e); 
+         return result;
+     }
+  }
+  
+
   @RequestMapping("/update")
   @ResponseBody
   public ReturnValue updateUser(@ModelAttribute User user) {
@@ -126,6 +161,7 @@ public class UserController {
 
 //  @Autowired
 //  private UserDao userDao;
+
   @Autowired
   private UserServer userServer;
   
