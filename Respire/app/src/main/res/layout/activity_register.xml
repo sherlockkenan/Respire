@@ -7,9 +7,21 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.respireapp.RegisterActivity"
+    tools:context=".Activity.RegisterActivity"
     android:background="@drawable/loginbackground"
     >
+
+    <ImageButton
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/backicon"
+        android:adjustViewBounds="false"
+        android:clickable="true"
+        android:background="#00ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -19,16 +31,14 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:textColor="#ffffff"
-
         android:textSize="35dp"
-        android:layout_marginTop="50dp" />
+        android:layout_marginTop="0dp" />
 
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerHorizontal="true"
-        android:ColumnCount="4"
-        android:layout_marginTop="140dp">
+        android:layout_marginTop="60dp">
 
         <TextView
             android:text="Username : "
@@ -129,51 +139,98 @@
             android:textSize="25dp"
             android:textColor="#ffffff" />
 
-        <EditText
-            android:layout_width="249dp"
+        <Spinner
+            android:layout_width="220dp"
             android:layout_height="30dp"
-            android:id="@+id/sexText"
+            android:id="@+id/sexspinner"
             android:layout_row="5"
             android:layout_column="1"
-            android:layout_gravity="right"
-            android:background="@drawable/regtypein" />
+            android:background="@drawable/regtypein"
+            />
 
+        <TextView
+            android:text="City1 : "
+            android:id="@+id/textView9"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:layout_height="40dp"
+            android:textSize="25dp"
+            android:textColor="#ffffff" />
 
+        <Spinner
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:id="@+id/spinner1"
+            android:layout_row="6"
+            android:layout_column="1"
+            android:background="@drawable/regtypein"
+            />
+
+        <TextView
+            android:text="City2 : "
+            android:id="@+id/textView10"
+            android:layout_row="7"
+            android:layout_column="0"
+            android:layout_height="40dp"
+            android:textSize="25dp"
+            android:textColor="#ffffff" />
+
+        <Spinner
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:id="@+id/spinner2"
+            android:layout_row="7"
+            android:layout_column="1"
+            android:background="@drawable/regtypein"
+            />
+
+        <TextView
+            android:text="City3 : "
+            android:id="@+id/textView11"
+            android:layout_row="8"
+            android:layout_column="0"
+            android:layout_height="40dp"
+            android:textSize="25dp"
+            android:textColor="#ffffff" />
+
+        <Spinner
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:id="@+id/spinner3"
+            android:layout_row="8"
+            android:layout_column="1"
+            android:background="@drawable/regtypein"
+            />
+
+        <TextView
+            android:text="City4 : "
+            android:id="@+id/textView12"
+            android:layout_row="9"
+            android:layout_column="0"
+            android:layout_height="40dp"
+            android:textSize="25dp"
+            android:textColor="#ffffff" />
+
+        <Spinner
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:id="@+id/spinner4"
+            android:layout_row="9"
+            android:layout_column="1"
+            android:background="@drawable/regtypein"
+            />
 
     </GridLayout>
 
-    <ImageButton
+    <Button
         android:layout_width="wrap_content"
-        android:layout_height="55dp"
-        android:id="@+id/registerButton"
-        android:onClick="registerClick"
-        android:src="@drawable/loginbuttonbg"
-        android:adjustViewBounds="false"
-        android:clickable="true"
-        android:layout_marginTop="401dp"
-        />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:text="Submit"
-        android:id="@+id/textView"
-        android:layout_marginTop="410dp"
-        android:layout_marginLeft="138dp"
-        android:textSize="30dp"
-        android:textColor="#ffffff" />
-
-    <ImageButton
-        android:layout_width="45dp"
-        android:layout_height="30dp"
-        android:id="@+id/imageButton"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:src="@drawable/backicon"
-        android:adjustViewBounds="false"
-        android:clickable="true"
-        android:background="00ffffff"
-        android:layout_marginTop="10dp" />
+        android:id="@+id/submitButton"
+        android:background="@drawable/loginbuttonbg"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:layout_marginTop="480dp"
+        />
 
 </RelativeLayout>
