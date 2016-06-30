@@ -24,5 +24,17 @@ public class UserServer {
     	    
  		return userDao.save(user);
      	 
-      }
+     }
+     
+     //user register
+     public User update(User user){
+    	    
+ 		return userDao.save(user);
+     	 
+     }
+     
+     public User find(long id){
+    	 User user = userDao.findOne(id);
+    	 return user;
+     }
 }
