@@ -11,6 +11,7 @@ node_modules/
 out/
 target/
 tmp/
+src/main/resources
 
 # files
 *.iml
