@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import net.sf.json.JSONArray;
 import respire.Entity.User;
 import respire.Result.ReturnValue;
 import respire.Server.HistorySever;
@@ -25,7 +26,7 @@ public class HistoryController {
 		//User user=(User) request.getSession().getAttribute("user");
 		List<Object> data=historyServer.getday(2);
 		
-		result.setData(data);
+		result.setData(JSONArray.fromObject(data));
 		result.setReturn_type("success");
 		return result;
 	}
