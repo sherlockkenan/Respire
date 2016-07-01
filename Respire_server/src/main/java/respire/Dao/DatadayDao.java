@@ -17,11 +17,11 @@ public interface DatadayDao extends CrudRepository<Datanow, DatanowPK> {
 	@Query("select date_format(time, '%Y-%m-%d')as time,pm25,so2,co2 from Dataday where userid=?1 and date_format(now(), '%Y-%m-%d')-date_format(time, '%Y-%m-%d')<=7 ORDER BY time desc")
 	public List<DataModle> getbyweek(long userid);
 	
-	//@Query("select d from dataday d where d.userid=?1") 
-	@Query("select date_format(time, '%Y-%m-%d-%H')as time,Avg(pm25) as pm25, Avg(so2) as so2,Avg(co2) as co2 from Datanow d where date_format(now(),'%Y-%m-%d')-DATE_FORMAT(time,'%Y-%m-%d')<=7 and d.userid=?1 group by date_format(time, '%Y-%m-%d-%H') ORDER BY time desc")
-	public List<DataModle> getbymonth(long userid);
+	@Query("select date_format(time, '%Y-%m-%d')as time,pm25,so2,co2 from Dataday where userid=?1 and date_format(now(), '%Y-%m')=date_format(time, '%Y-%m') ORDER BY time desc")
+	public List<Object> getbymonth(long userid);
 	
 	//@Query("select d from dataday d where d.userid=?1") 
-	@Query("select date_format(time, '%Y-%m-%d-%H')as time,Avg(pm25) as pm25, Avg(so2) as so2,Avg(co2) as co2 from Datanow d where date_format(now(),'%Y-%m-%d')-DATE_FORMAT(time,'%Y-%m-%d')<=7 and d.userid=?1 group by date_format(time, '%Y-%m-%d-%H') ORDER BY time desc")
-	public List<DataModle> getbyyear(long userid);
+	@Query("select date_format(time, '%Y-%m')as time,Avg(pm25) as pm25, Avg(so2) as so2,Avg(co2) as co2 from Dataday d where date_format(now(),'%Y')=DATE_FORMAT(time,'%Y') and d.userid=?1 group by date_format(time, '%Y-%m') ORDER BY time desc") 
+	public List<Object> getbyyear(long userid);
+
 }
