@@ -5,6 +5,7 @@ import javax.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -46,13 +47,13 @@ public class UserController {
   }
   
   
-  @RequestMapping(value="/login",method=RequestMethod.GET)
+  @RequestMapping(value="/login",method=RequestMethod.POST)
   @ResponseBody
-  public ReturnValue login(String username,String password,HttpServletRequest request) {
+  public ReturnValue login(@RequestBody User user,HttpServletRequest request) {
 	    ReturnValue result=new ReturnValue();
 	    
     try {
-      User userfind = userServer.login(username, password);
+      User userfind = userServer.login(user.getUsername(), user.getPassword());
       if(userfind!=null){
     	  //登录成功
     	  request.getSession().setAttribute("user", userfind);
@@ -99,7 +100,7 @@ public class UserController {
   
   @RequestMapping("/postdata")
   @ResponseBody
-  public ReturnValue postdata(@ModelAttribute Datanow datanow,HttpServletRequest request){
+  public ReturnValue postdata(@RequestBody Datanow datanow,HttpServletRequest request){
 	 ReturnValue result=new ReturnValue();
 	 
 	 User user=(User) request.getSession().getAttribute("user");
@@ -125,7 +126,7 @@ public class UserController {
 
   @RequestMapping("/update")
   @ResponseBody
-  public ReturnValue updateUser(@ModelAttribute User user) {
+  public ReturnValue updateUser(@RequestBody User user) {
 	  ReturnValue result=new ReturnValue();
 	  try {
 		  long id = user.getUserid();
