@@ -13,7 +13,7 @@ import respire.Entity.DatanowPK;
 @Repository 
 public interface DatadayDao extends CrudRepository<Datanow, DatanowPK> {
 	//@Query("select d from dataday d where d.userid=?1") 
-	@Query("select date_format(time, '%Y-%m-%d')as time,pm25,so2,co2 from Dataday limit 7 ORDER BY time desc")
+	@Query("select date_format(time, '%Y-%m-%d')as time,pm25,so2,co2 from Dataday where userid=?1 and date_format(now(), '%Y-%m-%d')-date_format(time, '%Y-%m-%d')<=7 ORDER BY time desc")
 	public List<Object> getbyweek(long userid);
 	
 	//@Query("select d from dataday d where d.userid=?1") 
