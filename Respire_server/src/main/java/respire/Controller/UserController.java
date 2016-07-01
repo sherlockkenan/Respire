@@ -1,5 +1,7 @@
 package respire.Controller;
 
+import java.util.HashMap;
+
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,7 +30,7 @@ public class UserController {
 
   @RequestMapping("/register")
   @ResponseBody
-  public ReturnValue register(@ModelAttribute User user) {
+  public ReturnValue register(@RequestBody User user) {
       ReturnValue result=new ReturnValue();
     try {
          userServer.register(user);
@@ -59,8 +61,9 @@ public class UserController {
     	  request.getSession().setAttribute("user", userfind);
     	  request.getSession().getId();
           result.setReturn_type("success");
-
-          result.setData("success to login");
+          HashMap<String, String> sessionid=new HashMap<>();
+          sessionid.put("JSESSIONID", request.getSession().getId());
+          result.setData(sessionid);
 
           return result;
       }else{
