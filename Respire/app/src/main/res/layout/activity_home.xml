@@ -60,7 +60,6 @@
             android:layout_gravity="center_horizontal"
             android:layout_row="1"
             android:clickable="true"
-            android:onClick="todayClick"
             android:background="#00ffffff" />
 
         <TextView

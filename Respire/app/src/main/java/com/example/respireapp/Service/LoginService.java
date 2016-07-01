@@ -3,16 +3,25 @@ package com.example.respireapp.Service;
 /**
  * Created by piglet on 2016/6/29.
  */
+import com.android.volley.AuthFailureError;
 import com.android.volley.RequestQueue;
 import android.app.Service;
 import android.content.Intent;
+
+import com.android.volley.toolbox.HttpClientStack;
+import com.android.volley.toolbox.HttpStack;
+import com.example.respireapp.Activity.HomeActivity;
 import com.example.respireapp.Activity.LoginjumpActivity;
+
+import java.net.CookieStore;
 import java.util.HashMap;
 import java.util.List;
 import java.util.ArrayList;
 import com.android.volley.toolbox.JsonObjectRequest;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
+import java.util.Map;
+
 import org.apache.http.params.HttpParams;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -42,6 +51,8 @@ import com.android.volley.toolbox.ImageRequest;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.NetworkImageView;
 import com.android.volley.toolbox.Volley;
+import com.example.respireapp.R;
+
 import android.os.Bundle;
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -61,12 +72,13 @@ import android.widget.TextView;
 import android.widget.Toast;
 public class LoginService extends Service{
 
-    public static String JSESSIONID = null;
+    public static String JSESSIONID=null;
     public static User user;
     private static final String INSTAGRAM_CLIENT_ID = "<< YOUR INSTAGRAM CLIENT-ID >>";
     private static final Object TAG = new Object();
     private static final String LOG = "VOLLEY-SAMPLE";
     private RequestQueue mQueue;
+
     public class LocalBinder extends Binder {
         LoginService getService() {
             // Return this instance of LocalService so clients can call public methods
@@ -79,23 +91,29 @@ public class LoginService extends Service{
     public int onStartCommand(Intent intent, int flags, int startId){
     String username=intent.getStringExtra("username");
     String password=intent.getStringExtra("password");
-    String url="http://192.168.16.61:8000/login";
+    String url="http://192.168.16.130:8000/login";
         HashMap<String,String> map=new HashMap<String,String>();
         map.put("username",username);
         map.put("password",password);
         JSONObject object=new JSONObject(map);
-
         RequestQueue requestQueue=Volley.newRequestQueue(this);
         JsonObjectRequest request = new JsonObjectRequest(Method.POST, url,
                 object, new Listener<JSONObject>(){
             public void onResponse(JSONObject result){
                 try {
                     String flag = result.getString("return_type");
-                    Intent logIntent = new Intent(LoginService.this, LoginjumpActivity.class);
+                     JSESSIONID=result.getString("data");
+
+
+                    Intent logIntent = new Intent();
+                    logIntent.setClass(LoginService.this,LoginjumpActivity.class);
+                    logIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     Bundle bundle=new Bundle();
                     bundle.putString("flag",flag);
+                    bundle.putString("sessionid",JSESSIONID);
                     logIntent.putExtras(bundle);
                     startActivity(logIntent);
+
 //                    Intent tintent=new Intent();
 //                    tintent.putExtra("flag", flag);
 //                    tintent.setAction("com.example.respireapp.Activity.LoginActivity");
@@ -113,7 +131,7 @@ public class LoginService extends Service{
         });
         request.setTag(TAG);
         requestQueue.add(request);
-return START_STICKY;
+return START_NOT_STICKY;
 }
 
 
