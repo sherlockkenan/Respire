@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import respire.Dao.DatanowDao;
+import respire.Result.DataModle;
 import respire.Dao.DatadayDao;
 
 @Service
@@ -16,19 +17,19 @@ public class HistorySever {
 	@Autowired
 	DatadayDao datadayDao;
 	
-	public List<Object> getday(long userid){
+	public List<DataModle> getday(long userid){
 		return datanowDao.getbyday(userid);
 	}
 	
-	public List<Object> getweek(long userid){
+	public List<DataModle> getweek(long userid){
 		return datadayDao.getbyweek(userid);
 	}
 	
-	public List<Object> getmonth(long userid){
+	public List<DataModle> getmonth(long userid){
 		return datadayDao.getbymonth(userid);
 	}
 	
-	public List<Object> getyear(long userid){
+	public List<DataModle> getyear(long userid){
 		return datadayDao.getbyyear(userid);
 	}
 }

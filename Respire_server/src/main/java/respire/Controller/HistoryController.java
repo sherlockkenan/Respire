@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import respire.Entity.User;
+import respire.Result.DataModle;
 import respire.Result.ReturnValue;
 import respire.Server.HistorySever;
 
@@ -20,21 +21,21 @@ public class HistoryController {
 	
 	
 	@RequestMapping("/getday")
-	public ReturnValue getday(HttpServletRequest request){
+	public List<DataModle> getday(HttpServletRequest request){
 		ReturnValue result=new ReturnValue();
 		//User user=(User) request.getSession().getAttribute("user");
-		List<Object> data=historyServer.getday(2);
+		List<DataModle> data=historyServer.getday(2);
 		
 		result.setData(data);
 		result.setReturn_type("success");
-		return result;
+		return data;
 	}
 	
 	@RequestMapping("/getweek")
 	public ReturnValue getweek(HttpServletRequest request){
 		ReturnValue result=new ReturnValue();
 		//User user=(User) request.getSession().getAttribute("user");
-		List<Object> data=historyServer.getweek(2);
+		List<DataModle> data=historyServer.getweek(2);
 		
 		result.setData(data);
 		result.setReturn_type("success");
@@ -45,7 +46,7 @@ public class HistoryController {
 	public ReturnValue getmonth(HttpServletRequest request){
 		ReturnValue result=new ReturnValue();
 		//User user=(User) request.getSession().getAttribute("user");
-		List<Object> data=historyServer.getmonth(2);
+		List<DataModle> data=historyServer.getmonth(2);
 		
 		result.setData(data);
 		result.setReturn_type("success");
@@ -56,7 +57,7 @@ public class HistoryController {
 	public ReturnValue getyear(HttpServletRequest request){
 		ReturnValue result=new ReturnValue();
 		//User user=(User) request.getSession().getAttribute("user");
-		List<Object> data=historyServer.getyear(2);
+		List<DataModle> data=historyServer.getyear(2);
 		
 		result.setData(data);
 		result.setReturn_type("success");
