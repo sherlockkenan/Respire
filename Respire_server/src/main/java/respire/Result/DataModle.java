@@ -12,6 +12,26 @@ public class DataModle {
     private int pm25;
     private int so2;
     private int co2;
+	
+	public DataModle(Date time, int pm25, int so2, int co2) {
+		super();
+		this.time = time;
+		this.pm25 = pm25;
+		this.so2 = so2;
+		this.co2 = co2;
+	}
+	public DataModle(Date time, double pm25, double so2, double co2) {
+		super();
+		this.time = time;
+		this.pm25 = (int) pm25;
+		this.so2 = (int) so2;
+		this.co2 = (int) co2;
+	}
+
+	public DataModle() {
+		super();
+	}
+
 	public Date getTime() {
 		return time;
 	}

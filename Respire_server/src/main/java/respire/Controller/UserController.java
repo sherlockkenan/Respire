@@ -52,15 +52,22 @@ public class UserController {
 
 		try {
 			User user1 = (User) request.getSession().getAttribute("user");
+	        System.out.println("username:"+user.getUsername()+"password:"+user.getPassword()); 
 	     	User userfind = userServer.login(user.getUsername(), user.getPassword());
+	     	String cookies=request.getHeader("Cookie");
+			System.out.println("headercookie:"+cookies);
+			String cookie=request.getRequestedSessionId();
+			System.out.println("sessionid:"+cookie);
+			if(user1!=null)
+			System.out.println("sessionusername:"+user1.getUsername());
 
 			if (userfind != null) {
-				// 登录成功
+				// 登录成
+				System.out.println("success");
 				request.getSession().setAttribute("user", userfind);
-				String cookie=request.getRequestedSessionId();
-				String cooki=request.getHeader("Proxy-Authorization");
-				String cookies=request.getHeader("Cookie");
-				System.out.println(cooki);
+				
+				
+				
 				request.getSession().getId();
 				result.setReturn_type("success");
 				HashMap<String, String> sessionid = new HashMap<>();
@@ -71,6 +78,7 @@ public class UserController {
 
 				return result;
 			} else {
+				System.out.println("fail");
 				System.out.println(request.getSession().getId());
 				User user2 = (User) request.getSession().getAttribute("user");
 
