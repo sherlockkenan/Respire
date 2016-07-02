@@ -28,9 +28,9 @@ public class HomeActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        final Button historyButton=(Button) findViewById(R.id.historyButton);
-        final Button discoveryButton=(Button) findViewById(R.id.discoveryButton);
-        final Button meButton=(Button) findViewById(R.id.meButton);
+        Button historyButton=(Button) findViewById(R.id.historyButton);
+        Button discoveryButton=(Button) findViewById(R.id.discoveryButton);
+        Button meButton=(Button) findViewById(R.id.meButton);
 
         historyButton.setOnClickListener(new View.OnClickListener(){
             @Override

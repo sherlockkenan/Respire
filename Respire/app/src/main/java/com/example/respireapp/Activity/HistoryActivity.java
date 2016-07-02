@@ -1,11 +1,12 @@
 package com.example.respireapp.Activity;
 
+import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.respireapp.R;
 
-public class HistoryActivity extends AppCompatActivity {
+public class HistoryActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
