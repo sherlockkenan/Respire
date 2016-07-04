@@ -107,6 +107,8 @@
             android:layout_width="249dp"
             android:layout_height="30dp"
             android:id="@+id/phoneText"
+            android:inputType="phone"
+            android:ems="10"
             android:layout_row="3"
             android:layout_column="1"
             android:layout_gravity="right"
@@ -125,6 +127,8 @@
             android:layout_width="249dp"
             android:layout_height="30dp"
             android:id="@+id/emailText"
+            android:inputType="textEmailAddress"
+            android:ems="10"
             android:layout_row="4"
             android:layout_column="1"
             android:layout_gravity="right"
@@ -232,5 +236,15 @@
         android:textSize="25dp"
         android:layout_marginTop="480dp"
         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="InformationText"
+        android:id="@+id/informationText"
+        android:layout_below="@id/textView2"
+        android:layout_alignParentRight="true"
+        android:textColor="#fe0202"
+        android:textSize="18dp" />
 
 </RelativeLayout>

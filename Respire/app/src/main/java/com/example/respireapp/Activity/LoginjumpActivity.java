@@ -16,7 +16,7 @@ public class LoginjumpActivity extends Activity {
         String JSESSIONID=bundle.getString("sessionid");
         if(flag.equals("success")){
             Intent logIntent = new Intent();
-            logIntent.setClass(LoginjumpActivity.this,HomeActivity.class);
+            logIntent.setClass(LoginjumpActivity.this,PageActivity.class);
             logIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             Bundle tbundle=new Bundle();
             tbundle.putString("sessionid",JSESSIONID);
