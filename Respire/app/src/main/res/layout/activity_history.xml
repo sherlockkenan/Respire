@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/historybackground"
+    tools:context="com.example.respireapp.Activity.HistoryActivity">
+
+    <GridLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/buttonlay"
+        >
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:background="@drawable/historybutton1"
+            android:text="WEEK"
+            android:id="@+id/weekButton"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginRight="40dp"
+            />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:background="@drawable/historybutton0"
+            android:text="MONTH"
+            android:id="@+id/monthButton"
+            android:textColor="#ffffff"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_marginRight="40dp"
+            />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:background="@drawable/historybutton0"
+            android:text="YEAR"
+            android:id="@+id/yearButton"
+            android:textColor="#ffffff"
+            android:layout_row="0"
+            android:layout_column="4"
+            />
+
+    </GridLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonlay"
+        android:layout_alignParentBottom="true"
+        >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView23"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/historyoverlay"
+            android:adjustViewBounds="true" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:id="@+id/chart1"></LinearLayout>
+
+    </FrameLayout>
+
+
+
+</RelativeLayout>
