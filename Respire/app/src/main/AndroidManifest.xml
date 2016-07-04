@@ -5,22 +5,49 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+
         android:allowBackup="true"
         android:hardwareAccelerated="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:largeHeap="true"
         android:supportsRtl="true"
+<<<<<<< HEAD
         android:theme="@style/AppTheme">
         <activity android:name=".Activity.LoginActivity">
+<<<<<<< HEAD
+=======
+
+        </activity>
+        <activity android:name=".Activity.MainActivity" />
+        <activity android:name=".Activity.RegisterActivity" >
+=======
+        android:largeHeap="true"
+        android:theme="@style/AppTheme"
+
+
+        android:hardwareAccelerated="false"
+        >
+        <activity android:name=".Activity.LoginActivity"></activity>
+        <activity android:name=".Activity.MainActivity" />
+
+        <activity android:name=".Activity.RegisterActivity"></activity>
+        <activity android:name=".Activity.HomeActivity">
+
+>>>>>>> 4e73b039346369e2b63ad149fabecb86476fa25d
+>>>>>>> 9058575421d75c46d2d5a55d54cddc76770cdfe8
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+<<<<<<< HEAD
         </activity>
         <activity android:name=".Activity.MainActivity" />
         <activity android:name=".Activity.RegisterActivity" />
+=======
+            </activity>
+>>>>>>> 9058575421d75c46d2d5a55d54cddc76770cdfe8
         <activity android:name=".Activity.HomeActivity"></activity>
         <activity android:name=".Activity.MeActivity" />
 
@@ -33,6 +60,7 @@
         <activity android:name=".Activity.LoginjumpActivity" />
         <activity android:name=".Activity.ProfileActivity" />
         <activity android:name=".Activity.DiscoveryActivity" />
+<<<<<<< HEAD
         <activity android:name=".Activity.HistoryActivity">
 
         </activity>
@@ -41,6 +69,19 @@
         </activity>
         <activity android:name=".Activity.DrawActivity">
 
+=======
+        <activity android:name=".Activity.HistoryActivity" />
+        <activity android:name=".Activity.PageActivity">
+
+        </activity>
+        <activity android:name=".Activity.SuccessregActivity">
+
+        </activity>
+        <activity android:name=".Activity.WrongregActivity">
+
+        </activity>
+        <activity android:name=".Activity.DrawActivity">
+>>>>>>> 9058575421d75c46d2d5a55d54cddc76770cdfe8
 
 
         </activity>
