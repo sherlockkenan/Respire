@@ -91,7 +91,7 @@ public class LoginService extends Service{
     public int onStartCommand(Intent intent, int flags, int startId){
     String username=intent.getStringExtra("username");
     String password=intent.getStringExtra("password");
-    String url="http://192.168.16.130:8000/login";
+    String url="http://192.168.16.61:8000/login";
         HashMap<String,String> map=new HashMap<String,String>();
         map.put("username",username);
         map.put("password",password);
