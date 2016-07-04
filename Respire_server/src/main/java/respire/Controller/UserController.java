@@ -31,8 +31,14 @@ public class UserController {
 	public ReturnValue register(@RequestBody User user) {
 		ReturnValue result = new ReturnValue();
 		try {
-			userServer.register(user);
-
+			
+			User user1=userServer.register(user);
+            if(user1==null){
+            	//register fail
+            	result.setReturn_type("fail");
+    			result.setData("username have been used");
+    			return result;
+            }
 			result.setReturn_type("success");
 			result.setData("success to register");
 			return result;
