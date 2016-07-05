@@ -13,11 +13,14 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import net.sf.json.JSONArray;
+import net.sf.json.JSONObject;
+import respire.Server.CityNodeServer;
 import respire.Server.UserServer;
 
 import respire.Entity.Datanow;
 
 import respire.Entity.User;
+import respire.Entity.UserCity;
 import respire.Result.ReturnValue;
 
 /**
@@ -187,7 +190,16 @@ public class UserController {
 			}
 			else {
 				result.setReturn_type("success");
-				result.setData(JSONArray.fromObject(user));
+				
+			    JSONObject jsonObject=JSONObject.fromObject(user);
+			    UserCity userCity=cityNodeServer.getusercity(user.getCityid());
+			    
+			    jsonObject.put("city4", userCity.getCity4());
+			    jsonObject.put("city3", userCity.getCity3());
+			    jsonObject.put("city2", userCity.getCity2());
+			    jsonObject.put("city1", userCity.getCity1());
+			    result.setData(jsonObject);
+				
 				return result;
 			}
 		} catch (
@@ -208,5 +220,8 @@ public class UserController {
 
 	@Autowired
 	private UserServer userServer;
+	
+	@Autowired
+	private CityNodeServer cityNodeServer;
 
 } // class UserController

@@ -42,21 +42,23 @@ public class User {
 
 	private String role;
 	
-	private int city4;
+	private int cityid;
 
 	// ------------------------
 	// PUBLIC METHODS
 	// ------------------------
 
-	public int getCityid() {
-		return city4;
-	}
-
-	public void setCityid(int cityid) {
-		this.city4 = cityid;
-	}
+	
 
 	public User() {
+	}
+
+	public int getCityid() {
+		return cityid;
+	}
+
+	public void setCityid(int city4) {
+		this.cityid = city4;
 	}
 
 	public User(long id) {
