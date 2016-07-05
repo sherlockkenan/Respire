@@ -14,14 +14,13 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
-import respire.Server.CityNodeServer;
-import respire.Server.UserServer;
-
 import respire.Entity.Datanow;
 
 import respire.Entity.User;
 import respire.Entity.UserCity;
 import respire.Result.ReturnValue;
+import respire.Service.CityNodeServer;
+import respire.Service.UserServer;
 
 /**
  * A class to test interactions with the MySQL database using the UserDao class.

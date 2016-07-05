@@ -7,9 +7,10 @@ import net.sf.json.JSONArray;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import respire.Server.CityNodeServer;
+
 import respire.Entity.CityNode;
 import respire.Result.ReturnValue;
+import respire.Service.CityNodeServer;
 
 
 /**

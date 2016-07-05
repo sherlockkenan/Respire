@@ -13,7 +13,7 @@ import respire.Entity.User;
 import respire.Result.DataModle;
 
 import respire.Result.ReturnValue;
-import respire.Server.HistorySever;
+import respire.Service.HistorySever;
 
 @RestController
 @RequestMapping("/history")
