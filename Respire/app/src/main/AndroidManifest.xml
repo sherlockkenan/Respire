@@ -11,28 +11,13 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:largeHeap="true"
-        android:supportsRtl="true"
-<<<<<<< HEAD
+        android:supportsRtl="true"kjkkjkjjjjjjkkkkjjjjjjjjjjjj
         android:theme="@style/AppTheme">
         <activity android:name=".Activity.LoginActivity">
 
         </activity>
         <activity android:name=".Activity.MainActivity" />
         <activity android:name=".Activity.RegisterActivity" >
-=======
-        android:largeHeap="true"
-        android:theme="@style/AppTheme"
-
-
-        android:hardwareAccelerated="false"
-        >
-        <activity android:name=".Activity.LoginActivity"></activity>
-        <activity android:name=".Activity.MainActivity" />
-
-        <activity android:name=".Activity.RegisterActivity"></activity>
-        <activity android:name=".Activity.HomeActivity">
-
->>>>>>> 4e73b039346369e2b63ad149fabecb86476fa25d
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -26,9 +26,12 @@ public class UserServer {
      
      //user register
      public User register(User user){
-    	    
- 		return userDao.save(user);
-     	 
+    	 if(userDao.findByUsername(user.getUsername())!=null)
+    	 {
+    		 return null;
+    	 }
+ 		 return userDao.save(user);
+ 		 	 
       }
      
      public void postdata(Datanow datanow){

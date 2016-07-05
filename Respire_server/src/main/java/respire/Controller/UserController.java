@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
+
+import net.sf.json.JSONArray;
 import respire.Server.UserServer;
 
 import respire.Entity.Datanow;
@@ -31,14 +33,14 @@ public class UserController {
 	public ReturnValue register(@RequestBody User user) {
 		ReturnValue result = new ReturnValue();
 		try {
-			
-			User user1=userServer.register(user);
-            if(user1==null){
-            	//register fail
-            	result.setReturn_type("fail");
-    			result.setData("username have been used");
-    			return result;
-            }
+
+			User user1 = userServer.register(user);
+			if (user1 == null) {
+				// register fail
+				result.setReturn_type("fail");
+				result.setData("username have been used");
+				return result;
+			}
 			result.setReturn_type("success");
 			result.setData("success to register");
 			return result;
@@ -58,22 +60,20 @@ public class UserController {
 
 		try {
 			User user1 = (User) request.getSession().getAttribute("user");
-	        System.out.println("username:"+user.getUsername()+"password:"+user.getPassword()); 
-	     	User userfind = userServer.login(user.getUsername(), user.getPassword());
-	     	String cookies=request.getHeader("Cookie");
-			System.out.println("headercookie:"+cookies);
-			String cookie=request.getRequestedSessionId();
-			System.out.println("sessionid:"+cookie);
-			if(user1!=null)
-			System.out.println("sessionusername:"+user1.getUsername());
+			System.out.println("username:" + user.getUsername() + "password:" + user.getPassword());
+			User userfind = userServer.login(user.getUsername(), user.getPassword());
+			String cookies = request.getHeader("Cookie");
+			System.out.println("headercookie:" + cookies);
+			String cookie = request.getRequestedSessionId();
+			System.out.println("sessionid:" + cookie);
+			if (user1 != null)
+				System.out.println("sessionusername:" + user1.getUsername());
 
 			if (userfind != null) {
 				// 登录成
 				System.out.println("success");
 				request.getSession().setAttribute("user", userfind);
-				
-				
-				
+
 				request.getSession().getId();
 				result.setReturn_type("success");
 				HashMap<String, String> sessionid = new HashMap<>();
@@ -167,6 +167,32 @@ public class UserController {
 			result.setData("User succesfully updated.");
 			return result;
 		} catch (Exception ex) {
+			result.setReturn_type("fail");
+			result.setData("Error updating the user: " + ex.toString());
+			return result;
+		}
+	}
+
+	@RequestMapping("/getprofile")
+	@ResponseBody
+	public ReturnValue getproFile(HttpServletRequest request) {
+		ReturnValue result = new ReturnValue();
+
+		User user = (User) request.getSession().getAttribute("user");
+		try {
+			if (user == null) {
+				result.setReturn_type("fail");
+				result.setData("user not register");
+				return result;
+			}
+			else {
+				result.setReturn_type("success");
+				result.setData(JSONArray.fromObject(user));
+				return result;
+			}
+		} catch (
+
+		Exception ex) {
 			result.setReturn_type("fail");
 			result.setData("Error updating the user: " + ex.toString());
 			return result;
