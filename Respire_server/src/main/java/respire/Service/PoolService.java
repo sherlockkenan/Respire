@@ -1,4 +1,4 @@
-package respire.Server;
+package respire.Service;
 
 import java.util.List;
 
@@ -12,7 +12,7 @@ import respire.Dao.DatadayDao;
 import respire.Dao.DatanowDao;
 
 @Service
-public class PoolServer {
+public class PoolService {
 	@Autowired
 	DatanowDao datanowDao;
 	@Autowired

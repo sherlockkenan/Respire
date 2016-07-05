@@ -9,7 +9,7 @@ import respire.Entity.Datanow;
 import respire.Entity.User;
 
 @Service
-public class UserServer {
+public class UserService {
     //atuowired the userdao
 	@Autowired
 	private UserDao userDao;

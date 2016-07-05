@@ -11,7 +11,7 @@ import net.sf.json.JSONArray;
 import respire.Result.DataModle;
 
 import respire.Result.ReturnValue;
-import respire.Service.HistorySever;
+import respire.Service.HistorySevice;
 import respire.Entity.User;
 
 
@@ -20,7 +20,7 @@ import respire.Entity.User;
 public class HistoryController {
 	
 	@Autowired
-	HistorySever historyServer;
+	HistorySevice historyServer;
 	
 	
 	@RequestMapping("/getday")

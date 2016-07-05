@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import respire.Entity.CityNode;
 import respire.Result.ReturnValue;
-import respire.Service.CityNodeServer;
+import respire.Service.CityNodeService;
 
 
 /**
@@ -42,5 +42,5 @@ public class CityController {
   }
   
   @Autowired
-  private CityNodeServer cityNodeServer;
+  private CityNodeService cityNodeServer;
 }

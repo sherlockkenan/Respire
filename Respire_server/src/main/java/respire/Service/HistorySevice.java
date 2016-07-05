@@ -10,7 +10,7 @@ import respire.Result.DataModle;
 import respire.Dao.DatadayDao;
 
 @Service
-public class HistorySever {
+public class HistorySevice {
 	
 	@Autowired
 	DatanowDao datanowDao;

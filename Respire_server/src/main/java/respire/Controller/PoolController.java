@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import net.sf.json.JSONArray;
 import respire.Result.ReturnValue;
-import respire.Server.PoolServer;
+import respire.Service.PoolService;
 import respire.Entity.User;
 import respire.Result.RankModel;
 
@@ -18,7 +18,7 @@ import respire.Result.RankModel;
 public class PoolController {
 	
 	@Autowired
-	PoolServer poolServer;
+	PoolService poolServer;
 	
 	
 	@RequestMapping("/getrank")
