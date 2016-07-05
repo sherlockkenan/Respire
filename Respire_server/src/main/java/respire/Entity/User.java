@@ -41,10 +41,20 @@ public class User {
 	private String sex;
 
 	private String role;
+	
+	private int city4;
 
 	// ------------------------
 	// PUBLIC METHODS
 	// ------------------------
+
+	public int getCityid() {
+		return city4;
+	}
+
+	public void setCityid(int cityid) {
+		this.city4 = cityid;
+	}
 
 	public User() {
 	}
