@@ -22,8 +22,18 @@ public class LoginjumpActivity extends Activity {
             tbundle.putString("sessionid",JSESSIONID);
             logIntent.putExtras(tbundle);
             startActivity(logIntent);
+            //LoginjumpActivity.this.finish();
         }
         else if(flag.equals("fail")){
+//            Intent logIntent = new Intent();
+//            logIntent.setClass(LoginjumpActivity.this,LoginActivity.class);
+//            logIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+//            Bundle tbundle=new Bundle();
+//            tbundle.putString("result","用户名或密码错误！");
+//            logIntent.putExtras(tbundle);
+//            startActivity(logIntent);
+//            LoginjumpActivity.this.finish();
+
             setContentView(R.layout.activity_login);
             TextView information=(TextView)findViewById(R.id.informationText);
             information.setText("用户名或密码错误！");
