@@ -20,6 +20,10 @@
             android:layout_height="30dp"
             android:background="@drawable/historybutton1"
             android:text="WEEK"
+<<<<<<< HEAD
+            android:id="@+id/weekButton"
+=======
+>>>>>>> 9058575421d75c46d2d5a55d54cddc76770cdfe8
             android:layout_row="0"
             android:layout_column="0"
             android:layout_marginRight="40dp"
@@ -30,6 +34,10 @@
             android:layout_height="30dp"
             android:background="@drawable/historybutton0"
             android:text="MONTH"
+<<<<<<< HEAD
+            android:id="@+id/monthButton"
+=======
+>>>>>>> 9058575421d75c46d2d5a55d54cddc76770cdfe8
             android:textColor="#ffffff"
             android:layout_row="0"
             android:layout_column="2"
@@ -41,6 +49,10 @@
             android:layout_height="30dp"
             android:background="@drawable/historybutton0"
             android:text="YEAR"
+<<<<<<< HEAD
+            android:id="@+id/yearButton"
+=======
+>>>>>>> 9058575421d75c46d2d5a55d54cddc76770cdfe8
             android:textColor="#ffffff"
             android:layout_row="0"
             android:layout_column="4"
@@ -65,6 +77,16 @@
             android:src="@drawable/historyoverlay"
             android:adjustViewBounds="true" />
 
+<<<<<<< HEAD
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:id="@+id/chart1"></LinearLayout>
+
+=======
+>>>>>>> 9058575421d75c46d2d5a55d54cddc76770cdfe8
     </FrameLayout>
 
 

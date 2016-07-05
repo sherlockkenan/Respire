@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/discoverybackground"
+    tools:context="com.example.respireapp.Activity.DiscoveryActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView22"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/discoveryaboveback"
+        android:adjustViewBounds="true" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/grid"
+        android:layout_alignParentBottom="true"
+        android:shrinkColumns="0,1"
+        >
+        <TableRow>
+            <FrameLayout>
+                <ImageButton
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/poundButton"
+                    android:src="@drawable/discoveryback1"
+                    android:adjustViewBounds="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nearby\n Pound"
+                    android:layout_gravity="center"
+                    android:textSize="25dp"
+                    />
+            </FrameLayout>
+
+            <FrameLayout>
+                <ImageButton
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/diagramButton"
+                    android:src="@drawable/discoveryback2"
+                    android:adjustViewBounds="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thermodynamic\n      Diagram"
+                    android:layout_gravity="center"
+                    android:textSize="23dp"
+                    />
+            </FrameLayout>
+        </TableRow>
+        <TableRow>
+            <FrameLayout>
+                <ImageButton
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/fitnessButton"
+                    android:src="@drawable/discoveryback3"
+                    android:adjustViewBounds="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Scenery\n      + \nFitness"
+                    android:layout_gravity="center"
+                    android:textSize="25dp"
+                    />
+            </FrameLayout>
+
+            <FrameLayout>
+                <ImageButton
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/routeButton"
+                    android:src="@drawable/discoveryback4"
+                    android:adjustViewBounds="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recommended\n      Itinerary"
+                    android:layout_gravity="center"
+                    android:textSize="25dp"
+                    />
+            </FrameLayout>
+        </TableRow>
+    </TableLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/grid"
+        android:layout_below="@id/imageView22">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/newsButton"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/discoverynewsbackground"
+            android:foreground="#00ffffff"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latest News"
+            android:id="@+id/textView15"
+            android:layout_gravity="left|bottom"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            />
+
+    </FrameLayout>
+
+
+</RelativeLayout>
+
