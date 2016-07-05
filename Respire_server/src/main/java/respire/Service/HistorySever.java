@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import respire.Dao.DatanowDao;
-import respire.Entity.Datanow;
 import respire.Result.DataModle;
 import respire.Dao.DatadayDao;
 

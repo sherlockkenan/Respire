@@ -8,12 +8,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import net.sf.json.JSONArray;
-import respire.Entity.Datanow;
-import respire.Entity.User;
 import respire.Result.DataModle;
 
 import respire.Result.ReturnValue;
 import respire.Service.HistorySever;
+import respire.Entity.User;
+
 
 @RestController
 @RequestMapping("/history")
@@ -26,8 +26,8 @@ public class HistoryController {
 	@RequestMapping("/getday")
 	public ReturnValue getday(HttpServletRequest request){
 		ReturnValue result=new ReturnValue();
-		//User user=(User) request.getSession().getAttribute("user");
-		List<DataModle> data=historyServer.getday(2);
+		User user=(User) request.getSession().getAttribute("user");
+		List<DataModle> data=historyServer.getday(user.getUserid());
 		//System.out.println(data.get(1).getCo2());
        
 		result.setData(JSONArray.fromObject(data));
@@ -38,8 +38,8 @@ public class HistoryController {
 	@RequestMapping("/getweek")
 	public ReturnValue getweek(HttpServletRequest request){
 		ReturnValue result=new ReturnValue();
-		//User user=(User) request.getSession().getAttribute("user");
-		List<DataModle> data=historyServer.getweek(2);
+		User user=(User) request.getSession().getAttribute("user");
+		List<DataModle> data=historyServer.getweek(user.getUserid());
 		
 		result.setData(JSONArray.fromObject(data));
 		result.setReturn_type("success");
@@ -49,8 +49,8 @@ public class HistoryController {
 	@RequestMapping("/getmonth")
 	public ReturnValue getmonth(HttpServletRequest request){
 		ReturnValue result=new ReturnValue();
-		//User user=(User) request.getSession().getAttribute("user");
-		List<DataModle> data=historyServer.getmonth(2);
+		User user=(User) request.getSession().getAttribute("user");
+		List<DataModle> data=historyServer.getmonth(user.getUserid());
 		
 		result.setData(JSONArray.fromObject(data));
 		result.setReturn_type("success");
@@ -60,8 +60,8 @@ public class HistoryController {
 	@RequestMapping("/getyear")
 	public ReturnValue getyear(HttpServletRequest request){
 		ReturnValue result=new ReturnValue();
-		//User user=(User) request.getSession().getAttribute("user");
-		List<DataModle> data=historyServer.getyear(2);
+		User user=(User) request.getSession().getAttribute("user");
+		List<DataModle> data=historyServer.getyear(user.getUserid());
 		
 		result.setData(JSONArray.fromObject(data));
 		result.setReturn_type("success");

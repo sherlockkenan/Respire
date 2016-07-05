@@ -5,13 +5,25 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-
         android:allowBackup="true"
         android:hardwareAccelerated="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:largeHeap="true"
         android:supportsRtl="true"
+<<<<<<< HEAD
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.LoginActivity" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity android:name=".Activity.MainActivity" />
+        <activity android:name=".Activity.RegisterActivity" />
+        <activity android:name=".Activity.HomeActivity" />
+=======
         android:theme="@style/AppTheme"
         >
 
@@ -21,16 +33,17 @@
 
 
         <activity android:name=".Activity.HomeActivity"></activity>
+>>>>>>> e1d83599b3e4d187b555f2510909ee1add1b9d06
         <activity android:name=".Activity.MeActivity" />
 
-        <service android:name=".Service.LoginService" >
-
-        </service>
+        <service android:name=".Service.LoginService" />
 
         <!-- <receiver android:name=".Activity.LoginActivity$MyReceiver" /> -->
 
         <activity android:name=".Activity.LoginjumpActivity" />
-        <activity android:name=".Activity.ProfileActivity" />
+        <activity android:name=".Activity.ProfileActivity">
+
+        </activity>
         <activity android:name=".Activity.DiscoveryActivity" />
 
         <activity android:name=".Activity.HistoryActivity">
@@ -39,6 +52,18 @@
         <activity android:name=".Activity.PageActivity">
 
         </activity>
+<<<<<<< HEAD
+        <activity android:name=".Activity.SuccessregActivity" />
+        <activity android:name=".Activity.DrawActivity" />
+        <activity android:name=".Activity.PhotoActivity" />
+        <activity android:name=".Activity.ChangeUsernameActivity" />
+        <activity android:name=".Activity.SelectPicActivity" />
+        <activity android:name=".Activity.ChangePasswordActivity" />
+        <activity android:name=".Activity.ChangePhoneActivity" />
+        <activity android:name=".Activity.ChangeEmailActivity" />
+        <activity android:name=".Activity.ChangeSexActivity" />
+        <activity android:name=".Activity.ChangeCityActivity"></activity>
+=======
         <activity android:name=".Activity.DrawActivity">
 
         </activity>
@@ -52,6 +77,7 @@
 
 
         </activity>
+>>>>>>> e1d83599b3e4d187b555f2510909ee1add1b9d06
     </application>
 
 </manifest>

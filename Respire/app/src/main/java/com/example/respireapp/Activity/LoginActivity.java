@@ -44,6 +44,9 @@ public class LoginActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+
+
         ImageButton button=(ImageButton)findViewById(R.id.loginButton);
         button.setOnClickListener(submitlistener);
        Button but=(Button)findViewById(R.id.registerbutton);
