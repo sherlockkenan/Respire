@@ -6,7 +6,7 @@ import java.util.Date;
 
 
 
-public class DataModle {
+public class DataModel {
 
 	private String time;
 	
@@ -14,7 +14,7 @@ public class DataModle {
     private int so2;
     private int co2;
 	
-	public DataModle(Date time, int pm25, int so2, int co2, int type) {
+	public DataModel(Date time, int pm25, int so2, int co2, int type) {
 		super();
 		Format formatter = null;
 		if(type == 1) formatter = new SimpleDateFormat("MM-dd");
@@ -25,7 +25,7 @@ public class DataModle {
 		this.so2 = so2;
 		this.co2 = co2;
 	}
-	public DataModle(Date time, double pm25, double so2, double co2, int type) {
+	public DataModel(Date time, double pm25, double so2, double co2, int type) {
 		super();
 		Format formatter = null;
 		if(type == 1) formatter = new SimpleDateFormat("MM-dd");
@@ -38,7 +38,7 @@ public class DataModle {
 		this.co2 = (int) co2;
 	}
 
-	public DataModle() {
+	public DataModel() {
 		super();
 	}
 

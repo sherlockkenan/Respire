@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import net.sf.json.JSONArray;
-import respire.Result.DataModle;
+import respire.Result.DataModel;
 
 import respire.Result.ReturnValue;
 import respire.Service.HistorySevice;
@@ -27,7 +27,7 @@ public class HistoryController {
 	public ReturnValue getday(HttpServletRequest request){
 		ReturnValue result=new ReturnValue();
 		User user=(User) request.getSession().getAttribute("user");
-		List<DataModle> data=historyServer.getday(user.getUserid());
+		List<DataModel> data=historyServer.getday(user.getUserid());
 		//System.out.println(data.get(1).getCo2());
        
 		result.setData(JSONArray.fromObject(data));
@@ -39,7 +39,7 @@ public class HistoryController {
 	public ReturnValue getweek(HttpServletRequest request){
 		ReturnValue result=new ReturnValue();
 		User user=(User) request.getSession().getAttribute("user");
-		List<DataModle> data=historyServer.getweek(user.getUserid());
+		List<DataModel> data=historyServer.getweek(user.getUserid());
 		
 		result.setData(JSONArray.fromObject(data));
 		result.setReturn_type("success");
@@ -50,7 +50,7 @@ public class HistoryController {
 	public ReturnValue getmonth(HttpServletRequest request){
 		ReturnValue result=new ReturnValue();
 		User user=(User) request.getSession().getAttribute("user");
-		List<DataModle> data=historyServer.getmonth(user.getUserid());
+		List<DataModel> data=historyServer.getmonth(user.getUserid());
 		
 		result.setData(JSONArray.fromObject(data));
 		result.setReturn_type("success");
@@ -61,7 +61,7 @@ public class HistoryController {
 	public ReturnValue getyear(HttpServletRequest request){
 		ReturnValue result=new ReturnValue();
 		User user=(User) request.getSession().getAttribute("user");
-		List<DataModle> data=historyServer.getyear(user.getUserid());
+		List<DataModel> data=historyServer.getyear(user.getUserid());
 		
 		result.setData(JSONArray.fromObject(data));
 		result.setReturn_type("success");
