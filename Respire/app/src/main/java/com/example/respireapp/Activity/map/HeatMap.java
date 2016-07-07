@@ -27,10 +27,8 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 
 /**
@@ -102,7 +100,7 @@ public class HeatMap extends Activity {
             @Override
             public void handleMessage(Message msg) {
                 super.handleMessage(msg);
-                mBaiduMap.addHeatMap(heatmap);
+                //mBaiduMap.addHeatMap(heatmap);
                 mAdd.setEnabled(false);
             }
         };
@@ -110,40 +108,18 @@ public class HeatMap extends Activity {
             @Override
             public void run() {
                 super.run();
-               // Send_pm25_request();
-
-               // heatmap = new com.baidu.mapapi.map.HeatMap.Builder().weightedData(pm25).build();
-                List<LatLng> data = getLocations();
-                heatmap = new com.baidu.mapapi.map.HeatMap.Builder().data(data).build();
+                Send_pm25_request();
                 h.sendEmptyMessage(0);
             }
         }.start();
     }
 
 
-    private List<LatLng> getLocations() {
-        List<LatLng> list = new ArrayList<LatLng>();
-        InputStream inputStream = getResources().openRawResource(R.raw.locations);
-        String json = new Scanner(inputStream).useDelimiter("\\A").next();
-        JSONArray array;
-        try {
-            array = new JSONArray(json);
-            for (int i = 0; i < array.length(); i++) {
-                JSONObject object = array.getJSONObject(i);
-                double lat = object.getDouble("lat");
-                double lng = object.getDouble("lng");
-                list.add(new LatLng(lat, lng));
-            }
-        } catch (Exception e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
-        return list;
-    }
+
 
     //发送请求
     public void  Send_pm25_request(){
-        String url="http://10.185.55.214:8000/map/getalldata";
+        String url="http://192.168.1.119:8000/map/getalldata";
         RequestQueue requestQueue= Volley.newRequestQueue(this);
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url,
                 null, new Response.Listener<JSONObject>(){
@@ -158,6 +134,9 @@ public class HeatMap extends Activity {
                         pm25.add(new WeightedLatLng(new LatLng(lat,lon),value));
 
                     }
+
+                    heatmap = new com.baidu.mapapi.map.HeatMap.Builder().weightedData(pm25).build();
+                    mBaiduMap.addHeatMap(heatmap);
 
                 }
                 catch (JSONException e) {

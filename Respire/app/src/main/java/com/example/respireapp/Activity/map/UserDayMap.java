@@ -12,6 +12,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
+import com.baidu.mapapi.SDKInitializer;
 import com.baidu.mapapi.map.BaiduMap;
 
 import com.baidu.mapapi.map.MapView;
@@ -47,8 +48,8 @@ public class UserDayMap extends Activity {
     Polyline mPolyline;
 
     //发送请求的参数
-    private Myapp myApp;
-    private String JSESSIONID;
+    //private Myapp myApp;
+    //private String JSESSIONID;
 
 
 
@@ -56,14 +57,15 @@ public class UserDayMap extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        SDKInitializer.initialize(getApplicationContext());//是程序不崩溃的作用
         setContentView(R.layout.activity_userdaymap);
         // 初始化地图
         mMapView = (MapView) findViewById(R.id.bmapView);
         mBaiduMap = mMapView.getMap();
 
         //初始化参数
-        myApp=(Myapp)getApplication();
-        JSESSIONID=myApp.getSessionid();
+//        myApp=(Myapp)getApplication();
+//        JSESSIONID=myApp.getSessionid();
 
         // 界面加载时添加绘制图层
         drawline();
@@ -86,13 +88,13 @@ public class UserDayMap extends Activity {
      */
     public void drawline() {
         getdata();
-        OverlayOptions ooPolyline = new PolylineOptions().width(10)
-                .color(0xAAFF0000).points(points);
-        mPolyline = (Polyline) mBaiduMap.addOverlay(ooPolyline);
+//        OverlayOptions ooPolyline = new PolylineOptions().width(10)
+//                .color(0xAAFF0000).points(points);
+//        mPolyline = (Polyline) mBaiduMap.addOverlay(ooPolyline);
     }
 
     public void  getdata(){
-        String url="http://192.168.16.130:8000/getdata";
+        String url="http://192.168.1.119:8000/map/getalldata";
         RequestQueue requestQueue= Volley.newRequestQueue(this);
 
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url,
@@ -106,6 +108,9 @@ public class UserDayMap extends Activity {
                         double lon=temp.getDouble("longitude");
                         points.add(new LatLng(lat,lon));
                     }
+                    OverlayOptions ooPolyline = new PolylineOptions().width(10)
+                            .color(0xAAFF0000).points(points);
+                    mPolyline = (Polyline) mBaiduMap.addOverlay(ooPolyline);
                 }
                 catch (JSONException e) {
                     e.printStackTrace();
@@ -115,16 +120,16 @@ public class UserDayMap extends Activity {
             public void onErrorResponse(VolleyError error) {
 
             }
-        })
-        {
-            @Override
-            public Map<String, String> getHeaders() throws AuthFailureError {
-                super.getHeaders();
-                Map<String,String> headers=new HashMap<String,String>();
-                headers.put("Cookie","JSESSIONID="+JSESSIONID);
-                return headers;
-            }
-        };
+        });
+//        {
+//            @Override
+//            public Map<String, String> getHeaders() throws AuthFailureError {
+//                super.getHeaders();
+//                Map<String,String> headers=new HashMap<String,String>();
+//                headers.put("Cookie","JSESSIONID="+JSESSIONID);
+//                return headers;
+//            }
+//        };
         requestQueue.add(request);
     }
 
