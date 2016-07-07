@@ -10,27 +10,61 @@ tools:context=".Activity.map.HeatMap" >
     android:id="@+id/mapView"
     android:layout_width="match_parent"
     android:layout_height="match_parent" />
-
-
-
-    <Button
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/add"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:orientation="horizontal" >
 
+        <Button
+            android:id="@+id/pm25"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="2dip"
+            android:layout_marginLeft="2dip"
+            android:layout_marginRight="2dip"
+            android:layout_marginTop="2dip"
+            android:layout_weight="1"
+            android:padding="10dip"
+            android:text="PM2.5" />
+
+        <Button
+            android:id="@+id/so2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="2dip"
+            android:layout_marginLeft="2dip"
+            android:layout_marginRight="2dip"
+            android:layout_marginTop="2dip"
+            android:layout_weight="1"
+            android:padding="10dip"
+            android:text="SO2" />
+
+
+
+        <Button
+            android:id="@+id/co2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="2dip"
+            android:layout_marginLeft="2dip"
+            android:layout_marginRight="2dip"
+            android:layout_marginTop="2dip"
+            android:layout_weight="1"
+            android:text="CO2" />
+
+
+    </LinearLayout>
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New Button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:id="@+id/button"
         android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentStart="true"
+       />
+
 
 </RelativeLayout>
