@@ -10,6 +10,7 @@ import org.springframework.stereotype.Repository;
 import respire.Entity.Datanow;
 import respire.Entity.DatanowPK;
 import respire.Result.DataModel;
+import respire.Result.MapDataModel;
 
 @Repository 
 public interface DatanowDao extends CrudRepository<Datanow, DatanowPK> {
@@ -20,4 +21,10 @@ public interface DatanowDao extends CrudRepository<Datanow, DatanowPK> {
 	
 	@Query("select Avg(d.pm25) as pm25 from Datanow d where date_format(now(),'%Y-%m-%d-%H')=DATE_FORMAT(time,'%Y-%m-%d-%H') and d.userid in (select userid from User where cityid=?1)")
 	public double getnow(int cityid);
+	
+	@Query("select new respire.Result.MapDataModel(d.pm25, d.so2,d.co2,d.latitude,d.longitude) from Datanow d")
+	public List<MapDataModel> getall();
+	
+	@Query("select new respire.Result.MapDataModel(d.pm25, d.so2,d.co2,d.latitude,d.longitude) from Datanow d where userid=?1 ORDER BY time desc")
+	public List<MapDataModel> getbyuser(long userid);
 }

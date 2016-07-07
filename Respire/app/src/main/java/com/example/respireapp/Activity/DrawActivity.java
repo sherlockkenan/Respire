@@ -2,12 +2,8 @@ package com.example.respireapp.Activity;
 
 import org.achartengine.ChartFactory;
 import org.achartengine.GraphicalView;
-<<<<<<< HEAD
 import org.achartengine.chart.BarChart.Type;
 import org.achartengine.renderer.XYMultipleSeriesRenderer;
-=======
-
->>>>>>> 9058575421d75c46d2d5a55d54cddc76770cdfe8
 
 
 import java.util.ArrayList;
@@ -17,7 +13,6 @@ import java.util.Map;
 
 import org.achartengine.GraphicalView;
 import org.achartengine.chart.BarChart;
-<<<<<<< HEAD
 import org.achartengine.chart.PointStyle;
 import org.achartengine.model.CategorySeries;
 import org.achartengine.model.SeriesSelection;
@@ -27,14 +22,6 @@ import org.achartengine.renderer.DefaultRenderer;
 import org.achartengine.renderer.SimpleSeriesRenderer;
 import org.achartengine.renderer.XYMultipleSeriesRenderer;
 import org.achartengine.renderer.XYSeriesRenderer;
-=======
-import org.achartengine.model.CategorySeries;
-import org.achartengine.model.SeriesSelection;
-import org.achartengine.model.XYMultipleSeriesDataset;
-import org.achartengine.renderer.DefaultRenderer;
-import org.achartengine.renderer.SimpleSeriesRenderer;
-import org.achartengine.renderer.XYMultipleSeriesRenderer;
->>>>>>> 9058575421d75c46d2d5a55d54cddc76770cdfe8
 
 import android.app.Activity;
 import android.content.Intent;
@@ -49,18 +36,12 @@ import android.widget.Button;
 import android.widget.CalendarView;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
-<<<<<<< HEAD
 import android.widget.RelativeLayout;
-=======
->>>>>>> 9058575421d75c46d2d5a55d54cddc76770cdfe8
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.respireapp.Entity.ClassMessage;
-<<<<<<< HEAD
 //import com.example.respireapp.Entity.GraphUtils;
-=======
->>>>>>> 9058575421d75c46d2d5a55d54cddc76770cdfe8
 import com.example.respireapp.Entity.GraphUtils;
 import com.example.respireapp.Entity.Pie;
 
@@ -78,11 +59,7 @@ public class DrawActivity extends Activity implements OnClickListener {
     private Button btn4;
     private GraphicalView charView;
     private CalendarView cv;
-<<<<<<< HEAD
     public LinearLayout layout;
-=======
-    private LinearLayout layout;
->>>>>>> 9058575421d75c46d2d5a55d54cddc76770cdfe8
     private FrameLayout fl;
     private Pie p;
     private Intent intent;
@@ -246,7 +223,6 @@ public class DrawActivity extends Activity implements OnClickListener {
 
     }
 
-<<<<<<< HEAD
     private void initView() {
         //柱状图的两个序列的名字
         String[] titles = new String[] { "净利润" };
@@ -338,80 +314,6 @@ public class DrawActivity extends Activity implements OnClickListener {
 
     }
 
-=======
-
-    public XYMultipleSeriesRenderer buildBarRenderer(int[] colors) {
-        XYMultipleSeriesRenderer renderer = new XYMultipleSeriesRenderer();
-
-        renderer.setLabelsTextSize(5);
-        renderer.setLabelsColor(Color.BLACK);
-        renderer.setBarWidth(59f);
-        renderer.setBarSpacing(20);
-        renderer.setShowAxes(false);
-        renderer.setShowLegend(false);
-        renderer.setBackgroundColor(Color.parseColor("#efefef"));
-        renderer.setApplyBackgroundColor(true);
-        renderer.setPanEnabled(false, false);
-        renderer.setZoomEnabled(false, false);
-        renderer.setLegendTextSize(5);
-        int length = colors.length;
-        for (int i = 0; i < length; i++) {
-            SimpleSeriesRenderer r = new SimpleSeriesRenderer();
-            r.setColor(colors[i]);
-            renderer.addSeriesRenderer(r);
-        }
-        return renderer;
-    }
-
-    /**
-     * Builds a bar multiple series dataset using the provided values.
-     *
-     * @param titles the series titles
-     * @param values the values
-     * @return the XY multiple bar dataset
-     */
-    protected XYMultipleSeriesDataset buildBarDataset(String[] titles, List<Double> values) {
-        XYMultipleSeriesDataset dataset = new XYMultipleSeriesDataset();
-        int length = titles.length;
-        for (int i = 0; i < length; i++) {
-            CategorySeries series = new CategorySeries(titles[i]);
-            double v = values.get(i);
-
-            series.add(v);
-
-            dataset.addSeries(series.toXYSeries());
-        }
-        return dataset;
-    }
-
-    /**
-     * Sets a few of the series renderer settings.
-     *
-     * @param renderer the renderer to set the properties to
-     * @param title the chart title
-     * @param xTitle the title for the X axis
-     * @param yTitle the title for the Y axis
-     * @param xMin the minimum value on the X axis
-     * @param xMax the maximum value on the X axis
-     * @param yMin the minimum value on the Y axis
-     * @param yMax the maximum value on the Y axis
-     * @param axesColor the axes color
-     * @param labelsColor the labels color
-     */
-    protected static void setChartSettings(XYMultipleSeriesRenderer renderer, String title, String xTitle,
-                                           String yTitle, double xMin, double xMax, double yMin, double yMax, int axesColor,
-                                           int labelsColor) {
-        renderer.setChartTitle(title);
-        renderer.setXTitle(xTitle);
-        renderer.setYTitle(yTitle);
-        renderer.setXAxisMin(xMin);
-        renderer.setXAxisMax(xMax);
-        renderer.setYAxisMin(yMin);
-        renderer.setYAxisMax(yMax);
-        renderer.setAxesColor(axesColor);
-        renderer.setLabelsColor(labelsColor);
-    }
->>>>>>> 9058575421d75c46d2d5a55d54cddc76770cdfe8
 
 
 
@@ -420,16 +322,11 @@ public class DrawActivity extends Activity implements OnClickListener {
 
         switch(v.getId()){
             case R.id.button1:
-<<<<<<< HEAD
                 //charView = (GraphicalView) GraphUtils.getInstance().getLineChartView(DrawActivity.this, studentGradeList , "B");
-=======
-                charView = (GraphicalView) GraphUtils.getInstance().getLineChartView(DrawActivity.this, studentGradeList , "B");
->>>>>>> 9058575421d75c46d2d5a55d54cddc76770cdfe8
                 layout.removeAllViews();
                 layout.addView(charView);
                 break;
             case R.id.button4:
-<<<<<<< HEAD
 //                String[] titles = new String[] { "1","2"};
 //                List<Double> values = new ArrayList<Double>();
 //                values.add(50.00);
@@ -443,44 +340,6 @@ public class DrawActivity extends Activity implements OnClickListener {
 //                layout.removeAllViews();
 //                layout.addView(charView);
                 initView();
-=======
-
-                String[] titles = new String[] { "2008", "2007" };//图例
-                List<Double> values = new ArrayList<Double>();
-                values.add(14230.00);
-                values.add(12300.00);
-                values.add(14240.00);
-                values.add(15244.00);
-                values.add(15900.00);
-                values.add(19200.00);
-                values.add(22030.00);
-                values.add(21200.00);
-                values.add(19500.00);
-                values.add(15500.00);
-                values.add(12600.00);
-                values.add(14000.00);
-                int[] colors = new int[] { Color.BLUE, Color.CYAN };//两种柱子的颜色
-                XYMultipleSeriesRenderer renderer = buildBarRenderer(colors);//调用AbstractDemoChart中的方法构建renderer.
-                setChartSettings(renderer, "Monthly sales in the last 2 years", "Month", "Units sold", 0.5,
-                        12.5, 0, 24000, Color.GRAY, Color.LTGRAY);//调用AbstractDemoChart中的方法设置renderer的一些属性.
-                renderer.getSeriesRendererAt(0).setDisplayChartValues(true);//设置柱子上是否显示数量值
-                renderer.getSeriesRendererAt(1).setDisplayChartValues(true);//设置柱子上是否显示数量值
-                renderer.setXLabels(12);//X轴的近似坐标数
-                renderer.setYLabels(5);//Y轴的近似坐标数
-                renderer.setXLabelsAlign(Paint.Align.LEFT);//刻度线与X轴坐标文字左侧对齐
-                renderer.setYLabelsAlign(Paint.Align.LEFT);//Y轴与Y轴坐标文字左对齐
-                renderer.setPanEnabled(true, false);//允许左右拖动,但不允许上下拖动.
-                // renderer.setZoomEnabled(false);
-                renderer.setZoomRate(1.1f);//放大的倍率
-                renderer.setBarSpacing(0.5f);//柱子间宽度
-               charView= ChartFactory.getBarChartView(getBaseContext(), buildBarDataset(titles, values), renderer,
-                        BarChart.Type.STACKED);
-
-
-               // charView = (GraphicalView) GraphUtils.getInstance().getBarHorView(getBaseContext(),titles,values);
-                layout.removeAllViews();
-                layout.addView(charView);
->>>>>>> 9058575421d75c46d2d5a55d54cddc76770cdfe8
                 break;
             default:
                 break;

@@ -18,58 +18,36 @@
         <Button
             android:layout_width="80dp"
             android:layout_height="30dp"
-            android:background="@drawable/historybutton0"
+            android:background="@drawable/historybutton1"
             android:text="WEEK"
-<<<<<<< HEAD
             android:id="@+id/weekButton"
-            android:textColor="#ffffff"
-=======
-<<<<<<< HEAD
-            android:id="@+id/weekButton"
-=======
->>>>>>> 9058575421d75c46d2d5a55d54cddc76770cdfe8
->>>>>>> e1d83599b3e4d187b555f2510909ee1add1b9d06
             android:layout_row="0"
             android:layout_column="0"
             android:layout_marginRight="40dp"
-            android:textSize="13dp" />
+            />
 
         <Button
             android:layout_width="80dp"
             android:layout_height="30dp"
             android:background="@drawable/historybutton0"
             android:text="MONTH"
-<<<<<<< HEAD
             android:id="@+id/monthButton"
-=======
-<<<<<<< HEAD
-            android:id="@+id/monthButton"
-=======
->>>>>>> 9058575421d75c46d2d5a55d54cddc76770cdfe8
->>>>>>> e1d83599b3e4d187b555f2510909ee1add1b9d06
             android:textColor="#ffffff"
             android:layout_row="0"
             android:layout_column="2"
             android:layout_marginRight="40dp"
-            android:textSize="13dp" />
+            />
 
         <Button
             android:layout_width="80dp"
             android:layout_height="30dp"
             android:background="@drawable/historybutton0"
             android:text="YEAR"
-<<<<<<< HEAD
             android:id="@+id/yearButton"
-=======
-<<<<<<< HEAD
-            android:id="@+id/yearButton"
-=======
->>>>>>> 9058575421d75c46d2d5a55d54cddc76770cdfe8
->>>>>>> e1d83599b3e4d187b555f2510909ee1add1b9d06
             android:textColor="#ffffff"
             android:layout_row="0"
             android:layout_column="4"
-            android:textSize="13dp" />
+            />
 
     </GridLayout>
 
@@ -90,130 +68,17 @@
             android:src="@drawable/historyoverlay"
             android:adjustViewBounds="true" />
 
-<<<<<<< HEAD
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_gravity="center_horizontal|top"
             android:layout_marginLeft="16dp"
-            android:layout_marginTop="30dp"
-            android:id="@+id/chart1"
-            android:layout_marginRight="16dp">
-
-        </LinearLayout>
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:src="@drawable/divider"
-            android:layout_marginTop="175dp"
-            />
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="195dp"
-            android:id="@+id/chart2"
-            android:layout_marginRight="16dp"></LinearLayout>
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:src="@drawable/divider"
-            android:layout_marginTop="340dp"/>
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="360dp"
-            android:id="@+id/chart3"
-            android:layout_marginRight="16dp"></LinearLayout>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="PM2.5"
-            android:textSize="25dp"
-            android:id="@+id/pm25Text"
-            android:textColor="#ffffff"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="5dp"
-            />
-=======
-<<<<<<< HEAD
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal|top"
+            android:layout_marginRight="16dp"
             android:id="@+id/chart1"></LinearLayout>
 
-=======
->>>>>>> 9058575421d75c46d2d5a55d54cddc76770cdfe8
     </FrameLayout>
->>>>>>> e1d83599b3e4d187b555f2510909ee1add1b9d06
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Average:"
-            android:textSize="15dp"
-            android:id="@+id/pm25Average"
-            android:textColor="#ffffff"
-            android:layout_marginTop="35dp"
-            android:layout_marginLeft="5dp"
-            />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="CO2"
-            android:textSize="25dp"
-            android:id="@+id/co2Text"
-            android:textColor="#ffffff"
-            android:layout_marginTop="175dp"
-            android:layout_marginLeft="5dp"
-            />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Average:"
-            android:textSize="15dp"
-            android:id="@+id/co2Average"
-            android:textColor="#ffffff"
-            android:layout_marginTop="200dp"
-            android:layout_marginLeft="5dp"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="SO2"
-            android:textSize="25dp"
-            android:id="@+id/so2Text"
-            android:textColor="#ffffff"
-            android:layout_marginTop="340dp"
-            android:layout_marginLeft="5dp"
-            />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Average:"
-            android:textSize="15dp"
-            android:id="@+id/so2Average"
-            android:textColor="#ffffff"
-            android:layout_marginTop="365dp"
-            android:layout_marginLeft="5dp"
-            />
-
-    </FrameLayout>
 
 </RelativeLayout>
