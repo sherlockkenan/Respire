@@ -1,4 +1,4 @@
-package respire.Server;
+package respire.Service;
 
 import java.util.List;
 
@@ -10,7 +10,7 @@ import respire.Entity.CityNode;
 import respire.Entity.UserCity;
 
 @Service
-public class CityNodeServer {
+public class CityNodeService {
     //atuowired the cityNodeDao
 	@Autowired
 	private CityNodeDao cityNodeDao;
