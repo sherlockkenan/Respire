@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.app.Activity;
@@ -128,7 +129,7 @@ public class RegisterActivity extends Activity {
 
     };
     public void sendregisterrequest(){
-        String url="http://192.168.16.130:8000/register";
+        String url="http://192.168.16.61:8000/register";
         HashMap<String,String> map=new HashMap<String,String>();
         map.put("username",username);
         map.put("password",password);
@@ -174,7 +175,7 @@ public class RegisterActivity extends Activity {
         requestQueue.add(request);
     }
     public void  sendcity3request(String fatherid){
-        String url="http://192.168.16.130:8000/getcitylist?fatherid="+fatherid;
+        String url="http://192.168.16.61:8000/getcitylist?fatherid="+fatherid;
         RequestQueue requestQueue= Volley.newRequestQueue(this);
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url,
                 null, new Response.Listener<JSONObject>(){
@@ -212,7 +213,7 @@ public class RegisterActivity extends Activity {
         requestQueue.add(request);
     }
     public void  sendcity4request(String fatherid){
-        String url="http://192.168.16.130:8000/getcitylist?fatherid="+fatherid;
+        String url="http://192.168.16.61:8000/getcitylist?fatherid="+fatherid;
         RequestQueue requestQueue= Volley.newRequestQueue(this);
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url,
                 null, new Response.Listener<JSONObject>(){
@@ -250,7 +251,7 @@ public class RegisterActivity extends Activity {
         requestQueue.add(request);
     }
     public void  sendcity2request(String fatherid){
-        String url="http://192.168.16.130:8000/getcitylist?fatherid="+fatherid;
+        String url="http://192.168.16.61:8000/getcitylist?fatherid="+fatherid;
         RequestQueue requestQueue= Volley.newRequestQueue(this);
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url,
                 null, new Response.Listener<JSONObject>(){
@@ -288,7 +289,7 @@ public class RegisterActivity extends Activity {
         requestQueue.add(request);
     }
     public void  sendcity1request(String fatherid){
-        String url="http://192.168.16.130:8000/getcitylist?fatherid=0";
+        String url="http://192.168.16.61:8000/getcitylist?fatherid=0";
 //        HashMap<String,String> map=new HashMap<String,String>();
 //        map.put("fatherid",fatherid);
 //        JSONObject object=new JSONObject(map);
@@ -357,6 +358,14 @@ public class RegisterActivity extends Activity {
         //传回登录数据
         Button button=(Button)findViewById(R.id.submitButton);
         button.setOnClickListener(listener);
+
+        ImageButton backButton=(ImageButton) findViewById(R.id.backButton);
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                RegisterActivity.this.finish();
+            }
+        });
     }
     class City4SpinnerSelectedListener implements OnItemSelectedListener{
 

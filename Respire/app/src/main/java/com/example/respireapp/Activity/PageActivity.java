@@ -149,6 +149,20 @@ public class PageActivity extends Activity {
         views=new ArrayList<View>();
         LayoutInflater inflater=getLayoutInflater();
         view1=inflater.inflate(R.layout.activity_home, null);
+
+        view1.findViewById(R.id.todayButton).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent logIntent = new Intent();
+                logIntent.setClass(PageActivity.this,TodayActivity.class);
+                logIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                Bundle tbundle=new Bundle();
+                tbundle.putString("sessionid",JSESSIONID);
+                logIntent.putExtras(tbundle);
+                startActivity(logIntent);
+            }
+        });
+
         view2=inflater.inflate(R.layout.activity_history, null);
 
         layout1=(LinearLayout) view2.findViewById(R.id.chart1);
@@ -165,69 +179,74 @@ public class PageActivity extends Activity {
                         try {
                             String flag = result.getString("return_type");
                             JSONArray data=result.getJSONArray("data");
-                            weekpm25=new double[7];
-                            weekco2=new double[7];
-                            weekso2=new double[7];
-                            weektext=new String[7];
-                            for (int i=0;i<data.length();i++){
-                                JSONObject obj=data.getJSONObject(i);
-                                weekpm25[6-i]=obj.getInt("pm25");
-                                weekco2[6-i]=obj.getInt("co2");
-                                weekso2[6-i]=obj.getInt("so2");
-                                weektext[6-i]=obj.getString("time");
-                            }
-                            int pm25=0;
-                            int co2=0;
-                            int so2=0;
-                            for (int i=0;i<7;i++){
-                                pm25+=weekpm25[i];
-                                co2+=weekco2[i];
-                                so2+=weekso2[i];
-                            }
-                            pm25=pm25/7;
-                            co2=co2/7;
-                            so2=so2/7;
 
-                            pm25average=Integer.toString(pm25);
-                            co2average=Integer.toString(co2);
-                            so2average=Integer.toString(so2);
+                                weekpm25 = new double[7];
+                                weekco2 = new double[7];
+                                weekso2 = new double[7];
+                                weektext = new String[7];
+                                int j = 0;
+                                for (int i = data.length() - 1; i >= 0; i--) {
+                                    JSONObject obj = data.getJSONObject(i);
+                                    weekpm25[j] = obj.getInt("pm25");
+                                    weekco2[j] = obj.getInt("co2");
+                                    weekso2[j] = obj.getInt("so2");
+                                    weektext[j] = obj.getString("time");
+                                    j++;
+                                }
+                                int pm25 = 0;
+                                int co2 = 0;
+                                int so2 = 0;
+                                for (int i = 0; i < data.length(); i++) {
+                                    pm25 += weekpm25[i];
+                                    co2 += weekco2[i];
+                                    so2 += weekso2[i];
+                                }
+                                if (data.length()>0) {
+                                    pm25 = pm25 / data.length();
+                                    co2 = co2 / data.length();
+                                    so2 = so2 / data.length();
+                                }
+                                pm25average = Integer.toString(pm25);
+                                co2average = Integer.toString(co2);
+                                so2average = Integer.toString(so2);
 
-                            Button weekButton=(Button) view2.findViewById(R.id.weekButton);
-                            weekButton.setTextColor(Color.BLACK);
-                            Button monthButton=(Button) view2.findViewById(R.id.monthButton);
-                            monthButton.setTextColor(Color.WHITE);
-                            Button yearButton=(Button) view2.findViewById(R.id.yearButton);
-                            yearButton.setTextColor(Color.WHITE);
-                            weekButton.setBackgroundResource(R.drawable.historybutton1);
-                            monthButton.setBackgroundResource(R.drawable.historybutton0);
-                            yearButton.setBackgroundResource(R.drawable.historybutton0);
-                            TextView pm25text=(TextView)view2.findViewById(R.id.pm25Average);
-                            pm25text.setText("Average:"+pm25average);
-                            TextView co2text=(TextView)view2.findViewById(R.id.co2Average);
-                            co2text.setText("Average:"+co2average);
-                            TextView so2text=(TextView)view2.findViewById(R.id.so2Average);
-                            so2text.setText("Average:"+so2average);
+                                Button weekButton = (Button) view2.findViewById(R.id.weekButton);
+                                weekButton.setTextColor(Color.BLACK);
+                                Button monthButton = (Button) view2.findViewById(R.id.monthButton);
+                                monthButton.setTextColor(Color.WHITE);
+                                Button yearButton = (Button) view2.findViewById(R.id.yearButton);
+                                yearButton.setTextColor(Color.WHITE);
+                                weekButton.setBackgroundResource(R.drawable.historybutton1);
+                                monthButton.setBackgroundResource(R.drawable.historybutton0);
+                                yearButton.setBackgroundResource(R.drawable.historybutton0);
+                                TextView pm25text = (TextView) view2.findViewById(R.id.pm25Average);
+                                pm25text.setText("Average:" + pm25average);
+                                TextView co2text = (TextView) view2.findViewById(R.id.co2Average);
+                                co2text.setText("Average:" + co2average);
+                                TextView so2text = (TextView) view2.findViewById(R.id.so2Average);
+                                so2text.setText("Average:" + so2average);
 
-                            ArrayList<double[]> value=new ArrayList<double[]>();
-                            value.add(weekpm25);
-                            int[]colors={Color.WHITE};
-                            double[] border={1,7,0,1000};
-                            int width=20;
-                            initView(value,colors,layout1,border,weeklabel,width,weektext);
+                                ArrayList<double[]> value = new ArrayList<double[]>();
+                                value.add(weekpm25);
+                                int[] colors = {Color.WHITE};
+                                double[] border = {1, 7, 0, 1000};
+                                int width = 20;
+                                initView(value, colors, layout1, border, weeklabel, width, weektext);
 
-                            ArrayList<double[]> value2=new ArrayList<double[]>();
-                            value2.add(weekco2);
-                            int[]colors2={Color.LTGRAY};
-                            double[] border2={1,7,0,1000};
-                            int width2=20;
-                            initView(value2,colors2,layout2,border2,weeklabel,width2,weektext);
+                                ArrayList<double[]> value2 = new ArrayList<double[]>();
+                                value2.add(weekco2);
+                                int[] colors2 = {Color.LTGRAY};
+                                double[] border2 = {1, 7, 0, 1000};
+                                int width2 = 20;
+                                initView(value2, colors2, layout2, border2, weeklabel, width2, weektext);
 
-                            ArrayList<double[]> value3=new ArrayList<double[]>();
-                            value3.add(weekpm25);
-                            int[]colors3={Color.WHITE};
-                            double[] border3={1,7,0,1000};
-                            int width3=20;
-                            initView(value3,colors3,layout3,border3,weeklabel,width3,weektext);
+                                ArrayList<double[]> value3 = new ArrayList<double[]>();
+                                value3.add(weekso2);
+                                int[] colors3 = {Color.WHITE};
+                                double[] border3 = {1, 7, 0, 1000};
+                                int width3 = 20;
+                                initView(value3, colors3, layout3, border3, weeklabel, width3, weektext);
+
                         }
                         catch (JSONException e) {
                             // TODO Auto-generated catch block
@@ -263,69 +282,71 @@ public class PageActivity extends Activity {
                         try {
                             String flag = result.getString("return_type");
                             JSONArray data=result.getJSONArray("data");
-                            weekpm25=new double[31];
-                            weekco2=new double[31];
-                            weekso2=new double[31];
-                            weektext=new String[31];
-                            int j=0;
-                            for (int i=0;i<data.length();i++){
-                                JSONObject obj=data.getJSONObject(i);
-                                weekpm25[j]=obj.getInt("pm25");
-                                weekco2[j]=obj.getInt("co2");
-                                weekso2[j]=obj.getInt("so2");
-                                weektext[j]=obj.getString("time");
+                            if (data!=null) {
+                                monthpm25 = new double[31];
+                                monthco2 = new double[31];
+                                monthso2 = new double[31];
+                                int j = 0;
+                                for (int i = data.length() - 1; i >= 0; i--) {
+                                    JSONObject obj = data.getJSONObject(i);
+                                    monthpm25[j] = obj.getInt("pm25");
+                                    monthco2[j] = obj.getInt("co2");
+                                    monthso2[j] = obj.getInt("so2");
+                                    j++;
+                                }
+                                int pm25 = 0;
+                                int co2 = 0;
+                                int so2 = 0;
+                                for (int i = 0; i < data.length(); i++) {
+                                    pm25 += monthpm25[i];
+                                    co2 += monthco2[i];
+                                    so2 += monthso2[i];
+                                }
+                                if (data.length()>0) {
+                                    pm25 = pm25 / data.length();
+                                    co2 = co2 / data.length();
+                                    so2 = so2 / data.length();
+                                }
+                                pm25average = Integer.toString(pm25);
+                                co2average = Integer.toString(co2);
+                                so2average = Integer.toString(so2);
+
+                                Button weekButton = (Button) view2.findViewById(R.id.weekButton);
+                                weekButton.setTextColor(Color.WHITE);
+                                Button monthButton = (Button) view2.findViewById(R.id.monthButton);
+                                monthButton.setTextColor(Color.BLACK);
+                                Button yearButton = (Button) view2.findViewById(R.id.yearButton);
+                                yearButton.setTextColor(Color.WHITE);
+                                weekButton.setBackgroundResource(R.drawable.historybutton0);
+                                monthButton.setBackgroundResource(R.drawable.historybutton1);
+                                yearButton.setBackgroundResource(R.drawable.historybutton0);
+                                TextView pm25text = (TextView) view2.findViewById(R.id.pm25Average);
+                                pm25text.setText("Average:" + pm25average);
+                                TextView co2text = (TextView) view2.findViewById(R.id.co2Average);
+                                co2text.setText("Average:" + co2average);
+                                TextView so2text = (TextView) view2.findViewById(R.id.so2Average);
+                                so2text.setText("Average:" + so2average);
+                                ArrayList<double[]> value = new ArrayList<double[]>();
+                                value.add(monthpm25);
+                                int[] colors = {Color.WHITE};
+                                double[] border = {1, 31, 0, 1000};
+                                int width = 8;
+                                initView(value, colors, layout1, border, monthlabel, width, monthtext);
+
+                                ArrayList<double[]> value2 = new ArrayList<double[]>();
+                                value2.add(monthco2);
+                                int[] colors2 = {Color.LTGRAY};
+                                double[] border2 = {1, 31, 0, 1000};
+                                int width2 = 8;
+                                initView(value2, colors2, layout2, border2, monthlabel, width2, monthtext);
+
+                                ArrayList<double[]> value3 = new ArrayList<double[]>();
+                                value3.add(monthso2);
+                                int[] colors3 = {Color.WHITE};
+                                double[] border3 = {1, 31, 0, 1000};
+                                int width3 = 8;
+                                initView(value3, colors3, layout3, border3, monthlabel, width3, monthtext);
                             }
-                            int pm25=0;
-                            int co2=0;
-                            int so2=0;
-                            for (int i=0;i<7;i++){
-                                pm25+=weekpm25[i];
-                                co2+=weekco2[i];
-                                so2+=weekso2[i];
-                            }
-                            pm25=pm25/7;
-                            co2=co2/7;
-                            so2=so2/7;
-
-                            pm25average=Integer.toString(pm25);
-                            co2average=Integer.toString(co2);
-                            so2average=Integer.toString(so2);
-
-                            Button weekButton=(Button) view2.findViewById(R.id.weekButton);
-                            weekButton.setTextColor(Color.WHITE);
-                            Button monthButton=(Button) view2.findViewById(R.id.monthButton);
-                            monthButton.setTextColor(Color.BLACK);
-                            Button yearButton=(Button) view2.findViewById(R.id.yearButton);
-                            yearButton.setTextColor(Color.WHITE);
-                            weekButton.setBackgroundResource(R.drawable.historybutton0);
-                            monthButton.setBackgroundResource(R.drawable.historybutton1);
-                            yearButton.setBackgroundResource(R.drawable.historybutton0);
-                            TextView pm25text=(TextView)view2.findViewById(R.id.pm25Average);
-                            pm25text.setText("Average:"+pm25average);
-                            TextView co2text=(TextView)view2.findViewById(R.id.co2Average);
-                            co2text.setText("Average:"+co2average);
-                            TextView so2text=(TextView)view2.findViewById(R.id.so2Average);
-                            so2text.setText("Average:"+so2average);
-                            ArrayList<double[]> value=new ArrayList<double[]>();
-                            value.add(monthpm25);
-                            int[]colors={Color.WHITE};
-                            double[] border={1,31,0,500};
-                            int width=8;
-                            initView(value,colors,layout1,border,monthlabel,width,monthtext);
-
-                            ArrayList<double[]> value2=new ArrayList<double[]>();
-                            value2.add(monthco2);
-                            int[]colors2={Color.LTGRAY};
-                            double[] border2={1,31,0,500};
-                            int width2=8;
-                            initView(value2,colors2,layout2,border2,monthlabel,width2,monthtext);
-
-                            ArrayList<double[]> value3=new ArrayList<double[]>();
-                            value3.add(monthso2);
-                            int[]colors3={Color.WHITE};
-                            double[] border3={1,31,0,500};
-                            int width3=8;
-                            initView(value3,colors3,layout3,border3,monthlabel,width3,monthtext);
                         }
                         catch (JSONException e) {
                             // TODO Auto-generated catch block
@@ -353,55 +374,169 @@ public class PageActivity extends Activity {
         view2.findViewById(R.id.yearButton).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Button weekButton=(Button) view2.findViewById(R.id.weekButton);
-                weekButton.setTextColor(Color.WHITE);
-                Button monthButton=(Button) view2.findViewById(R.id.monthButton);
-                monthButton.setTextColor(Color.WHITE);
-                Button yearButton=(Button) view2.findViewById(R.id.yearButton);
-                yearButton.setTextColor(Color.BLACK);
-                weekButton.setBackgroundResource(R.drawable.historybutton0);
-                monthButton.setBackgroundResource(R.drawable.historybutton0);
-                yearButton.setBackgroundResource(R.drawable.historybutton1);
-                TextView pm25text=(TextView)view2.findViewById(R.id.pm25Average);
-                pm25text.setText("Average:"+pm25average);
-                TextView co2text=(TextView)view2.findViewById(R.id.co2Average);
-                co2text.setText("Average:"+co2average);
-                TextView so2text=(TextView)view2.findViewById(R.id.so2Average);
-                so2text.setText("Average:"+so2average);
-                ArrayList<double[]> value=new ArrayList<double[]>();
-                value.add(yearpm25);
-                int[]colors={Color.WHITE};
-                double[] border={1,12,0,500};
-                int width=20;
-                initView(value,colors,layout1,border,yearlabel,width,yeartext);
+                String url="http://192.168.16.61:8000/history/getyear";
+                RequestQueue requestQueue= Volley.newRequestQueue(getApplicationContext());
+                JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url,
+                        null, new Response.Listener<JSONObject>(){
+                    public void onResponse(JSONObject result){
+                        try {
+                            String flag = result.getString("return_type");
+                            JSONArray data=result.getJSONArray("data");
+                            if (data!=null) {
+                                yearpm25 = new double[12];
+                                yearco2 = new double[12];
+                                yearso2 = new double[12];
+                                int j = 0;
+                                for (int i = data.length() - 1; i >= 0; i--) {
+                                    JSONObject obj = data.getJSONObject(i);
+                                    yearpm25[j] = obj.getInt("pm25");
+                                    yearco2[j] = obj.getInt("co2");
+                                    yearso2[j] = obj.getInt("so2");
+                                    j++;
+                                }
+                                int pm25 = 0;
+                                int co2 = 0;
+                                int so2 = 0;
+                                for (int i = 0; i < data.length(); i++) {
+                                    pm25 += yearpm25[i];
+                                    co2 += yearco2[i];
+                                    so2 += yearso2[i];
+                                }
+                                if (data.length()>0) {
+                                    pm25 = pm25 / data.length();
+                                    co2 = co2 / data.length();
+                                    so2 = so2 / data.length();
+                                }
+                                pm25average = Integer.toString(pm25);
+                                co2average = Integer.toString(co2);
+                                so2average = Integer.toString(so2);
 
-                ArrayList<double[]> value2=new ArrayList<double[]>();
-                value2.add(yearco2);
-                int[]colors2={Color.LTGRAY};
-                double[] border2={1,12,0,500};
-                int width2=20;
-                initView(value2,colors2,layout2,border2,yearlabel,width2,yeartext);
+                                Button weekButton = (Button) view2.findViewById(R.id.weekButton);
+                                weekButton.setTextColor(Color.WHITE);
+                                Button monthButton = (Button) view2.findViewById(R.id.monthButton);
+                                monthButton.setTextColor(Color.WHITE);
+                                Button yearButton = (Button) view2.findViewById(R.id.yearButton);
+                                yearButton.setTextColor(Color.BLACK);
+                                weekButton.setBackgroundResource(R.drawable.historybutton0);
+                                monthButton.setBackgroundResource(R.drawable.historybutton0);
+                                yearButton.setBackgroundResource(R.drawable.historybutton1);
+                                TextView pm25text = (TextView) view2.findViewById(R.id.pm25Average);
+                                pm25text.setText("Average:" + pm25average);
+                                TextView co2text = (TextView) view2.findViewById(R.id.co2Average);
+                                co2text.setText("Average:" + co2average);
+                                TextView so2text = (TextView) view2.findViewById(R.id.so2Average);
+                                so2text.setText("Average:" + so2average);
+                                ArrayList<double[]> value = new ArrayList<double[]>();
+                                value.add(yearpm25);
+                                int[] colors = {Color.WHITE};
+                                double[] border = {1, 12, 0, 1000};
+                                int width = 20;
+                                initView(value, colors, layout1, border, yearlabel, width, yeartext);
 
-                ArrayList<double[]> value3=new ArrayList<double[]>();
-                value3.add(yearpm25);
-                int[]colors3={Color.WHITE};
-                double[] border3={1,12,0,500};
-                int width3=20;
-                initView(value3,colors3,layout3,border3,yearlabel,width3,yeartext);
+                                ArrayList<double[]> value2 = new ArrayList<double[]>();
+                                value2.add(yearco2);
+                                int[] colors2 = {Color.LTGRAY};
+                                double[] border2 = {1, 12, 0, 1000};
+                                int width2 = 20;
+                                initView(value2, colors2, layout2, border2, yearlabel, width2, yeartext);
+
+                                ArrayList<double[]> value3 = new ArrayList<double[]>();
+                                value3.add(yearso2);
+                                int[] colors3 = {Color.WHITE};
+                                double[] border3 = {1, 12, 0, 1000};
+                                int width3 = 20;
+                                initView(value3, colors3, layout3, border3, yearlabel, width3, yeartext);
+                            }
+                        }
+                        catch (JSONException e) {
+                            // TODO Auto-generated catch block
+                            e.printStackTrace();
+                        }
+                    }
+                }, new Response.ErrorListener() {
+                    public void onErrorResponse(VolleyError error) {
+                    }
+                })
+                {
+                    @Override
+                    public Map<String, String> getHeaders() throws AuthFailureError {
+                        super.getHeaders();
+                        Map<String,String> headers=new HashMap<String,String>();
+                        headers.put("Cookie","JSESSIONID="+JSESSIONID);
+                        return headers;
+                    }
+                };
+                request.setTag(TAG);
+                requestQueue.add(request);
             }
         });
 
-
+        view2.findViewById(R.id.weekButton).performClick();
 
         view3=inflater.inflate(R.layout.activity_discovery, null);
+
+        view3.findViewById(R.id.poundButton).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent logIntent = new Intent();
+                logIntent.setClass(PageActivity.this,PoolActivity.class);
+                logIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                Bundle tbundle=new Bundle();
+                tbundle.putString("sessionid",JSESSIONID);
+                logIntent.putExtras(tbundle);
+                startActivity(logIntent);
+            }
+        });
+
         view4=inflater.inflate(R.layout.activity_me, null);
         view4.findViewById(R.id.profileButton).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(PageActivity.this,ProfileActivity.class);
-                startActivity(intent);
+                Intent logIntent = new Intent();
+                logIntent.setClass(PageActivity.this,ProfileActivity.class);
+                logIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                Bundle tbundle=new Bundle();
+                tbundle.putString("sessionid",JSESSIONID);
+                logIntent.putExtras(tbundle);
+                startActivity(logIntent);
             }
         });
+
+        String url="http://192.168.16.61:8000/getprofile";
+        RequestQueue requestQueue= Volley.newRequestQueue(getApplicationContext());
+        JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url,
+                null, new Response.Listener<JSONObject>(){
+            public void onResponse(JSONObject result){
+                try {
+                    String flag = result.getString("return_type");
+                    JSONObject data=result.getJSONObject("data");
+                    if (flag.equals("success")&&data!=null){
+                        String name=data.getString("username");
+                        TextView username=(TextView)view4.findViewById(R.id.nameText);
+                        username.setText(name);
+                    }
+                }
+                catch (JSONException e) {
+                    // TODO Auto-generated catch block
+                    e.printStackTrace();
+                }
+            }
+        }, new Response.ErrorListener() {
+            public void onErrorResponse(VolleyError error) {
+            }
+        })
+        {
+            @Override
+            public Map<String, String> getHeaders() throws AuthFailureError {
+                super.getHeaders();
+                Map<String,String> headers=new HashMap<String,String>();
+                headers.put("Cookie","JSESSIONID="+JSESSIONID);
+                return headers;
+            }
+        };
+        request.setTag(TAG);
+        requestQueue.add(request);
+
         views.add(view1);
         views.add(view2);
         views.add(view3);

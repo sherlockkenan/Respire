@@ -310,71 +310,18 @@ public class GraphUtils {
 	 * @return
 	 */
 	 public View getBarHorView(Context context,String[] titles, List<Double> values) {
-<<<<<<< HEAD
-            int size=titles.length;
-		    int[] colors = new int[1];
-            colors[0]=Color.RED;
-//            for (int i=0;i<size;i++){
-//                //colors[i]=Color.parseColor("#F4A100");
-//                colors[i]=Color.RED;
-//            }
-         XYMultipleSeriesRenderer renderer = buildBarRenderer(colors);
-=======
 		    int[] colors = new int[] { Color.parseColor("#F4A100"),Color.parseColor("#F4A100") };
 		    XYMultipleSeriesRenderer renderer = buildBarRenderer(colors);
->>>>>>> 9058575421d75c46d2d5a55d54cddc76770cdfe8
 		    renderer.setOrientation(Orientation.HORIZONTAL);
 		    setChartSettings(renderer, "", "", "", 0,
 		        5, 0, 60, Color.BLUE, Color.BLUE);
 		    renderer.setXLabels(0);
 		    renderer.setYLabels(10);
-<<<<<<< HEAD
-
-
-         renderer.setBackgroundColor(Color.parseColor("#efefef"));
-         renderer.setApplyBackgroundColor(true);
-         renderer.setMarginsColor(Color.parseColor("#efefef"));
-         renderer.setPanEnabled(false, false);
-         renderer.setLabelsTextSize(20f);
-         renderer.setMargins(new int[] {20, 55, 15,5});
-         renderer.setYAxisMin(0);
-         renderer.setXLabels(0);
-         renderer.setShowGrid(true);
-         renderer.setGridColor(Color.parseColor("#eeeeee"));
-         renderer.setPointSize(5f);
-         Align align = renderer.getYAxisAlign(0);
-         renderer.setYLabelsAlign(align);
-         renderer.setYLabelsColor(0, Color.BLACK);
-         renderer.setYLabels(6);
-         renderer.setYAxisMin(10);
-         renderer.setYAxisMax(100);
-         renderer.setXAxisMin(0.1);
-         renderer.setXAxisMax(10.5);
-         renderer.setXLabelsColor(Color.BLACK);
-         renderer.setAxesColor(Color.BLACK);
-         renderer.setYLabelsAlign(Align.RIGHT);
-         renderer.addYTextLabel(100, String.valueOf("100"));
-         renderer.addYTextLabel(80, String.valueOf("80"));
-         renderer.addYTextLabel(60, String.valueOf("60"));
-         renderer.addYTextLabel(40,String.valueOf("40"));
-         renderer.addYTextLabel(20,String.valueOf("20"));
-
-
-
-
-
-         for (int i=0;i<size;i++){
-                renderer.addXTextLabel(i+1,titles[i]);
-            }
-
-		    int length = renderer.getSeriesRendererCount();
-=======
 		    renderer.addXTextLabel(1, titles[0]);
 		    renderer.addXTextLabel(2, titles[1]);
 		 	renderer.addXTextLabel(3,titles[2]);
 		    int length = renderer.getSeriesRendererCount();
 		 	length=3;
->>>>>>> 9058575421d75c46d2d5a55d54cddc76770cdfe8
 		    
 		    for (int i = 0; i < length; i++) {
 		      SimpleSeriesRenderer seriesRenderer = renderer.getSeriesRendererAt(i);
@@ -393,31 +340,17 @@ public class GraphUtils {
 	  public XYMultipleSeriesRenderer buildBarRenderer(int[] colors) {
 	    XYMultipleSeriesRenderer renderer = new XYMultipleSeriesRenderer();
 	   
-<<<<<<< HEAD
-	    renderer.setLabelsTextSize(25);
-	    //renderer.setLabelsColor(Color.BLACK);
-	    renderer.setBarWidth(59f);
-	    renderer.setBarSpacing(2.5f);
-=======
 	    renderer.setLabelsTextSize(5);
 	    renderer.setLabelsColor(Color.BLACK);
 	    renderer.setBarWidth(59f);
 	    renderer.setBarSpacing(20);
->>>>>>> 9058575421d75c46d2d5a55d54cddc76770cdfe8
 	    renderer.setShowAxes(false);
 	    renderer.setShowLegend(false);
 		renderer.setBackgroundColor(Color.parseColor("#efefef"));
 		renderer.setApplyBackgroundColor(true);
 		renderer.setPanEnabled(false, false); 
 		renderer.setZoomEnabled(false, false);
-<<<<<<< HEAD
-          renderer.setFitLegend(true);
-	    renderer.setLegendTextSize(25);
-          int[] margin=new int[]{0,0,0,0};
-          renderer.setMargins(margin);
-=======
 	    renderer.setLegendTextSize(5);
->>>>>>> 9058575421d75c46d2d5a55d54cddc76770cdfe8
 	    int length = colors.length;
 	    for (int i = 0; i < length; i++) {
 	      SimpleSeriesRenderer r = new SimpleSeriesRenderer();

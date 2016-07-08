@@ -14,13 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-<<<<<<< HEAD
-        android:text="圆滑曲线图"
-        android:background="#efefef"
-        />
-=======
         android:text="圆滑曲线图" />
->>>>>>> 9058575421d75c46d2d5a55d54cddc76770cdfe8
 
     <Button
         android:id="@+id/button4"

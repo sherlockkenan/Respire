@@ -48,6 +48,7 @@
         android:inputType="phone"
         android:ems="10"
         android:textSize="30dp"
+        android:id="@+id/phoneText"
         android:layout_marginTop="100dp"
         android:layout_marginLeft="130dp"
         />
@@ -60,5 +61,16 @@
         android:layout_marginTop="200dp"
         android:text="Save"
         android:textSize="25dp"
+        android:id="@+id/saveButton"
         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/infoText"
+        android:layout_below="@+id/saveButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#e8aaaa"
+        android:textSize="25dp" />
 </RelativeLayout>

@@ -33,7 +33,7 @@ public class LoginActivity extends Activity {
     private OnClickListener registerlistener=new OnClickListener(){
         public void onClick(View v){
             Intent logIntent = new Intent();
-            //logIntent.setClass(LoginActivity.this,RegisterActivity.class);
+            logIntent.setClass(LoginActivity.this,RegisterActivity.class);
             logIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             Bundle tbundle=new Bundle();
             startActivity(logIntent);

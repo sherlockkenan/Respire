@@ -11,29 +11,17 @@
         android:label="@string/app_name"
         android:largeHeap="true"
         android:supportsRtl="true"
-<<<<<<< HEAD
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity.LoginActivity" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".Activity.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name=".Activity.MainActivity" />
         <activity android:name=".Activity.RegisterActivity" />
         <activity android:name=".Activity.HomeActivity" />
-=======
-        android:theme="@style/AppTheme"
-        >
-
-
-
-
-
-
-        <activity android:name=".Activity.HomeActivity"></activity>
->>>>>>> e1d83599b3e4d187b555f2510909ee1add1b9d06
         <activity android:name=".Activity.MeActivity" />
 
         <service android:name=".Service.LoginService" />
@@ -41,18 +29,10 @@
         <!-- <receiver android:name=".Activity.LoginActivity$MyReceiver" /> -->
 
         <activity android:name=".Activity.LoginjumpActivity" />
-        <activity android:name=".Activity.ProfileActivity">
-
-        </activity>
+        <activity android:name=".Activity.ProfileActivity" />
         <activity android:name=".Activity.DiscoveryActivity" />
-
-        <activity android:name=".Activity.HistoryActivity">
-
-        </activity>
-        <activity android:name=".Activity.PageActivity">
-
-        </activity>
-<<<<<<< HEAD
+        <activity android:name=".Activity.HistoryActivity" />
+        <activity android:name=".Activity.PageActivity" />
         <activity android:name=".Activity.SuccessregActivity" />
         <activity android:name=".Activity.DrawActivity" />
         <activity android:name=".Activity.PhotoActivity" />
@@ -62,22 +42,10 @@
         <activity android:name=".Activity.ChangePhoneActivity" />
         <activity android:name=".Activity.ChangeEmailActivity" />
         <activity android:name=".Activity.ChangeSexActivity" />
-        <activity android:name=".Activity.ChangeCityActivity"></activity>
-=======
-        <activity android:name=".Activity.DrawActivity">
-
-        </activity>
-        <activity android:name=".Activity.SuccessregActivity">
-
-        </activity>
-        <activity android:name=".Activity.WrongregActivity">
-
-
-
-
-
-        </activity>
->>>>>>> e1d83599b3e4d187b555f2510909ee1add1b9d06
+        <activity android:name=".Activity.ChangeCityActivity" />
+        <activity android:name=".Activity.TodayActivity" />
+        <activity android:name=".Activity.PoolActivity"></activity>
+        <activity android:name=".Activity.AirqualityActivity"></activity>
     </application>
 
 </manifest>
