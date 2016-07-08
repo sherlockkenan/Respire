@@ -1,5 +1,6 @@
 package com.example.respireapp.Activity;
 
+import android.app.Activity;
 import android.content.Context;
 import android.graphics.Color;
 import android.graphics.Paint;
@@ -12,6 +13,19 @@ import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonObjectRequest;
+import com.android.volley.toolbox.Volley;
+import com.baidu.mapapi.SDKInitializer;
+import com.baidu.mapapi.map.BaiduMap;
+import com.baidu.mapapi.map.MapView;
+import com.baidu.mapapi.map.OverlayOptions;
+import com.baidu.mapapi.map.Polyline;
+import com.baidu.mapapi.map.PolylineOptions;
+import com.baidu.mapapi.model.LatLng;
 import com.example.respireapp.R;
 
 import org.achartengine.ChartFactory;
@@ -21,15 +35,28 @@ import org.achartengine.model.XYMultipleSeriesDataset;
 import org.achartengine.model.XYSeries;
 import org.achartengine.renderer.XYMultipleSeriesRenderer;
 import org.achartengine.renderer.XYSeriesRenderer;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.util.ArrayList;
+import java.util.List;
 
-public class TodayActivity extends AppCompatActivity {
+public class TodayActivity extends Activity {
+    MapView mMapView;
+    BaiduMap mBaiduMap;
+    List<LatLng> points = new ArrayList<LatLng>();
+    Polyline mPolyline;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        SDKInitializer.initialize(getApplicationContext());//是程序不崩溃的作用
         setContentView(R.layout.activity_today);
+
+        // 初始化地图
+        mMapView = (MapView) findViewById(R.id.bmapView);
+        mBaiduMap = mMapView.getMap();
 
         Button backButton=(Button) findViewById(R.id.backButton);
         backButton.setOnClickListener(new View.OnClickListener() {
@@ -55,6 +82,7 @@ public class TodayActivity extends AppCompatActivity {
                 findViewById(R.id.divider2).setVisibility(View.VISIBLE);
                 timeButton.setBackgroundResource(R.drawable.todaybutton1);
                 mapButton.setBackgroundResource(R.drawable.todaybutton0);
+                findViewById(R.id.bmapView).setVisibility(View.GONE);
 
                 int[] daypm25={200,350,100,400,600,700,800,560,150,366,364,235,643,668,345,357,476,256,473,854,356,357,356,754};
                 int[] dayco2={366,364,235,643,668,345,357,476,256,473,854,356,357,356,754,200,350,100,400,600,700,800,560,150};
@@ -93,6 +121,21 @@ public class TodayActivity extends AppCompatActivity {
                 findViewById(R.id.divider2).setVisibility(View.GONE);
                 timeButton.setBackgroundResource(R.drawable.todaybutton0);
                 mapButton.setBackgroundResource(R.drawable.todaybutton1);
+                findViewById(R.id.bmapView).setVisibility(View.VISIBLE);
+
+                // 界面加载时添加绘制图层
+                drawline();
+                // 点击polyline的事件响应
+                mBaiduMap.setOnPolylineClickListener(new BaiduMap.OnPolylineClickListener() {
+                    @Override
+                    public boolean onPolylineClick(Polyline polyline) {
+                        if (polyline == mPolyline) {
+                            polyline.setWidth(20);
+                            return true;
+                        }
+                        return false;
+                    }
+                });
             }
         });
 
@@ -154,5 +197,73 @@ public class TodayActivity extends AppCompatActivity {
         renderer.addSeriesRenderer(xyRenderer);
 
         return ChartFactory.getCubeLineChartView(context,dataset,renderer,0.33f);
+    }
+
+    /**
+     * 线
+     */
+    public void drawline() {
+        getdata();
+//        OverlayOptions ooPolyline = new PolylineOptions().width(10)
+//                .color(0xAAFF0000).points(points);
+//        mPolyline = (Polyline) mBaiduMap.addOverlay(ooPolyline);
+    }
+
+    public void  getdata(){
+        String url="http://192.168.16.130:8000/map/getalldata";
+        RequestQueue requestQueue= Volley.newRequestQueue(this);
+
+        JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url,
+                null, new Response.Listener<JSONObject>(){
+            public void onResponse(JSONObject result){
+                try {
+                    JSONArray returnvalue = result.getJSONArray("data");
+                    for(int i=0;i<returnvalue.length();++i){
+                        JSONObject temp= (JSONObject)returnvalue.get(i);
+                        double lat=temp.getDouble("latitude");
+                        double lon=temp.getDouble("longitude");
+                        points.add(new LatLng(lat,lon));
+                    }
+                    OverlayOptions ooPolyline = new PolylineOptions().width(10)
+                            .color(0xAAFF0000).points(points);
+                    mPolyline = (Polyline) mBaiduMap.addOverlay(ooPolyline);
+                }
+                catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }
+        }, new Response.ErrorListener() {
+            public void onErrorResponse(VolleyError error) {
+
+            }
+        });
+//        {
+//            @Override
+//            public Map<String, String> getHeaders() throws AuthFailureError {
+//                super.getHeaders();
+//                Map<String,String> headers=new HashMap<String,String>();
+//                headers.put("Cookie","JSESSIONID="+JSESSIONID);
+//                return headers;
+//            }
+//        };
+        requestQueue.add(request);
+    }
+
+    @Override
+    protected void onPause() {
+        mMapView.onPause();
+        super.onPause();
+    }
+
+    @Override
+    protected void onResume() {
+        mMapView.onResume();
+        super.onResume();
+    }
+
+    @Override
+    protected void onDestroy() {
+        mMapView.onDestroy();
+        super.onDestroy();
     }
 }

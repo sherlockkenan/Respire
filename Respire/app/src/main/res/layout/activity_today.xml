@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/todaybackground"
-    tools:context="com.example.respireapp.Activity.HistoryActivity">
+    tools:context="com.example.respireapp.Activity.TodayActivity">
 
     <Button
         android:layout_width="25dp"
@@ -149,6 +149,15 @@
             android:layout_marginLeft="10dp"
             android:visibility="gone" />
 
+
+
     </FrameLayout>
 
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/buttonlay"
+        android:layout_marginTop="10dp"
+        />
 </RelativeLayout>

@@ -19,6 +19,8 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.respireapp.Activity.map.HeatMap;
+import com.example.respireapp.Entity.MyBluetooth;
 import com.example.respireapp.R;
 
 import java.util.ArrayList;
@@ -46,9 +48,11 @@ import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.TranslateAnimation;
 import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -99,6 +103,9 @@ public class PageActivity extends Activity {
     private static final Object TAG = new Object();
     private RequestQueue mQueue;
 
+    private MyBluetooth myBluetooth;
+    int nowpm25=0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -106,6 +113,8 @@ public class PageActivity extends Activity {
 
         Bundle bundle=this.getIntent().getExtras();
         JSESSIONID=bundle.getString("sessionid");
+
+        myBluetooth=new MyBluetooth();
 
         InitImageView();
         InitTextView();
@@ -160,6 +169,44 @@ public class PageActivity extends Activity {
                 tbundle.putString("sessionid",JSESSIONID);
                 logIntent.putExtras(tbundle);
                 startActivity(logIntent);
+            }
+        });
+
+        Switch blue=(Switch) view1.findViewById(R.id.bluetoothSwitch);
+        blue.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView,boolean isChecked) {
+                if (isChecked) {
+                    String res=myBluetooth.connect();
+                    Toast.makeText(PageActivity.this, res, Toast.LENGTH_SHORT).show();
+                } else {
+                    String res=myBluetooth.disconnect();
+                    Toast.makeText(PageActivity.this, res, Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+        view1.findViewById(R.id.refreshButton).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int times=3;
+                String[] result=new String[times+1];
+                result=myBluetooth.getLines(times);
+                double sum=0;
+                for (int i=1;i<=times;i++){
+                    double num=Double.parseDouble(result[i]);
+                    sum+=num;
+                }
+                sum=sum/times;
+                nowpm25=(int)sum;
+
+
+                TextView dataText=(TextView) view1.findViewById(R.id.pm25Text);
+                dataText.setText(Integer.toString(nowpm25));
+
+                if (nowpm25>500){
+                    Toast.makeText(PageActivity.this, "空气污染十分严重！", Toast.LENGTH_SHORT).show();
+                }
             }
         });
 
@@ -487,6 +534,30 @@ public class PageActivity extends Activity {
                 startActivity(logIntent);
             }
         });
+        view3.findViewById(R.id.diagramButton).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent logIntent = new Intent();
+                logIntent.setClass(PageActivity.this,HeatMap.class);
+                logIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                Bundle tbundle=new Bundle();
+                tbundle.putString("sessionid",JSESSIONID);
+                logIntent.putExtras(tbundle);
+                startActivity(logIntent);
+            }
+        });
+        view3.findViewById(R.id.routeButton).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent logIntent = new Intent();
+                logIntent.setClass(PageActivity.this,ItineraryActivity.class);
+                logIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                Bundle tbundle=new Bundle();
+                tbundle.putInt("nowpm25",nowpm25);
+                logIntent.putExtras(tbundle);
+                startActivity(logIntent);
+            }
+        });
 
         view4=inflater.inflate(R.layout.activity_me, null);
         view4.findViewById(R.id.profileButton).setOnClickListener(new View.OnClickListener() {
@@ -597,7 +668,7 @@ public class PageActivity extends Activity {
             animation.setFillAfter(true);// True:图片停在动画结束位置
             animation.setDuration(300);
             imageView.startAnimation(animation);
-            Toast.makeText(PageActivity.this, "您选择了"+ viewPager.getCurrentItem()+"页卡", Toast.LENGTH_SHORT).show();
+            //Toast.makeText(PageActivity.this, "您选择了"+ viewPager.getCurrentItem()+"页卡", Toast.LENGTH_SHORT).show();
         }
     }
 
