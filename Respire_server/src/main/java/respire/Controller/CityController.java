@@ -27,6 +27,12 @@ public class CityController {
       ReturnValue result=new ReturnValue();
     try {
          List<CityNode> cityNodes = cityNodeServer.getCityNodes(fatherid);
+         if(cityNodes.size()==0){
+        	 CityNode cityNode = cityNodeServer.findByCityid(fatherid);
+        	 result.setReturn_type("success");
+             result.setData(JSONArray.fromObject(cityNode));
+             return result;
+         }
          
          result.setReturn_type("success");
          result.setData(JSONArray.fromObject(cityNodes));

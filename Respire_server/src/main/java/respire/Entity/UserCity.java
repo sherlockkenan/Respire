@@ -1,5 +1,7 @@
 package respire.Entity;
 
+
+
 public class UserCity {
 	private String city1;
 	private String city2;
