@@ -45,19 +45,19 @@ public class SceneryController {
 	SceneryService sceneryService;
 
 	@RequestMapping("/uploadfile")
-	public ReturnValue uploadfile(HttpServletRequest request, @RequestBody Scenery scenery,Map<String, String>photo) {
+	public ReturnValue uploadfile(HttpServletRequest request, @RequestBody Scenery scenery) {
 
 	
 		ReturnValue result = new ReturnValue();
 		
 		
 		try {
-			  String photo1=photo.get("photo");
+			  sceneryService.uploadfile(request, scenery);
 			  
                  System.out.println("success");
 				//System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
 				String Path= request.getSession().getServletContext().getRealPath("/")+"3.jpg";
-				GenerateImage(photo1, Path);
+				
 				 
 			
 			  result.setReturn_type("success");
@@ -72,28 +72,7 @@ public class SceneryController {
 
 	}
 
-	public static boolean GenerateImage(String imgStr, String imgFilePath) {// 对字节数组字符串进行Base64解码并生成图片
-		if (imgStr == null) // 图像数据为空
-			return false;
-		BASE64Decoder decoder = new BASE64Decoder();
-		try {
-			// Base64解码
-			byte[] bytes = decoder.decodeBuffer(imgStr);
-			for (int i = 0; i < bytes.length; ++i) {
-				if (bytes[i] < 0) {// 调整异常数据
-					bytes[i] += 256;
-				}
-			}
-			// 生成jpeg图片
-			OutputStream out = new FileOutputStream(imgFilePath);
-			out.write(bytes);
-			out.flush();
-			out.close();
-			return true;
-		} catch (Exception e) {
-			return false;
-		}
-	}
+	
 	
 	@RequestMapping("/getimage")
 	public ReturnValue getimage(HttpServletRequest request){

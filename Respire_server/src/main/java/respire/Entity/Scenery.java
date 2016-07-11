@@ -17,7 +17,7 @@ public class Scenery {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private String id;
 	
-	private String image_path;
+	private String photo;
 	
 	 private double latitude;
 	 
@@ -42,12 +42,14 @@ public class Scenery {
 		this.id = id;
 	}
 
-	public String getImage_path() {
-		return image_path;
+	
+
+	public String getPhoto() {
+		return photo;
 	}
 
-	public void setImage_path(String image_path) {
-		this.image_path = image_path;
+	public void setPhoto(String photo) {
+		this.photo = photo;
 	}
 
 	public double getLatitude() {

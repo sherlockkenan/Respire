@@ -13,5 +13,7 @@ import respire.Entity.Scenery;
 public interface SceneryDao extends CrudRepository<Scenery,Long>{
 	@Query("select s from Scenery s order by time desc")
       public List<Scenery> findAll();
+	
+	public Scenery findById(String id);
 }
 
