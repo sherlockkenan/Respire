@@ -1,5 +1,9 @@
 package respire.Entity;
 
+
+
+import java.util.Date;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -11,7 +15,7 @@ import javax.persistence.Table;
 public class Scenery {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private long id;
+	private String id;
 	
 	private String image_path;
 	
@@ -20,12 +24,21 @@ public class Scenery {
 	 private double longitude;
 	 
 	 private long userid;
+	 
+	 private int pm25;
+	 private int co2;
+	 private int so2;
+	 
+	 private String describtion;
+	 private Date time;
 
-	public long getId() {
+	
+
+	public String getId() {
 		return id;
 	}
 
-	public void setId(long id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 
@@ -59,6 +72,46 @@ public class Scenery {
 
 	public void setUserid(long userid) {
 		this.userid = userid;
+	}
+
+	public int getPm25() {
+		return pm25;
+	}
+
+	public void setPm25(int pm25) {
+		this.pm25 = pm25;
+	}
+
+	public int getCo2() {
+		return co2;
+	}
+
+	public void setCo2(int co2) {
+		this.co2 = co2;
+	}
+
+	public int getSo2() {
+		return so2;
+	}
+
+	public void setSo2(int so2) {
+		this.so2 = so2;
+	}
+
+	public String getDescribtion() {
+		return describtion;
+	}
+
+	public void setDescribtion(String describtion) {
+		this.describtion = describtion;
+	}
+
+	public Date getTime() {
+		return time;
+	}
+
+	public void setTime(Date time) {
+		this.time = time;
 	}
 
 }

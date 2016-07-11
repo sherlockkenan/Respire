@@ -165,7 +165,7 @@ public class HeatMap extends Activity {
     //发送请求
     public void  Send_request(){
 
-        String url="http://192.168.1.119:8000/map/getalldata";
+        String url="http://192.168.16.130:8000/map/getalldata";
         RequestQueue requestQueue= Volley.newRequestQueue(this);
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url,
                 null, new Response.Listener<JSONObject>(){

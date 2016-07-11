@@ -2,6 +2,7 @@ package respire.Service;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.List;
 import java.util.UUID;
 
 import javax.servlet.http.HttpServletRequest;
@@ -56,5 +57,10 @@ public class SceneryService {
 	public String makeFileName(String filename) {
 		String ext = filename.substring(filename.lastIndexOf(".") + 1);
 		return UUID.randomUUID().toString() + "." + ext;
+	}
+	
+	
+	public List<Scenery> getimage(){
+		return sceneryDao.findAll();
 	}
 }
