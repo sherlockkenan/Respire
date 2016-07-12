@@ -14,7 +14,6 @@ import javax.persistence.Table;
 @Table(name = "scenery")
 public class Scenery {
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
 	private String id;
 	
 	private String photo;

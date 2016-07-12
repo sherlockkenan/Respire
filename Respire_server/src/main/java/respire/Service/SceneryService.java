@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
+import java.util.Date;
 import java.util.List;
 import java.util.UUID;
 
@@ -29,44 +30,37 @@ public class SceneryService {
 
 
 	public void uploadfile(HttpServletRequest request,Scenery scenery) {
-		try {
-			
-	    	
-			
-			String savepath = "f://files/image/";
-			//
+		String savepath = "f://files/image/";
+		//
 
-			// create file
-			String filepath =savepath+"1.jpg";
-			String photo = null;
+		// create file
+		String filepath =null;
+		String photo ="";
 
-			// 转存文件
-			File file = new File(filepath);
-			file.getParentFile().mkdirs();
 
-			file.createNewFile();
-			JSONArray jsonArray=JSONArray.fromObject(scenery.getPhoto());
-			
-			for(int i=0;i<jsonArray.size();i++){
-				String savefilename = makeFileName();// 得到保存在硬盘的文件名
-				filepath=savepath+savefilename;
-			    GenerateImage(jsonArray.getString(i),filepath);
-			    photo=photo+"/image/"+savefilename+";";
-				
-			  
-			}
-			  scenery.setId(UUID.randomUUID().toString());
-			  scenery.setPhoto(photo);
-			  sceneryDao.save(scenery);
-			
+		JSONArray jsonArray=JSONArray.fromObject(scenery.getPhoto());
 		
+		for(int i=0;i<jsonArray.size();i++){
+			String savefilename = makeFileName();// 得到保存在硬盘的文件名
+			filepath=savepath+savefilename;
+		    GenerateImage(jsonArray.getString(i),filepath);
+		    photo=photo+"/image/"+savefilename+";";
 			
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+		  
 		}
+		  scenery.setId(UUID.randomUUID().toString());
+		  scenery.setTime(new Date());
+		  scenery.setPhoto(photo);
+		  
+		  User user=(User) request.getSession().getAttribute("user");
+		  if(user!=null){
+			  scenery.setUserid(user.getUserid());
+		  }
+		  sceneryDao.save(scenery);
 
 	}
+	
+	
 	public static boolean GenerateImage(String imgStr, String imgFilePath) {// 对字节数组字符串进行Base64解码并生成图片
 		if (imgStr == null) // 图像数据为空
 			return false;
