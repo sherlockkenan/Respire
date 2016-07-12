@@ -5,6 +5,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
@@ -30,6 +31,7 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
 
 import net.sf.json.JSONArray;
+import net.sf.json.JsonConfig;
 import sun.misc.*;
 
 import respire.Entity.Scenery;
@@ -37,6 +39,7 @@ import respire.Entity.Uploadfile;
 import respire.Entity.User;
 import respire.Result.ReturnValue;
 import respire.Service.SceneryService;
+import respire.Utils.JsonDateValueProcessor;
 
 @RestController
 @RequestMapping("/scenery")
@@ -77,7 +80,9 @@ public class SceneryController {
 			
 			List<Scenery> scenery=sceneryService.getimage();
 			 result.setReturn_type("success");
-		      result.setData(JSONArray.fromObject(scenery));
+			 JsonConfig jsonConfig = new JsonConfig();  
+			 jsonConfig.registerJsonValueProcessor(Date.class, new JsonDateValueProcessor());  
+		     result.setData(JSONArray.fromObject(scenery,jsonConfig));
 			
 			return result;
 		}

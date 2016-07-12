@@ -31,7 +31,6 @@ public class SceneryService {
 
 	public void uploadfile(HttpServletRequest request,Scenery scenery) {
 		String savepath = "f://files/image/";
-		//
 
 		// create file
 		String filepath =null;
@@ -54,7 +53,7 @@ public class SceneryService {
 		  
 		  User user=(User) request.getSession().getAttribute("user");
 		  if(user!=null){
-			  scenery.setUserid(user.getUserid());
+			  scenery.setUsername(user.getUsername());;
 		  }
 		  sceneryDao.save(scenery);
 

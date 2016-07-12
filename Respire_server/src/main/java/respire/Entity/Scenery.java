@@ -22,12 +22,13 @@ public class Scenery {
 	 
 	 private double longitude;
 	 
-	 private long userid;
+	 private String username;
 	 
 	 private int pm25;
 	 private int co2;
 	 private int so2;
 	 
+	 private String location;
 	 private String describtion;
 	 private Date time;
 
@@ -67,12 +68,22 @@ public class Scenery {
 		this.longitude = longitude;
 	}
 
-	public long getUserid() {
-		return userid;
+	
+
+	public String getUsername() {
+		return username;
 	}
 
-	public void setUserid(long userid) {
-		this.userid = userid;
+	public void setUsername(String username) {
+		this.username = username;
+	}
+
+	public String getLocation() {
+		return location;
+	}
+
+	public void setLocation(String location) {
+		this.location = location;
 	}
 
 	public int getPm25() {
