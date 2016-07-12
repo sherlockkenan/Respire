@@ -1,7 +1,6 @@
 package com.example.respireapp.Activity.map;
 
 import android.app.Activity;
-import android.content.Context;
 import android.os.Bundle;
 import android.widget.EditText;
 
@@ -22,9 +21,8 @@ import com.baidu.mapapi.map.OverlayOptions;
 import com.baidu.mapapi.map.Polyline;
 import com.baidu.mapapi.map.PolylineOptions;
 import com.baidu.mapapi.model.LatLng;
-import com.example.respireapp.Activity.Myapp;
+//import com.example.respireapp.Activity.map;
 import com.example.respireapp.R;
-import com.example.respireapp.Util.LocationUtils;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -68,9 +66,6 @@ public class UserDayMap extends Activity {
         //初始化参数
 //        myApp=(Myapp)getApplication();
 //        JSESSIONID=myApp.getSessionid();
-        LocationUtils.initLocation(this.getApplication());
-        double lat=LocationUtils.latitude;
-        double lon=LocationUtils.longitude;
 
         // 界面加载时添加绘制图层
         drawline();

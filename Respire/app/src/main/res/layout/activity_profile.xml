@@ -45,19 +45,20 @@
             android:layout_row="0"
             android:layout_column="0"
             android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
             android:textSize="25dp"
             android:textColor="#ffffff" />
 
-        <EditText
-            android:layout_width="249dp"
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:id="@+id/usernameText"
             android:layout_row="0"
             android:layout_column="1"
             android:layout_gravity="right|center_vertical"
-            android:text="ExampleUsername"
-            android:textSize="20dp"
-            />
+            android:text="Example"
+            android:textSize="25dp"
+            android:textColor="#c0baba" />
 
         <TextView
             android:text="Password : "
@@ -69,41 +70,16 @@
             android:textColor="#ffffff"
             />
 
-        <EditText
-            android:layout_width="249dp"
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:id="@+id/passwordText"
-            android:inputType="textPassword"
-            android:ems="10"
             android:layout_row="1"
             android:layout_column="1"
-            android:textSize="20dp"
-            android:layout_gravity="right|center_vertical"
-            android:text="ExamplePassword"
-
-            />
-
-        <TextView
-            android:text="Again : "
-            android:id="@+id/textView5"
-            android:layout_row="2"
-            android:layout_column="0"
-            android:layout_height="40dp"
             android:textSize="25dp"
-            android:textColor="#ffffff" />
-
-        <EditText
-            android:layout_width="249dp"
-            android:layout_height="30dp"
-            android:id="@+id/passwordText2"
-            android:inputType="textPassword"
-            android:ems="10"
-            android:layout_row="2"
-            android:layout_column="1"
             android:layout_gravity="right|center_vertical"
-            android:textSize="20dp"
-
-            />
+            android:text="Change"
+            android:textColor="#ffffff" />
 
         <TextView
             android:text="Phone : "
@@ -114,16 +90,16 @@
             android:textSize="25dp"
             android:textColor="#ffffff" />
 
-        <EditText
-            android:layout_width="249dp"
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:id="@+id/phoneText"
             android:layout_row="3"
             android:layout_column="1"
             android:layout_gravity="right|center_vertical"
-            android:text="ExamplePhone"
-            android:textSize="20dp"
-            />
+            android:text="110"
+            android:textSize="25dp"
+            android:textColor="#c0baba" />
 
         <TextView
             android:text="Email : "
@@ -134,16 +110,16 @@
             android:textSize="25dp"
             android:textColor="#ffffff" />
 
-        <EditText
-            android:layout_width="249dp"
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:id="@+id/emailText"
             android:layout_row="4"
             android:layout_column="1"
             android:layout_gravity="right|center_vertical"
             android:text="ExampleEmail"
-            android:textSize="20dp"
-            />
+            android:textSize="25dp"
+            android:textColor="#c0baba" />
 
         <TextView
             android:text="Gender : "
@@ -154,17 +130,19 @@
             android:textSize="25dp"
             android:textColor="#ffffff" />
 
-        <Spinner
-            android:layout_width="220dp"
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="30dp"
-            android:id="@+id/sexspinner"
+            android:id="@+id/sexText"
             android:layout_row="5"
             android:layout_column="1"
-            android:layout_gravity="center_vertical"
-            />
+            android:layout_gravity="right"
+            android:text="Female"
+            android:textSize="25dp"
+            android:textColor="#c0baba" />
 
         <TextView
-            android:text="City1 : "
+            android:text="City : "
             android:id="@+id/textView9"
             android:layout_row="6"
             android:layout_column="0"
@@ -172,81 +150,156 @@
             android:textSize="25dp"
             android:textColor="#ffffff" />
 
-        <Spinner
-            android:layout_width="220dp"
-            android:layout_height="30dp"
-            android:id="@+id/spinner1"
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:id="@+id/city1Text"
             android:layout_row="6"
             android:layout_column="1"
-            android:layout_gravity="center_vertical"
-            />
+            android:layout_gravity="right"
+            android:text="City1"
+            android:textSize="25dp"
+            android:textColor="#c0baba" />
 
         <TextView
-            android:text="City2 : "
-            android:id="@+id/textView10"
-            android:layout_row="7"
-            android:layout_column="0"
+            android:layout_width="wrap_content"
             android:layout_height="40dp"
-            android:textSize="25dp"
-            android:textColor="#ffffff" />
-
-        <Spinner
-            android:layout_width="220dp"
-            android:layout_height="30dp"
-            android:id="@+id/spinner2"
+            android:id="@+id/city2Text"
             android:layout_row="7"
             android:layout_column="1"
-            android:layout_gravity="center_vertical"
-            />
+            android:layout_gravity="right"
+            android:text="City2"
+            android:textSize="25dp"
+            android:textColor="#c0baba" />
 
         <TextView
-            android:text="City3 : "
-            android:id="@+id/textView11"
-            android:layout_row="8"
-            android:layout_column="0"
+            android:layout_width="wrap_content"
             android:layout_height="40dp"
-            android:textSize="25dp"
-            android:textColor="#ffffff" />
-
-        <Spinner
-            android:layout_width="220dp"
-            android:layout_height="30dp"
-            android:id="@+id/spinner3"
+            android:id="@+id/city3Text"
             android:layout_row="8"
             android:layout_column="1"
-            android:layout_gravity="center_vertical"
-            />
+            android:layout_gravity="right"
+            android:text="City3"
+            android:textSize="25dp"
+            android:textColor="#c0baba" />
 
         <TextView
-            android:text="City4 : "
-            android:id="@+id/textView12"
-            android:layout_row="9"
-            android:layout_column="0"
+            android:layout_width="wrap_content"
             android:layout_height="40dp"
-            android:textSize="25dp"
-            android:textColor="#ffffff" />
-
-        <Spinner
-            android:layout_width="220dp"
-            android:layout_height="30dp"
-            android:id="@+id/spinner4"
+            android:id="@+id/city4Text"
             android:layout_row="9"
             android:layout_column="1"
-            android:layout_gravity="center_vertical"
+            android:layout_gravity="right"
+            android:text="City4"
+            android:textSize="25dp"
+            android:textColor="#c0baba" />
+
+        <ImageView
+            android:src="@drawable/meright"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_row="0"
+            android:layout_column="2"
+            />
+        <ImageView
+            android:src="@drawable/meright"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            />
+        <ImageView
+            android:src="@drawable/meright"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_row="3"
+            android:layout_column="2"
+            />
+        <ImageView
+            android:src="@drawable/meright"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_row="4"
+            android:layout_column="2"
+            />
+        <ImageView
+            android:src="@drawable/meright"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_row="5"
+            android:layout_column="2"
+            />
+        <ImageView
+            android:src="@drawable/meright"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_row="6"
+            android:layout_column="2"
+            />
+
+        <Button
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_columnSpan="3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00ffffff"
+            android:id="@+id/usernameButton"
+            />
+        <Button
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_columnSpan="3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00ffffff"
+            android:id="@+id/passwordButton"
+            />
+        <Button
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_columnSpan="3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00ffffff"
+            android:id="@+id/phoneButton"
+            />
+        <Button
+            android:layout_row="4"
+            android:layout_column="0"
+            android:layout_columnSpan="3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00ffffff"
+            android:id="@+id/emailButton"
+            />
+        <Button
+            android:layout_row="5"
+            android:layout_column="0"
+            android:layout_columnSpan="3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00ffffff"
+            android:id="@+id/sexButton"
+            />
+        <Button
+            android:layout_row="6"
+            android:layout_column="0"
+            android:layout_columnSpan="3"
+            android:layout_rowSpan="4"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#00ffffff"
+            android:id="@+id/cityButton"
             />
 
     </GridLayout>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:text="Submit"
-        android:id="@+id/submitButton"
-        android:background="@drawable/loginbuttonbg"
-        android:textColor="#ffffff"
-        android:textSize="25dp"
-        android:layout_marginTop="480dp"
-        />
 
 
 </RelativeLayout>

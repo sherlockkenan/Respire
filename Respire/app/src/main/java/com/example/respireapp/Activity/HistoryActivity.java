@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 import com.example.respireapp.R;
 
@@ -30,47 +31,179 @@ import java.util.ArrayList;
 
 public class HistoryActivity extends Activity {
 
-    public LinearLayout layout;
+    public LinearLayout layout1;
+    public LinearLayout layout2;
+    public LinearLayout layout3;
+    double[] weekpm25=new double[]{100,200,300,250,150,400,350};
+    double[] weekco2=new double[]{100,200,300,250,150,400,350};
+    double[] weekso2=new double[]{100,200,300,250,150,400,350};
+    int[]weeklabel={1,2,3,4,5,6,7};
+    String[]weektext={"Mon","Tue","Wed","Thu","Fri","Sat","Sun"};
+    double[]monthpm25=new double[]{100,200,300,250,150,400,350,100,200,300,250,150,400,350,100,200,300,250,150,400,350,100,200,300,250,150,400,350,250,350,150};
+    double[]monthco2=new double[]{100,200,300,250,150,400,350,100,200,300,250,150,400,350,100,200,300,250,150,400,350,100,200,300,250,150,400,350,250,350,150};
+    double[]monthso2=new double[]{100,200,300,250,150,400,350,100,200,300,250,150,400,350,100,200,300,250,150,400,350,100,200,300,250,150,400,350,250,350,150};
+    int[]monthlabel={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31};
+    String[]monthtext={"1","","","","5","","","","","10","","","","","15","","","","","20","","","","","25","","","","","30"};
+    double[]yearpm25=new double[]{100,200,300,250,150,400,350,100,200,300,250,150};
+    double[]yearco2=new double[]{100,200,300,250,150,400,350,100,200,300,250,150};
+    double[]yearso2=new double[]{100,200,300,250,150,400,350,100,200,300,250,150};
+    int[]yearlabel={1,2,3,4,5,6,7,8,9,10,11,12};
+    String[]yeartext={"Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"};
+    String pm25average="300";
+    String co2average="100";
+    String so2average="50";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_history);
-        layout=(LinearLayout) findViewById(R.id.chart1);
+        layout1=(LinearLayout) findViewById(R.id.chart1);
+        layout2=(LinearLayout) findViewById(R.id.chart2);
+        layout3=(LinearLayout) findViewById(R.id.chart3);
         findViewById(R.id.weekButton).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                initView();
+                Button weekButton=(Button) findViewById(R.id.weekButton);
+                weekButton.setTextColor(Color.BLACK);
+                Button monthButton=(Button) findViewById(R.id.monthButton);
+                monthButton.setTextColor(Color.WHITE);
+                Button yearButton=(Button) findViewById(R.id.yearButton);
+                yearButton.setTextColor(Color.WHITE);
+                weekButton.setBackgroundResource(R.drawable.historybutton1);
+                monthButton.setBackgroundResource(R.drawable.historybutton0);
+                yearButton.setBackgroundResource(R.drawable.historybutton0);
+                TextView pm25text=(TextView)findViewById(R.id.pm25Average);
+                pm25text.setText("Average:"+pm25average);
+                TextView co2text=(TextView)findViewById(R.id.co2Average);
+                co2text.setText("Average:"+co2average);
+                TextView so2text=(TextView)findViewById(R.id.so2Average);
+                so2text.setText("Average:"+so2average);
+
+                ArrayList<double[]> value=new ArrayList<double[]>();
+                value.add(weekpm25);
+                int[]colors={Color.WHITE};
+                double[] border={1,7,0,500};
+                int width=20;
+                initView(value,colors,layout1,border,weeklabel,width,weektext);
+
+                ArrayList<double[]> value2=new ArrayList<double[]>();
+                value2.add(weekco2);
+                int[]colors2={Color.LTGRAY};
+                double[] border2={1,7,0,500};
+                int width2=20;
+                initView(value2,colors2,layout2,border2,weeklabel,width2,weektext);
+
+                ArrayList<double[]> value3=new ArrayList<double[]>();
+                value3.add(weekpm25);
+                int[]colors3={Color.WHITE};
+                double[] border3={1,7,0,500};
+                int width3=20;
+                initView(value3,colors3,layout3,border3,weeklabel,width3,weektext);
+            }
+        });
+
+        findViewById(R.id.monthButton).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Button weekButton=(Button) findViewById(R.id.weekButton);
+                weekButton.setTextColor(Color.WHITE);
+                Button monthButton=(Button) findViewById(R.id.monthButton);
+                monthButton.setTextColor(Color.BLACK);
+                Button yearButton=(Button) findViewById(R.id.yearButton);
+                yearButton.setTextColor(Color.WHITE);
+                weekButton.setBackgroundResource(R.drawable.historybutton0);
+                monthButton.setBackgroundResource(R.drawable.historybutton1);
+                yearButton.setBackgroundResource(R.drawable.historybutton0);
+                TextView pm25text=(TextView)findViewById(R.id.pm25Average);
+                pm25text.setText("Average:"+pm25average);
+                TextView co2text=(TextView)findViewById(R.id.co2Average);
+                co2text.setText("Average:"+co2average);
+                TextView so2text=(TextView)findViewById(R.id.so2Average);
+                so2text.setText("Average:"+so2average);
+                ArrayList<double[]> value=new ArrayList<double[]>();
+                value.add(monthpm25);
+                int[]colors={Color.WHITE};
+                double[] border={1,31,0,500};
+                int width=8;
+                initView(value,colors,layout1,border,monthlabel,width,monthtext);
+
+                ArrayList<double[]> value2=new ArrayList<double[]>();
+                value2.add(monthco2);
+                int[]colors2={Color.LTGRAY};
+                double[] border2={1,31,0,500};
+                int width2=8;
+                initView(value2,colors2,layout2,border2,monthlabel,width2,monthtext);
+
+                ArrayList<double[]> value3=new ArrayList<double[]>();
+                value3.add(monthso2);
+                int[]colors3={Color.WHITE};
+                double[] border3={1,31,0,500};
+                int width3=8;
+                initView(value3,colors3,layout3,border3,monthlabel,width3,monthtext);
+            }
+        });
+
+        findViewById(R.id.yearButton).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Button weekButton=(Button) findViewById(R.id.weekButton);
+                weekButton.setTextColor(Color.WHITE);
+                Button monthButton=(Button) findViewById(R.id.monthButton);
+                monthButton.setTextColor(Color.WHITE);
+                Button yearButton=(Button) findViewById(R.id.yearButton);
+                yearButton.setTextColor(Color.BLACK);
+                weekButton.setBackgroundResource(R.drawable.historybutton0);
+                monthButton.setBackgroundResource(R.drawable.historybutton0);
+                yearButton.setBackgroundResource(R.drawable.historybutton1);
+                TextView pm25text=(TextView)findViewById(R.id.pm25Average);
+                pm25text.setText("Average:"+pm25average);
+                TextView co2text=(TextView)findViewById(R.id.co2Average);
+                co2text.setText("Average:"+co2average);
+                TextView so2text=(TextView)findViewById(R.id.so2Average);
+                so2text.setText("Average:"+so2average);
+                ArrayList<double[]> value=new ArrayList<double[]>();
+                value.add(yearpm25);
+                int[]colors={Color.WHITE};
+                double[] border={1,12,0,500};
+                int width=20;
+                initView(value,colors,layout1,border,yearlabel,width,yeartext);
+
+                ArrayList<double[]> value2=new ArrayList<double[]>();
+                value2.add(yearco2);
+                int[]colors2={Color.LTGRAY};
+                double[] border2={1,12,0,500};
+                int width2=20;
+                initView(value2,colors2,layout2,border2,yearlabel,width2,yeartext);
+
+                ArrayList<double[]> value3=new ArrayList<double[]>();
+                value3.add(yearpm25);
+                int[]colors3={Color.WHITE};
+                double[] border3={1,12,0,500};
+                int width3=20;
+                initView(value3,colors3,layout3,border3,yearlabel,width3,yeartext);
             }
         });
     }
 
-    private void initView() {
+    private void initView(ArrayList<double[]>value,int[]colors,LinearLayout layout,double[]border,int[]xlabel,int width,String[]textLabel) {
         //柱状图的两个序列的名字
-        String[] titles = new String[] { "净利润" };
-        //存放柱状图两个序列的值
-        ArrayList<double[]> value = new ArrayList<double[]>();
-        double[] d1 = new double[] { 0.1, 0.3, 0.7, 0.8, 0.5 };
-        value.add(d1);
-        //两个状的颜色
-        int[] colors = { Color.GRAY};
+        String[] titles = new String[] { "1" };
         //为li1添加柱状图
+        layout.removeAllViews();
         layout.addView(
-                xychar(titles, value, colors, 5, 1, new double[] { 2008,
-                        2012.5, 0, 1 }, new int[] { 2008, 2009, 2010, 2011,
-                        2012 }, "", true),
+                xychar(titles, value, colors,xlabel.length , 0, border, xlabel, "", true,width,textLabel),
                 new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
                         ViewGroup.LayoutParams.MATCH_PARENT));
     }
 
     public GraphicalView xychar(String[] titles, ArrayList<double[]> value,
-                                int[] colors, int x, int y,double[] range, int []xLable ,String xtitle, boolean f) {
+                                int[] colors, int x, int y,double[] range, int []xLable ,String xtitle, boolean f,int width,String[]textLabel) {
         //多个渲染
         XYMultipleSeriesRenderer renderer = new XYMultipleSeriesRenderer();
         //多个序列的数据集
         XYMultipleSeriesDataset dataset = new XYMultipleSeriesDataset();
         //构建数据集以及渲染
         for (int i = 0; i < titles.length; i++) {
-
             XYSeries series = new XYSeries(titles[i]);
             double [] yLable= value.get(i);
             for (int j=0;j<yLable.length;j++) {
@@ -80,14 +213,13 @@ public class HistoryActivity extends Activity {
             XYSeriesRenderer xyRenderer = new XYSeriesRenderer();
             // 设置颜色
             xyRenderer.setColor(colors[i]);
-            // 设置点的样式 //
-           // xyRenderer.setPointStyle(PointStyle.SQUARE);
-            // 将要绘制的点添加到坐标绘制中
-
             renderer.addSeriesRenderer(xyRenderer);
         }
         //设置x轴标签数
-        renderer.setXLabels(x);
+        renderer.setXLabels(0);
+        for (int i=0;i<textLabel.length;i++){
+            renderer.addXTextLabel(xLable[i],textLabel[i]);
+        }
         //设置Y轴标签数
         renderer.setYLabels(y);
         //设置x轴的最大值
@@ -99,24 +231,22 @@ public class HistoryActivity extends Activity {
         renderer.setYLabelsAlign(Paint.Align.CENTER);
         // 设置现实网格
         renderer.setShowGrid(false);
-
+        renderer.setShowLegend(false);
         renderer.setShowAxes(false);
         // 设置条形图之间的距离
         renderer.setBarSpacing(0.2);
-        renderer.setBarWidth(50);
+        renderer.setBarWidth(width);
         renderer.setInScroll(false);
         renderer.setPanEnabled(false, false);
         renderer.setClickEnabled(false);
         //设置x轴和y轴标签的颜色
         renderer.setXLabelsColor(Color.GRAY);
         renderer.setYLabelsColor(0,Color.GRAY);
-
         int length = renderer.getSeriesRendererCount();
         //设置图标的标题
         //renderer.setChartTitle(xtitle);
         renderer.setLabelsColor(Color.RED);
         renderer.setLabelsTextSize(20);
-
         //设置图例的字体大小
         renderer.setLegendTextSize(18);
         //设置x轴和y轴的最大最小值
@@ -130,9 +260,6 @@ public class HistoryActivity extends Activity {
         }
         GraphicalView mChartView = ChartFactory.getBarChartView(getApplicationContext(),
                 dataset, renderer, BarChart.Type.DEFAULT);
-
         return mChartView;
-
     }
-
 }

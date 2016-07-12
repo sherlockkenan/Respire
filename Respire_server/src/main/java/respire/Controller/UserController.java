@@ -146,25 +146,31 @@ public class UserController {
 
 	@RequestMapping("/update")
 	@ResponseBody
-	public ReturnValue updateUser(@RequestBody User user) {
+	public ReturnValue updateUser(@RequestBody User user, HttpServletRequest request) {
 		ReturnValue result = new ReturnValue();
+		User oldUser = (User) request.getSession().getAttribute("user");
 		try {
-			long id = user.getUserid();
-			User oldUser = userServer.find(id);
-
 			if (oldUser == null) {
 				result.setReturn_type("fail");
-				result.setData("Error updating the user: User not found!");
+				result.setData("Error updating the user: not login!");
 				return result;
 			}
 
-			if (oldUser.getUsername() != user.getUsername()) {
-				result.setReturn_type("fail");
-				result.setData("Error updating the user: Userid or username is not correct.");
-				return result;
-			}
+//			if (oldUser.getUsername() != user.getUsername()) {
+//				System.out.println(oldUser.getUsername());
+//				System.out.println(user.getUsername());
+//				result.setReturn_type("fail");
+//				result.setData("Error updating the user: Userid or username is not correct.");
+//				return result;
+//			}
 
-			userServer.update(user);
+			oldUser.setEmail(user.getEmail());
+			oldUser.setRole(user.getRole());
+			oldUser.setCityid(user.getCityid());
+			oldUser.setPassword(user.getPassword());
+			oldUser.setPhone(user.getPhone());
+			oldUser.setSex(user.getSex());
+			userServer.update(oldUser);
 			result.setReturn_type("success");
 			result.setData("User succesfully updated.");
 			return result;

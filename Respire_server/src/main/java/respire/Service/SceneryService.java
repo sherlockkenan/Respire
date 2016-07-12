@@ -14,6 +14,7 @@ import org.springframework.stereotype.Service;
 
 import org.springframework.web.multipart.MultipartFile;
 
+import net.sf.json.JSONArray;
 import respire.Dao.SceneryDao;
 import respire.Entity.Scenery;
 import respire.Entity.User;
@@ -31,30 +32,34 @@ public class SceneryService {
 		try {
 			
 	    	
-			String savefilename = makeFileName();// 得到保存在硬盘的文件名
-			String savepath = request.getSession().getServletContext().getRealPath("/") + "image/";
+			
+			String savepath = "f://files/image/";
 			//
 
 			// create file
-			String filepath = savepath + savefilename;
+			String filepath =savepath+"1.jpg";
+			String photo = null;
 
 			// 转存文件
 			File file = new File(filepath);
 			file.getParentFile().mkdirs();
 
 			file.createNewFile();
+			JSONArray jsonArray=JSONArray.fromObject(scenery.getPhoto());
 			
-			GenerateImage(scenery.getPhoto(), filepath);
-			
-			Scenery find=sceneryDao.findById(scenery.getId());
-			if(find==null)
-			{
-			  scenery.setPhoto("/image/"+savefilename+";");
+			for(int i=0;i<jsonArray.size();i++){
+				String savefilename = makeFileName();// 得到保存在硬盘的文件名
+				filepath=savepath+savefilename;
+			    GenerateImage(jsonArray.getString(i),filepath);
+			    photo=photo+"/image/"+savefilename+";";
+				
+			  
+			}
+			  scenery.setId(UUID.randomUUID().toString());
+			  scenery.setPhoto(photo);
 			  sceneryDao.save(scenery);
-			}else{
-				String image=find.getPhoto();
-				scenery.setPhoto(image+"/image/"+savefilename+";");
-				sceneryDao.save(scenery);			}
+			
+		
 			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block

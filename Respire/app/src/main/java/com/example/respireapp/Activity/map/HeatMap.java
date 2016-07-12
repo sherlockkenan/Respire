@@ -49,16 +49,10 @@ public class HeatMap extends Activity {
     private Button co2;
     private Button so2;
 
-
     //获得的数据
     List<WeightedLatLng> pm25_list = new ArrayList<WeightedLatLng>();
     List<WeightedLatLng> so2_list = new ArrayList<WeightedLatLng>();
     List<WeightedLatLng> co2_list = new ArrayList<WeightedLatLng>();
-
-
-
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,11 +60,16 @@ public class HeatMap extends Activity {
         SDKInitializer.initialize(getApplicationContext());//是程序不崩溃的作用
         setContentView(R.layout.activity_heatmap);
 
+        Button backButton=(Button) findViewById(R.id.backButton);
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                HeatMap.this.finish();
+            }
+        });
+
         // 获取LocationClient
         mLocClient = new LocationClient(this);
-
-
-
 
         LocationClientOption option = new LocationClientOption();
         option.setCoorType("bd09ll");
@@ -114,7 +113,6 @@ public class HeatMap extends Activity {
         co2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 heatmap.removeHeatMap();
-
                 addHeatMap("co2");
                 co2.setEnabled(false);
                 so2.setEnabled(true);
@@ -140,7 +138,6 @@ public class HeatMap extends Activity {
             public void handleMessage(Message msg) {
                 super.handleMessage(msg);
                 mBaiduMap.addHeatMap(heatmap);
-
             }
         };
         final String name=type;
@@ -159,12 +156,8 @@ public class HeatMap extends Activity {
         }.start();
     }
 
-
-
-
     //发送请求
     public void  Send_request(){
-
         String url="http://192.168.16.130:8000/map/getalldata";
         RequestQueue requestQueue= Volley.newRequestQueue(this);
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url,
@@ -190,7 +183,6 @@ public class HeatMap extends Activity {
                     co2.setEnabled(true);
 
                     addHeatMap("pm25");
-
                 }
                 catch (JSONException e) {
                     e.printStackTrace();
@@ -198,18 +190,14 @@ public class HeatMap extends Activity {
             }
         }, new Response.ErrorListener() {
             public void onErrorResponse(VolleyError error) {
-
             }
         });
         requestQueue.add(request);
     }
 
-
     private class MyLocationListener implements BDLocationListener {
-
         @Override
         public void onReceiveLocation(BDLocation location) {
-
             // 只是完成了定位
             MyLocationData locData = new MyLocationData.Builder().latitude(location.getLatitude())
                     .longitude(location.getLongitude()).build();
@@ -229,20 +217,16 @@ public class HeatMap extends Activity {
         }
     }
 
-
     /**
      * 定位并添加标注
      */
     private void ToMyLocation() {
-
         //定义坐标点
         LatLng point = new LatLng(latitude, longitude);
         // 开始移动百度地图的定位地点到中心位置
         MapStatusUpdate u = MapStatusUpdateFactory.newLatLngZoom(point, 16.0f);
         mBaiduMap.animateMapStatus(u);
     }
-
-
 
     @Override
     protected void onPause() {
@@ -266,6 +250,4 @@ public class HeatMap extends Activity {
         mMapView = null;
         super.onDestroy();
     }
-
-
 }

@@ -19,6 +19,10 @@ public class CityNodeService {
 		return cityNodeDao.findByFatherid(fatherid);
 	}
 	
+	public CityNode findByCityid(int fatherid){
+		return cityNodeDao.findByCityid(fatherid);
+	}
+	
 	public UserCity getusercity(int city4){
 		UserCity userCity=new UserCity();
 		CityNode citynode4=cityNodeDao.findByCityid(city4);

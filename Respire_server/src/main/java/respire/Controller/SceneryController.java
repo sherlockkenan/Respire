@@ -33,6 +33,7 @@ import net.sf.json.JSONArray;
 import sun.misc.*;
 
 import respire.Entity.Scenery;
+import respire.Entity.Uploadfile;
 import respire.Entity.User;
 import respire.Result.ReturnValue;
 import respire.Service.SceneryService;
@@ -54,12 +55,7 @@ public class SceneryController {
 		try {
 			  sceneryService.uploadfile(request, scenery);
 			  
-                 System.out.println("success");
-				//System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
-				String Path= request.getSession().getServletContext().getRealPath("/")+"3.jpg";
-				
-				 
-			
+        	
 			  result.setReturn_type("success");
 		      result.setData("success to upload");
 			  return result;
