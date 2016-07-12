@@ -31,7 +31,7 @@ public class DataModel {
 		if(type == 1) formatter = new SimpleDateFormat("MM-dd");
 		if(type == 2) formatter = new SimpleDateFormat("dd");
 		if(type == 3) formatter = new SimpleDateFormat("MM");
-		if(type == 4) formatter = new SimpleDateFormat("hh:mm:ss");
+		if(type == 4) formatter = new SimpleDateFormat("HH");
 		this.time = formatter.format(time);
 		this.pm25 = (int) pm25;
 		this.so2 = (int) so2;
