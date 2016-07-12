@@ -11,6 +11,7 @@ import java.util.UUID;
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import org.springframework.web.multipart.MultipartFile;
@@ -27,10 +28,12 @@ public class SceneryService {
 	@Autowired
 	SceneryDao sceneryDao;
 	
-
+	@Value("${image.savepath}")
+	private String savepath ;
 
 	public void uploadfile(HttpServletRequest request,Scenery scenery) {
-		String savepath = "f://files/image/";
+		
+		
 
 		// create file
 		String filepath =null;
