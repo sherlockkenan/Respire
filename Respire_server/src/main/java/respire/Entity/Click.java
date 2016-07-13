@@ -6,5 +6,6 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "click")
 public class Click {
-
+	private String userid;
+  
 }
