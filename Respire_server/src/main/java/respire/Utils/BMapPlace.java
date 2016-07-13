@@ -15,7 +15,7 @@ public class BMapPlace {
 	  static private String ak="yn3IeGY1mBSnpjnDzRjGxbeKD2IzPY8s";
 	  
 	  
-      static public Geocoding changelocation(double longitude,double latitude){
+      static public Geocoding transformlocation(double latitude,double longitude){
     	  Geocoding geocoding=new Geocoding();
     	  
     	  String url="http://api.map.baidu.com/geocoder/v2/";

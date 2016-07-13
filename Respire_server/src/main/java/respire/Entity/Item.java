@@ -1,10 +1,13 @@
 package respire.Entity;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
-
+@Entity
+@Table(name = "item")
 public class Item {
+	    @Id
 	    String itemid;
 	    String recomid;
 	    int time;

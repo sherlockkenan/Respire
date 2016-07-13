@@ -38,6 +38,7 @@ import respire.Entity.Scenery;
 import respire.Entity.Uploadfile;
 import respire.Entity.User;
 import respire.Result.ReturnValue;
+import respire.Result.SceneryDataModel;
 import respire.Service.SceneryService;
 import respire.Utils.JsonDateValueProcessor;
 
@@ -57,8 +58,6 @@ public class SceneryController {
 		
 		try {
 			  sceneryService.uploadfile(request, scenery);
-			  
-        	
 			  result.setReturn_type("success");
 		      result.setData("success to upload");
 			  return result;
@@ -68,21 +67,20 @@ public class SceneryController {
 			 result.setData(e.toString());
 			 return result;
 		}
-
 	}
 
 	
 	
 	@RequestMapping("/getimage")
-	public ReturnValue getimage(HttpServletRequest request){
+	public ReturnValue getimage(HttpServletRequest request,@RequestBody Scenery scenery){
 		ReturnValue result = new ReturnValue();
 		try{
 			
-			List<Scenery> scenery=sceneryService.getimage();
+			 List<SceneryDataModel> sceneries=sceneryService.getimage(scenery.getLatitude(),scenery.getLongitude());
 			 result.setReturn_type("success");
 			 JsonConfig jsonConfig = new JsonConfig();  
 			 jsonConfig.registerJsonValueProcessor(Date.class, new JsonDateValueProcessor());  
-		     result.setData(JSONArray.fromObject(scenery,jsonConfig));
+		     result.setData(JSONArray.fromObject(sceneries,jsonConfig));
 			
 			return result;
 		}

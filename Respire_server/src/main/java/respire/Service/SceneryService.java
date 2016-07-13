@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.UUID;
@@ -18,8 +19,12 @@ import org.springframework.web.multipart.MultipartFile;
 
 import net.sf.json.JSONArray;
 import respire.Dao.SceneryDao;
+import respire.Entity.Geocoding;
 import respire.Entity.Scenery;
 import respire.Entity.User;
+import respire.Result.SceneryDataModel;
+import respire.Utils.BMapPlace;
+import respire.Utils.DistanceCompu;
 import sun.misc.BASE64Decoder;
 
 @Service
@@ -58,10 +63,13 @@ public class SceneryService {
 		  if(user!=null){
 			  scenery.setUsername(user.getUsername());;
 		  }
+		  
+		  Geocoding geocoding=BMapPlace.transformlocation(scenery.getLatitude(),scenery.getLongitude());
+		  scenery.setId(geocoding.getUid());
+		  scenery.setLocation(geocoding.getName());
 		  sceneryDao.save(scenery);
 
 	}
-	
 	
 	public static boolean GenerateImage(String imgStr, String imgFilePath) {// 对字节数组字符串进行Base64解码并生成图片
 		if (imgStr == null) // 图像数据为空
@@ -91,7 +99,16 @@ public class SceneryService {
 	}
 	
 	
-	public List<Scenery> getimage(){
-		return sceneryDao.findAll();
+	public List<SceneryDataModel> getimage(double lat,double lng){
+	    List<Scenery>scenery= sceneryDao.findAll();
+	    List<SceneryDataModel> sceneries=new ArrayList<SceneryDataModel>();
+	    for(int i=0;i<scenery.size();i++){
+	    	double distance=DistanceCompu.GetDistance(lat, lng, scenery.get(i).getLatitude(), scenery.get(i).getLongitude());
+	    	SceneryDataModel sModel=new SceneryDataModel(scenery.get(i),distance);
+	    	sceneries.add(sModel);
+	    	
+	    }
+	    return sceneries;
+	    
 	}
 }
