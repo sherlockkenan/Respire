@@ -16,7 +16,7 @@ import javax.persistence.Table;
 public class Datanow {
 	
 	@Id
-   private long userid;
+   private String userid;
 	
 	@Id
 	private Date time;
@@ -25,13 +25,13 @@ public class Datanow {
     private int so2;
     private int co2;
     
-    private float latitude;
-    private float longitude;
+    private double latitude;
+    private double longitude;
     
-	public long getUserid() {
+	public String getUserid() {
 		return userid;
 	}
-	public void setUserid(long userid) {
+	public void setUserid(String userid) {
 		this.userid = userid;
 	}
 	public Date getTime() {
@@ -58,16 +58,16 @@ public class Datanow {
 	public void setCo2(int co2) {
 		this.co2 = co2;
 	}
-	public float getLatitude() {
+	public double getLatitude() {
 		return latitude;
 	}
-	public void setLatitude(float latitude) {
+	public void setLatitude(double latitude) {
 		this.latitude = latitude;
 	}
-	public float getLongitude() {
+	public double getLongitude() {
 		return longitude;
 	}
-	public void setLongitude(float longitude) {
+	public void setLongitude(double longitude) {
 		this.longitude = longitude;
 	}
     

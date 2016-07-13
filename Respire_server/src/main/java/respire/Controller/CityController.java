@@ -7,9 +7,10 @@ import net.sf.json.JSONArray;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import respire.Server.CityNodeServer;
+
 import respire.Entity.CityNode;
 import respire.Result.ReturnValue;
+import respire.Service.CityNodeService;
 
 
 /**
@@ -26,6 +27,12 @@ public class CityController {
       ReturnValue result=new ReturnValue();
     try {
          List<CityNode> cityNodes = cityNodeServer.getCityNodes(fatherid);
+         if(cityNodes.size()==0){
+        	 CityNode cityNode = cityNodeServer.findByCityid(fatherid);
+        	 result.setReturn_type("success");
+             result.setData(JSONArray.fromObject(cityNode));
+             return result;
+         }
          
          result.setReturn_type("success");
          result.setData(JSONArray.fromObject(cityNodes));
@@ -41,5 +48,5 @@ public class CityController {
   }
   
   @Autowired
-  private CityNodeServer cityNodeServer;
+  private CityNodeService cityNodeServer;
 }

@@ -23,6 +23,6 @@ public interface CityNodeDao extends CrudRepository<CityNode, Integer> {
 
   public List<CityNode> findByFatherid(int fatherid);
   
- 
+  public CityNode findByCityid(int cityid);
 
 } // class UserDao

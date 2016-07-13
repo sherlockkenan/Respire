@@ -1,4 +1,6 @@
-package respire.Server;
+package respire.Service;
+
+import java.util.UUID;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -9,7 +11,7 @@ import respire.Entity.Datanow;
 import respire.Entity.User;
 
 @Service
-public class UserServer {
+public class UserService {
     //atuowired the userdao
 	@Autowired
 	private UserDao userDao;
@@ -26,9 +28,13 @@ public class UserServer {
      
      //user register
      public User register(User user){
-    	    
- 		return userDao.save(user);
-     	 
+    	 if(userDao.findByUsername(user.getUsername())!=null)
+    	 {
+    		 return null;
+    	 }
+    	 user.setUserid(UUID.randomUUID().toString());
+ 		 return userDao.save(user);
+ 		 	 
       }
      
      public void postdata(Datanow datanow){
@@ -47,7 +53,7 @@ public class UserServer {
      	 
      }
      
-     public User find(long id){
+     public User find(String id){
     	 User user = userDao.findOne(id);
     	 return user;
      }
