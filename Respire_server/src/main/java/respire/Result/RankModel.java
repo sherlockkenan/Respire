@@ -4,9 +4,9 @@ public class RankModel {
 
 	
 	private double pm25;
-	private long userid;
+	private String userid;
 	
-	public RankModel(long userid,int pm25) {
+	public RankModel(String userid,int pm25) {
 		super();
 		this.userid = userid;
 		this.pm25 = pm25;
@@ -16,11 +16,11 @@ public class RankModel {
 		super();
 	}
 	
-	public long getUserid(){
+	public String getUserid(){
 		return userid;
 	}
 	
-	public void setUserid(long userid){
+	public void setUserid(String userid){
 		this.userid = userid;
 	}
 	
