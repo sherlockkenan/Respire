@@ -16,7 +16,7 @@ import javax.persistence.Table;
 public class Dataday {
 	
 	@Id
-	private long userid;
+	private String userid;
 	
 	@Id
 	private Date time;
@@ -25,10 +25,10 @@ public class Dataday {
     private int so2;
     private int co2;
     
-	public long getUserid() {
+	public String getUserid() {
 		return userid;
 	}
-	public void setUserid(long userid) {
+	public void setUserid(String userid) {
 		this.userid = userid;
 	}
 	public Date getTime() {

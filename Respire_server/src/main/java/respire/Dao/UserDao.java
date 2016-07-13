@@ -16,7 +16,7 @@ import respire.Entity.User;
  */
 //@Transactional
 @Repository 
-public interface UserDao extends CrudRepository<User, Long> {
+public interface UserDao extends CrudRepository<User, String> {
 
 
   public User findByUsernameAndPassword(String username,String password);

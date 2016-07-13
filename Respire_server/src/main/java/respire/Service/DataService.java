@@ -20,7 +20,7 @@ public class DataService {
     	   
        }
        
-       public List<MapDataModel> get_user_data(long userid){
+       public List<MapDataModel> get_user_data(String userid){
     	   return datanowDao.getbyuser(userid);
     	   
        }

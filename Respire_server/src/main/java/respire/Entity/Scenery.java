@@ -29,7 +29,7 @@ public class Scenery {
 	 private int so2;
 	 
 	 private String location;
-	 private String describtion;
+	 private String description;
 	 private Date time;
 
 	
@@ -111,11 +111,11 @@ public class Scenery {
 	}
 
 	public String getDescribtion() {
-		return describtion;
+		return description;
 	}
 
 	public void setDescribtion(String describtion) {
-		this.describtion = describtion;
+		this.description = describtion;
 	}
 
 	public Date getTime() {

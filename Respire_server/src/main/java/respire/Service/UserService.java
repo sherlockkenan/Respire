@@ -1,5 +1,7 @@
 package respire.Service;
 
+import java.util.UUID;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -30,6 +32,7 @@ public class UserService {
     	 {
     		 return null;
     	 }
+    	 user.setUserid(UUID.randomUUID().toString());
  		 return userDao.save(user);
  		 	 
       }
@@ -50,7 +53,7 @@ public class UserService {
      	 
      }
      
-     public User find(long id){
+     public User find(String id){
     	 User user = userDao.findOne(id);
     	 return user;
      }
