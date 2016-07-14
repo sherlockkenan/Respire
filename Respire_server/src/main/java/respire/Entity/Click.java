@@ -1,18 +1,24 @@
 package respire.Entity;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+
+import org.hibernate.annotations.GenericGenerator;
 
 @Entity
 @Table(name = "click")
 public class Click {
 	
 	@Id
+	@GeneratedValue(generator="system-uuid")
+	@GenericGenerator(name="system-uuid", strategy = "uuid")
 	private String clickid;
 	private String userid;
 	private String itemid;
-	private double lengrh;
+	private double time;
 	
 	
 	public String getClickid() {
@@ -33,12 +39,13 @@ public class Click {
 	public void setItemid(String itemid) {
 		this.itemid = itemid;
 	}
-	public double getLengrh() {
-		return lengrh;
+	public double getTime() {
+		return time;
 	}
-	public void setLengrh(double lengrh) {
-		this.lengrh = lengrh;
+	public void setTime(double time) {
+		this.time = time;
 	}
+	
 	
   
 }

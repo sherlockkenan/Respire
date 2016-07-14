@@ -55,7 +55,6 @@ public class SceneryController {
 	
 		ReturnValue result = new ReturnValue();
 		
-		
 		try {
 			  sceneryService.uploadfile(request, scenery);
 			  result.setReturn_type("success");

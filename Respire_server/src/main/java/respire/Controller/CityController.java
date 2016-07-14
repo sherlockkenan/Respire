@@ -8,7 +8,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import respire.Dao.RecommandDao;
 import respire.Entity.CityNode;
+import respire.Entity.Recommand;
 import respire.Result.ReturnValue;
 import respire.Service.CityNodeService;
 
@@ -25,6 +27,9 @@ public class CityController {
   @ResponseBody
   public ReturnValue getCityNodes(int fatherid) {
       ReturnValue result=new ReturnValue();
+      Recommand recommand=new Recommand();
+      recommand.setItemid1("1");
+      recommandDao.save(recommand);
     try {
          List<CityNode> cityNodes = cityNodeServer.getCityNodes(fatherid);
          if(cityNodes.size()==0){
@@ -49,4 +54,6 @@ public class CityController {
   
   @Autowired
   private CityNodeService cityNodeServer;
+  @Autowired
+  private RecommandDao recommandDao;
 }

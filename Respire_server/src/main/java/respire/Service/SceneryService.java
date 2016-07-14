@@ -32,6 +32,8 @@ public class SceneryService {
 	
 	@Autowired
 	SceneryDao sceneryDao;
+	@Autowired
+	UpdateAirService updateAirService;
 	
 	@Value("${image.savepath}")
 	private String savepath ;
@@ -100,15 +102,16 @@ public class SceneryService {
 	
 	
 	public List<SceneryDataModel> getimage(double lat,double lng){
-	    List<Scenery>scenery= sceneryDao.findAll();
-	    List<SceneryDataModel> sceneries=new ArrayList<SceneryDataModel>();
-	    for(int i=0;i<scenery.size();i++){
-	    	double distance=DistanceCompu.GetDistance(lat, lng, scenery.get(i).getLatitude(), scenery.get(i).getLongitude());
-	    	SceneryDataModel sModel=new SceneryDataModel(scenery.get(i),distance);
-	    	sceneries.add(sModel);
+	    List<Scenery>sceneries= sceneryDao.findAll();
+	    List<SceneryDataModel> scenery=new ArrayList<SceneryDataModel>();
+	    for(int i=0;i<sceneries.size();i++){
+	    	Scenery scenery2=updateAirService.search_for_update(sceneries.get(i));
+	    	double distance=DistanceCompu.GetDistance(lat, lng, scenery2.getLatitude(), scenery2.getLongitude());
+	    	SceneryDataModel sModel=new SceneryDataModel(scenery2,distance);
+	    	scenery.add(sModel);
 	    	
 	    }
-	    return sceneries;
+	    return scenery;
 	    
 	}
 }
