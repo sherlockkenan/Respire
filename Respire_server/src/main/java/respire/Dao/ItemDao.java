@@ -8,5 +8,6 @@ import respire.Entity.Item;
 
 @Repository
 public interface ItemDao extends CrudRepository<Item, String> {
+	public Item findByItemid(String itemid);
 
 }

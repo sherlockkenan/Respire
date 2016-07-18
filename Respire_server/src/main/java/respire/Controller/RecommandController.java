@@ -49,14 +49,16 @@ public class RecommandController {
 	}
 	
 	@RequestMapping("getrecommand")
-	public ReturnValue getrecommand(HttpServletRequest request){
+	public ReturnValue getrecommand(HttpServletRequest request,@RequestBody Search search){
 		ReturnValue result=new ReturnValue();
 		User user=(User) request.getSession().getAttribute("user");
 		if(user!=null){
-	       List<SceneryDataModel> recommand=recommandService.getrecommand(user.getUserid());
+	       List<SceneryDataModel> recommand=recommandService.getrecommand(user.getUserid(),search.getLatitude(),search.getLongitude());
+	       result.setReturn_type("success");
+		   result.setData(JSONArray.fromObject(recommand));
+		   return result;
 		}
-		result.setReturn_type("success");
-		
+				
 		
 		return result;	
 		
