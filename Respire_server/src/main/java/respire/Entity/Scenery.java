@@ -10,11 +10,17 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import org.hibernate.annotations.GenericGenerator;
+
 @Entity
 @Table(name = "scenery")
 public class Scenery {
 	@Id
+	@GeneratedValue(generator="system-uuid")
+	@GenericGenerator(name="system-uuid", strategy = "uuid")
 	private String id;
+	
+	private String uid;
 	
 	private String photo;
 	
@@ -124,6 +130,14 @@ public class Scenery {
 
 	public void setTime(Date time) {
 		this.time = time;
+	}
+
+	public String getUid() {
+		return uid;
+	}
+
+	public void setUid(String uid) {
+		this.uid = uid;
 	}
 
 }

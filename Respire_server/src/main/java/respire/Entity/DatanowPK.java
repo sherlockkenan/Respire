@@ -10,15 +10,17 @@ public class DatanowPK implements Serializable{
 	 */
 	private static final long serialVersionUID = 1L;
 
-	private long userid;
+	private String userid;
 		
     private Date time;
 
-	public long getUserid() {
+
+
+	public String getUserid() {
 		return userid;
 	}
 
-	public void setUserid(long userid) {
+	public void setUserid(String userid) {
 		this.userid = userid;
 	}
 

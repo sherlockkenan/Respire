@@ -41,7 +41,7 @@ public class BMapPlace {
     	  return geocoding;
       }
       
-      static public List<Place> getplacebyloc(double longitude,double latitude,String query){
+      static public List<Place> getplacebyloc(double latitude,double longitude ,String query){
     	  List<Place> places=new ArrayList<Place>();
     	  
     	  String url="http://api.map.baidu.com/place/v2/search";

@@ -12,8 +12,6 @@ import org.hibernate.annotations.GenericGenerator;
 @Table(name = "item")
 public class Item {
 	    @Id
-	    @GeneratedValue(generator="system-uuid")
-	    @GenericGenerator(name="system-uuid", strategy = "uuid")
 	    String itemid;
 	    String recomid;
 	    int time;

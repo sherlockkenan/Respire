@@ -57,9 +57,8 @@ public class SceneryService {
 			
 		  
 		}
-		  scenery.setId(UUID.randomUUID().toString());
-		  scenery.setTime(new Date());
-		  scenery.setPhoto(photo);
+		
+		 
 		  
 		  User user=(User) request.getSession().getAttribute("user");
 		  if(user!=null){
@@ -67,8 +66,10 @@ public class SceneryService {
 		  }
 		  
 		  Geocoding geocoding=BMapPlace.transformlocation(scenery.getLatitude(),scenery.getLongitude());
-		  scenery.setId(geocoding.getUid());
+		  scenery.setUid(geocoding.getUid());
 		  scenery.setLocation(geocoding.getName());
+		  scenery.setTime(new Date());
+		  scenery.setPhoto(photo);
 		  sceneryDao.save(scenery);
 
 	}
@@ -105,11 +106,10 @@ public class SceneryService {
 	    List<Scenery>sceneries= sceneryDao.findAll();
 	    List<SceneryDataModel> scenery=new ArrayList<SceneryDataModel>();
 	    for(int i=0;i<sceneries.size();i++){
-	    	Scenery scenery2=updateAirService.search_for_update(sceneries.get(i));
-	    	double distance=DistanceCompu.GetDistance(lat, lng, scenery2.getLatitude(), scenery2.getLongitude());
-	    	SceneryDataModel sModel=new SceneryDataModel(scenery2,distance);
-	    	scenery.add(sModel);
-	    	
+	    	updateAirService.search_for_update(sceneries.get(i));
+	    	double distance=DistanceCompu.GetDistance(lat, lng, sceneries.get(i).getLatitude(), sceneries.get(i).getLongitude());
+	    	SceneryDataModel sModel=new SceneryDataModel(sceneries.get(i),distance);
+	    	scenery.add(sModel);	    	
 	    }
 	    return scenery;
 	    

@@ -29,6 +29,6 @@ public interface DatanowDao extends CrudRepository<Datanow, DatanowPK> {
 	@Query("select new respire.Result.MapDataModel(d.pm25, d.so2,d.co2,d.latitude,d.longitude) from Datanow d where userid=?1 ORDER BY time desc")
 	public List<MapDataModel> getbyuser(String userid);
 	
-	@Query("select d from Datanow d where abs(latitude-?1)<0.1 and abs(longitude-?2)<0.1) and date_format(time, '%Y-%m-%d %H')=date_format(now(),'%Y-%m-%d %H')")
+	@Query("select d from Datanow d where abs(latitude-?1)<0.1 and abs(longitude-?2)<0.1 and date_format(time, '%Y-%m-%d %H')=date_format(now(),'%Y-%m-%d %H')")
 	public List<Datanow> getair(double latitude,double longitude);
 }

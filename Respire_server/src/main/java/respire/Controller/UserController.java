@@ -62,7 +62,7 @@ public class UserController {
 
 		try {
 			User user1 = (User) request.getSession().getAttribute("user");
-			System.out.println("username:" + user.getUsername() + "password:" + user.getPassword());
+			//System.out.println("username:" + user.getUsername() + "password:" + user.getPassword());
 			User userfind = userServer.login(user.getUsername(), user.getPassword());
 			String cookies = request.getHeader("Cookie");
 			System.out.println("headercookie:" + cookies);
@@ -86,7 +86,7 @@ public class UserController {
 
 				return result;
 			} else {
-				System.out.println("fail");
+				//System.out.println("fail");
 				System.out.println(request.getSession().getId());
 				User user2 = (User) request.getSession().getAttribute("user");
 

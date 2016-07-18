@@ -6,9 +6,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
+import com.example.respireapp.Entity.Myapp;
 import com.example.respireapp.R;
 
 public class LoginjumpActivity extends Activity {
+    private Myapp myApp;
     public void onCreate(Bundle savedInstanceState) {
        super.onCreate(savedInstanceState);
         Bundle bundle=this.getIntent().getExtras();
@@ -21,6 +23,10 @@ public class LoginjumpActivity extends Activity {
             Bundle tbundle=new Bundle();
             tbundle.putString("sessionid",JSESSIONID);
             logIntent.putExtras(tbundle);
+
+            myApp=(Myapp) getApplication();
+            myApp.setSessionid(JSESSIONID);
+
             startActivity(logIntent);
             //LoginjumpActivity.this.finish();
         }

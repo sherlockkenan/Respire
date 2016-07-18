@@ -17,6 +17,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.respireapp.Entity.Myapp;
 import com.example.respireapp.R;
 
 import org.json.JSONArray;
@@ -66,7 +67,9 @@ public class ChangeCityActivity extends AppCompatActivity {
     }
 
     public void  sendcity3request(String fatherid){
-        String url="http://192.168.16.61:8000/getcitylist?fatherid="+fatherid;
+        Myapp myApp=(Myapp)getApplication();
+        String header=myApp.getUrl();
+        String url=header+"/getcitylist?fatherid="+fatherid;
         RequestQueue requestQueue= Volley.newRequestQueue(this);
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url,
                 null, new Response.Listener<JSONObject>(){
@@ -104,7 +107,9 @@ public class ChangeCityActivity extends AppCompatActivity {
         requestQueue.add(request);
     }
     public void  sendcity4request(String fatherid){
-        String url="http://192.168.16.61:8000/getcitylist?fatherid="+fatherid;
+        Myapp myApp=(Myapp)getApplication();
+        String header=myApp.getUrl();
+        String url=header+"/getcitylist?fatherid="+fatherid;
         RequestQueue requestQueue= Volley.newRequestQueue(this);
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url,
                 null, new Response.Listener<JSONObject>(){
@@ -142,7 +147,9 @@ public class ChangeCityActivity extends AppCompatActivity {
         requestQueue.add(request);
     }
     public void  sendcity2request(String fatherid){
-        String url="http://192.168.16.61:8000/getcitylist?fatherid="+fatherid;
+        Myapp myApp=(Myapp)getApplication();
+        String header=myApp.getUrl();
+        String url=header+"/getcitylist?fatherid="+fatherid;
         RequestQueue requestQueue= Volley.newRequestQueue(this);
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url,
                 null, new Response.Listener<JSONObject>(){
@@ -180,7 +187,9 @@ public class ChangeCityActivity extends AppCompatActivity {
         requestQueue.add(request);
     }
     public void  sendcity1request(String fatherid){
-        String url="http://192.168.16.61:8000/getcitylist?fatherid=0";
+        Myapp myApp=(Myapp)getApplication();
+        String header=myApp.getUrl();
+        String url=header+"/getcitylist?fatherid=0";
 //        HashMap<String,String> map=new HashMap<String,String>();
 //        map.put("fatherid",fatherid);
 //        JSONObject object=new JSONObject(map);
@@ -308,7 +317,9 @@ public class ChangeCityActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 final TextView infoText=(TextView) findViewById(R.id.infoText);
-                String url="http://192.168.16.61:8000/getprofile";
+                Myapp myApp=(Myapp)getApplication();
+                String header=myApp.getUrl();
+                String url=header+"/getprofile";
                 RequestQueue requestQueue= Volley.newRequestQueue(getApplicationContext());
                 JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url,
                         null, new Response.Listener<JSONObject>(){
@@ -323,8 +334,9 @@ public class ChangeCityActivity extends AppCompatActivity {
                                 String phone=data.getString("phone");
                                 String role=data.getString("role");
                                 String gender=data.getString("sex");
-
-                                String url2="http://192.168.16.61:8000/update";
+                                Myapp myApp=(Myapp)getApplication();
+                                String header=myApp.getUrl();
+                                String url2=header+"/update";
                                 HashMap<String,String> map=new HashMap<String,String>();
                                 map.put("username",username);
                                 map.put("password",password);

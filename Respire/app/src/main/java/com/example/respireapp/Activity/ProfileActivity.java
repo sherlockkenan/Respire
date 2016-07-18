@@ -17,6 +17,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.respireapp.Entity.Myapp;
 import com.example.respireapp.R;
 
 import org.json.JSONArray;
@@ -133,7 +134,9 @@ public class ProfileActivity extends Activity {
         final TextView city3Text=(TextView) findViewById(R.id.city3Text);
         final TextView city4Text=(TextView) findViewById(R.id.city4Text);
 
-        String url="http://192.168.16.61:8000/getprofile";
+        Myapp myApp=(Myapp)getApplication();
+        String header=myApp.getUrl();
+        String url=header+"/getprofile";
         RequestQueue requestQueue= Volley.newRequestQueue(getApplicationContext());
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url,
                 null, new Response.Listener<JSONObject>(){

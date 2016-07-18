@@ -28,6 +28,7 @@ import com.baidu.mapapi.map.OverlayOptions;
 import com.baidu.mapapi.map.Polyline;
 import com.baidu.mapapi.map.PolylineOptions;
 import com.baidu.mapapi.model.LatLng;
+import com.example.respireapp.Entity.Myapp;
 import com.example.respireapp.R;
 
 import org.achartengine.ChartFactory;
@@ -97,7 +98,9 @@ public class TodayActivity extends Activity {
 //                int[] dayco2={366,364,235,643,668,345,357,476,256,473,854,356,357,356,754,200,350,100,400,600,700,800,560,150};
 //                int[] dayso2={345,357,476,256,473,854,356,357,356,754,200,350,100,400,600,700,800,560,150,366,364,235,643,668};
 
-                String url="http://192.168.16.61:8000/history/getday";
+                Myapp myApp=(Myapp)getApplication();
+                String header=myApp.getUrl();
+                String url=header+"/history/getday";
                 RequestQueue requestQueue= Volley.newRequestQueue(getApplicationContext());
                 JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url,
                         null, new Response.Listener<JSONObject>(){
@@ -265,7 +268,9 @@ public class TodayActivity extends Activity {
     }
 
     public void  getdata(){
-        String url="http://192.168.16.130:8000/map/getalldata";
+        Myapp myApp=(Myapp)getApplication();
+        String header=myApp.getUrl();
+        String url=header+"/map/getalldata";
         RequestQueue requestQueue= Volley.newRequestQueue(this);
 
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url,

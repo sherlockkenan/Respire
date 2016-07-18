@@ -17,6 +17,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.respireapp.Entity.Myapp;
 import com.example.respireapp.R;
 
 import org.json.JSONException;
@@ -83,7 +84,9 @@ public class ChangeSexActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 final TextView infoText=(TextView) findViewById(R.id.infoText);
-                String url="http://192.168.16.61:8000/getprofile";
+                Myapp myApp=(Myapp)getApplication();
+                String header=myApp.getUrl();
+                String url=header+"/getprofile";
                 RequestQueue requestQueue= Volley.newRequestQueue(getApplicationContext());
                 JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url,
                         null, new Response.Listener<JSONObject>(){
@@ -99,7 +102,9 @@ public class ChangeSexActivity extends AppCompatActivity {
                                 String role=data.getString("role");
                                 String city4_fid=data.getString("cityid");
 
-                                String url2="http://192.168.16.61:8000/update";
+                                Myapp myApp=(Myapp)getApplication();
+                                String header=myApp.getUrl();
+                                String url2=header+"/update";
                                 HashMap<String,String> map=new HashMap<String,String>();
                                 map.put("username",username);
                                 map.put("password",password);

@@ -22,6 +22,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.respireapp.Entity.Myapp;
 import com.example.respireapp.R;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -129,7 +130,9 @@ public class RegisterActivity extends Activity {
 
     };
     public void sendregisterrequest(){
-        String url="http://192.168.16.61:8000/register";
+        Myapp myApp=(Myapp)getApplication();
+        String header=myApp.getUrl();
+        String url=header+"/register";
         HashMap<String,String> map=new HashMap<String,String>();
         map.put("username",username);
         map.put("password",password);
@@ -175,7 +178,9 @@ public class RegisterActivity extends Activity {
         requestQueue.add(request);
     }
     public void  sendcity3request(String fatherid){
-        String url="http://192.168.16.61:8000/getcitylist?fatherid="+fatherid;
+        Myapp myApp=(Myapp)getApplication();
+        String header=myApp.getUrl();
+        String url=header+"/getcitylist?fatherid="+fatherid;
         RequestQueue requestQueue= Volley.newRequestQueue(this);
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url,
                 null, new Response.Listener<JSONObject>(){
@@ -213,7 +218,9 @@ public class RegisterActivity extends Activity {
         requestQueue.add(request);
     }
     public void  sendcity4request(String fatherid){
-        String url="http://192.168.16.61:8000/getcitylist?fatherid="+fatherid;
+        Myapp myApp=(Myapp)getApplication();
+        String header=myApp.getUrl();
+        String url=header+"/getcitylist?fatherid="+fatherid;
         RequestQueue requestQueue= Volley.newRequestQueue(this);
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url,
                 null, new Response.Listener<JSONObject>(){
@@ -251,7 +258,9 @@ public class RegisterActivity extends Activity {
         requestQueue.add(request);
     }
     public void  sendcity2request(String fatherid){
-        String url="http://192.168.16.61:8000/getcitylist?fatherid="+fatherid;
+        Myapp myApp=(Myapp)getApplication();
+        String header=myApp.getUrl();
+        String url=header+"/getcitylist?fatherid="+fatherid;
         RequestQueue requestQueue= Volley.newRequestQueue(this);
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url,
                 null, new Response.Listener<JSONObject>(){
@@ -289,7 +298,9 @@ public class RegisterActivity extends Activity {
         requestQueue.add(request);
     }
     public void  sendcity1request(String fatherid){
-        String url="http://192.168.16.61:8000/getcitylist?fatherid=0";
+        Myapp myApp=(Myapp)getApplication();
+        String header=myApp.getUrl();
+        String url=header+"/getcitylist?fatherid=0";
 //        HashMap<String,String> map=new HashMap<String,String>();
 //        map.put("fatherid",fatherid);
 //        JSONObject object=new JSONObject(map);

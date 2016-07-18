@@ -25,6 +25,8 @@ import java.util.Map;
 import org.apache.http.params.HttpParams;
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import com.example.respireapp.Entity.Myapp;
 import com.example.respireapp.Entity.User;
 import android.os.IBinder;
 import android.os.Binder;
@@ -91,7 +93,9 @@ public class LoginService extends Service{
     public int onStartCommand(Intent intent, int flags, int startId){
     String username=intent.getStringExtra("username");
     String password=intent.getStringExtra("password");
-    String url="http://192.168.16.61:8000/login";
+        Myapp myApp=(Myapp)getApplication();
+        String header=myApp.getUrl();
+    String url=header+"/login";
         HashMap<String,String> map=new HashMap<String,String>();
         map.put("username",username);
         map.put("password",password);

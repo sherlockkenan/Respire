@@ -18,7 +18,7 @@ public class Click {
 	private String clickid;
 	private String userid;
 	private String itemid;
-	private double time;
+	private double length;
 	
 	
 	public String getClickid() {
@@ -39,12 +39,13 @@ public class Click {
 	public void setItemid(String itemid) {
 		this.itemid = itemid;
 	}
-	public double getTime() {
-		return time;
+	public double getLength() {
+		return length;
 	}
-	public void setTime(double time) {
-		this.time = time;
+	public void setLength(double length) {
+		this.length = length;
 	}
+
 	
 	
   

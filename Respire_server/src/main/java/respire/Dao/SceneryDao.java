@@ -10,10 +10,10 @@ import org.springframework.stereotype.Repository;
 import respire.Entity.Scenery;
 
 @Repository 
-public interface SceneryDao extends CrudRepository<Scenery,Long>{
+public interface SceneryDao extends CrudRepository<Scenery,String>{
 	@Query("select s from Scenery s order by time desc")
       public List<Scenery> findAll();
 	
-	public Scenery findById(String id);
+	public List<Scenery> findByUid(String uid);
 }
 

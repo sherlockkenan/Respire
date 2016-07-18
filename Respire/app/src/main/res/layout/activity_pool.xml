@@ -28,11 +28,19 @@
         android:textSize="25dp"
         />
 
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/photoButton"
+        android:background="@drawable/homeshareicon"
+        android:layout_alignParentRight="true" />
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/Ranking"
         android:layout_below="@+id/PoolName"
+        android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true" >
         <TableLayout
             android:layout_width="match_parent"
@@ -111,5 +119,10 @@
         </TableLayout>
     </ScrollView>
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/thephoto"
+        />
 
 </RelativeLayout>

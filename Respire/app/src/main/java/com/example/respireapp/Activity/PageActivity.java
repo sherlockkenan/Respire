@@ -2,8 +2,11 @@ package com.example.respireapp.Activity;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.os.Handler;
+import android.os.Message;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.PagerTabStrip;
 import android.support.v4.view.ViewPager;
@@ -22,6 +25,7 @@ import com.android.volley.toolbox.Volley;
 import com.example.respireapp.Activity.map.HeatMap;
 import com.example.respireapp.Entity.LocationUtils;
 import com.example.respireapp.Entity.MyBluetooth;
+import com.example.respireapp.Entity.Myapp;
 import com.example.respireapp.R;
 
 import java.util.ArrayList;
@@ -107,6 +111,10 @@ public class PageActivity extends Activity {
     private MyBluetooth myBluetooth;
     int nowpm25=0;
 
+    private Boolean blueStatus=false;
+    private DataHandler dataHandler;
+    TextView dataText;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -159,7 +167,7 @@ public class PageActivity extends Activity {
         views=new ArrayList<View>();
         LayoutInflater inflater=getLayoutInflater();
         view1=inflater.inflate(R.layout.activity_home, null);
-
+        dataText=(TextView) view1.findViewById(R.id.pm25Text);
         view1.findViewById(R.id.todayButton).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -180,9 +188,15 @@ public class PageActivity extends Activity {
                 if (isChecked) {
                     String res=myBluetooth.connect();
                     Toast.makeText(PageActivity.this, res, Toast.LENGTH_SHORT).show();
+                    if (res.equals("Success")){
+                        blueStatus=true;
+                    }
                 } else {
                     String res=myBluetooth.disconnect();
                     Toast.makeText(PageActivity.this, res, Toast.LENGTH_SHORT).show();
+                    if (res.equals("Success")){
+                        blueStatus=false;
+                    }
                 }
             }
         });
@@ -201,7 +215,6 @@ public class PageActivity extends Activity {
                 sum=sum/times;
                 nowpm25=(int)sum;
 
-                TextView dataText=(TextView) view1.findViewById(R.id.pm25Text);
                 dataText.setText(Integer.toString(nowpm25));
 
                 if (nowpm25>500){
@@ -222,7 +235,9 @@ public class PageActivity extends Activity {
         view2.findViewById(R.id.weekButton).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String url="http://192.168.16.61:8000/history/getweek";
+                Myapp myApp=(Myapp)getApplication();
+                String header=myApp.getUrl();
+                String url=header+"/history/getweek";
                 RequestQueue requestQueue= Volley.newRequestQueue(getApplicationContext());
                 JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url,
                         null, new Response.Listener<JSONObject>(){
@@ -325,7 +340,9 @@ public class PageActivity extends Activity {
         view2.findViewById(R.id.monthButton).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String url="http://192.168.16.61:8000/history/getmonth";
+                Myapp myApp=(Myapp)getApplication();
+                String header=myApp.getUrl();
+                String url=header+"/history/getmonth";
                 RequestQueue requestQueue= Volley.newRequestQueue(getApplicationContext());
                 JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url,
                         null, new Response.Listener<JSONObject>(){
@@ -425,7 +442,9 @@ public class PageActivity extends Activity {
         view2.findViewById(R.id.yearButton).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String url="http://192.168.16.61:8000/history/getyear";
+                Myapp myApp=(Myapp)getApplication();
+                String header=myApp.getUrl();
+                String url=header+"/history/getyear";
                 RequestQueue requestQueue= Volley.newRequestQueue(getApplicationContext());
                 JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url,
                         null, new Response.Listener<JSONObject>(){
@@ -577,7 +596,9 @@ public class PageActivity extends Activity {
             }
         });
 
-        String url="http://192.168.16.61:8000/getprofile";
+        Myapp myApp=(Myapp)getApplication();
+        String header=myApp.getUrl();
+        String url=header+"/getprofile";
         RequestQueue requestQueue= Volley.newRequestQueue(getApplicationContext());
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url,
                 null, new Response.Listener<JSONObject>(){
@@ -619,6 +640,51 @@ public class PageActivity extends Activity {
         viewPager.setAdapter(new MyViewPagerAdapter(views));
         viewPager.setCurrentItem(0);
         viewPager.setOnPageChangeListener(new MyOnPageChangeListener());  //若不设置这个，标题下边的线不会随着页卡滑动而滑动
+
+        dataHandler=new DataHandler();
+        Thread timeThread = new TimeThread();
+        timeThread.start();
+    }
+
+    class TimeThread extends Thread{
+        @Override
+        public void run(){
+            while (true) {
+                //if (blueStatus) {
+                int times = 3;
+                String[] result = new String[times + 1];
+                result = myBluetooth.getLines(times);
+                if (result[0].equals("Success")){
+                    double sum = 0;
+                    for (int i = 1; i <= times; i++) {
+                        double num = Double.parseDouble(result[i]);
+                        sum += num;
+                    }
+                    sum = sum / times;
+                    nowpm25 = (int) sum;
+
+                    Message msg = dataHandler.obtainMessage();
+                    msg.what = 0;
+                    msg.obj = nowpm25;
+                    dataHandler.sendMessage(msg);
+                    if (nowpm25 > 0) {
+                        senddata(nowpm25);
+                    }
+                }
+                try {
+                    Thread.sleep(5000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+    class DataHandler extends Handler {
+        @Override
+        public void handleMessage(Message msg) {
+            int data=(int) msg.obj;
+            dataText.setText(Integer.toString(data));
+        }
     }
 
     /**
@@ -757,7 +823,9 @@ public class PageActivity extends Activity {
     }
 
     public void senddata(int data){
-        String url2="http://192.168.16.61:8000/postdata";
+        Myapp myApp=(Myapp)getApplication();
+        String header=myApp.getUrl();
+        String url2=header+"/postdata";
         HashMap<String,String> map=new HashMap<String,String>();
         map.put("pm25",Integer.toString(data));
         map.put("co2","0");
