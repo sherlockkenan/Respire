@@ -1,0 +1,45 @@
+-keep class com.yuntongxun.ecsdk.ECClientService { <init>(); }
+-keep class com.yuntongxun.ecsdk.booter.CCPReceivers$AlarmReceiver { <init>(); }
+-keep class com.yuntongxun.ecsdk.booter.Alarm { <init>(); }
+-keep class com.yuntongxun.ecsdk.booter.CCPReceivers$ConnectionReceiver { <init>(); }
+-keep class com.yuntongxun.ecsdk.booter.CCPReceivers$BootReceiver { <init>(); }
+-keep class com.example.respireapp.service.YuntxNotifyReceiver { <init>(); }
+-keep class com.example.respireapp.Entity.Myapp {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+-keep class com.example.respireapp.Activity.LoginActivity { <init>(); }
+-keep class com.example.respireapp.Activity.MainActivity { <init>(); }
+-keep class com.example.respireapp.Activity.RegisterActivity { <init>(); }
+-keep class com.example.respireapp.Activity.HomeActivity { <init>(); }
+-keep class com.example.respireapp.Activity.MeActivity { <init>(); }
+-keep class com.example.respireapp.Service.LoginService { <init>(); }
+-keep class com.example.respireapp.Activity.LoginjumpActivity { <init>(); }
+-keep class com.example.respireapp.Activity.ProfileActivity { <init>(); }
+-keep class com.example.respireapp.Activity.DiscoveryActivity { <init>(); }
+-keep class com.example.respireapp.Activity.HistoryActivity { <init>(); }
+-keep class com.example.respireapp.Activity.PageActivity { <init>(); }
+-keep class com.example.respireapp.Activity.SuccessregActivity { <init>(); }
+-keep class com.example.respireapp.Activity.ChangeUsernameActivity { <init>(); }
+-keep class com.example.respireapp.Activity.ChangePasswordActivity { <init>(); }
+-keep class com.example.respireapp.Activity.ChangePhoneActivity { <init>(); }
+-keep class com.example.respireapp.Activity.ChangeEmailActivity { <init>(); }
+-keep class com.example.respireapp.Activity.ChangeSexActivity { <init>(); }
+-keep class com.example.respireapp.Activity.ChangeCityActivity { <init>(); }
+-keep class com.example.respireapp.Activity.TodayActivity { <init>(); }
+-keep class com.example.respireapp.Activity.PoolActivity { <init>(); }
+-keep class com.example.respireapp.Activity.TestpicActivity { <init>(); }
+-keep class com.example.respireapp.Activity.map.HeatMap { <init>(); }
+-keep class com.example.respireapp.Activity.ItineraryActivity { <init>(); }
+-keep class com.example.respireapp.Activity.PhotoInfoActivity { <init>(); }
+-keep class com.example.respireapp.Activity.SearchActivity { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}
+-keep class com.android.tools.fd.** {
+    *;
+}
+-dontnote com.android.tools.fd.**,android.support.multidex.MultiDexExtractor
