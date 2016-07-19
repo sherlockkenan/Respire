@@ -9,25 +9,30 @@ import net.sf.json.JSONString;
 import net.sf.json.JSONObject;
 import respire.Dao.ChatRoomDao;
 import respire.Entity.ChatRoom;
+import respire.Dao.CityNodeDao;
+import respire.Entity.CityNode;
 import respire.Utils.Httprequest;
 
 @Service
 public class MessageService {
 	@Autowired
 	private ChatRoomDao chatRoomDao;
+	@Autowired
+	private CityNodeDao cityNodeDao;
 	
-	public String findByCityid(int cityid){
+	public ChatRoom findByCityid(int cityid){
 		ChatRoom room = chatRoomDao.findByCityid(cityid);
 		if(room!=null){
-			return room.getRoomid();
+			return room;
 		}else{
 			String result = Httprequest.sendPost_LeanCloud("https://api.leancloud.cn/1.1/classes/_Conversation", "{\"name\": \"Chat Room\",\"tr\": true}");
 			JSONObject json = JSONObject.fromObject(result);
 			String roomid =  json.getString("objectId");
+			CityNode cityNode = cityNodeDao.findByCityid(cityid);
 			if(roomid!=null){
-				room = new ChatRoom(cityid,roomid);
+				room = new ChatRoom(cityid,roomid,cityNode.getName());
 				chatRoomDao.save(room);
-				return roomid;
+				return room;
 			}else{
 				return null;
 			}

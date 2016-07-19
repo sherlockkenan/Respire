@@ -14,10 +14,14 @@ public class ChatRoom {
 	@NotNull
 	private String roomid;
 	
-	public ChatRoom(int cityid, String roomid){
+	@NotNull
+	private String title;
+	
+	public ChatRoom(int cityid, String roomid, String title){
 		super();
 		this.cityid = cityid;
 		this.roomid = roomid;
+		this.title = title;
 	}
 	
 	public ChatRoom(){
@@ -38,5 +42,13 @@ public class ChatRoom {
 	
 	public void setRoomid(String roomid){
 		this.roomid = roomid;
+	}
+	
+	public void setTitle(String title){
+		this.title = title;
+	}
+	
+	public String getTitle(){
+		return title;
 	}
 }

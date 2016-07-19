@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import respire.Entity.User;
 import respire.Result.ReturnValue;
 import respire.Service.MessageService;
+import respire.Entity.ChatRoom;
 
 @RestController
 public class MessageController {
@@ -19,13 +20,13 @@ public class MessageController {
 	public ReturnValue getrank(HttpServletRequest request){
 		ReturnValue result=new ReturnValue();
 		User user=(User) request.getSession().getAttribute("user");
-		String id=messageService.findByCityid(user.getCityid());
-		if(id == null){
-			result.setData(id);
+		ChatRoom room=messageService.findByCityid(user.getCityid());
+		if(room == null){
+			result.setData(room);
 			result.setReturn_type("Error");
 			return result;
 		}
-		result.setData(id);
+		result.setData(room);
 		result.setReturn_type("success");
 		return result;
 	}
