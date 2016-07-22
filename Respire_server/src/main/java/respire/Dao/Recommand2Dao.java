@@ -11,7 +11,7 @@ import respire.Entity.Recommand2;
 @Repository 
 public interface Recommand2Dao extends CrudRepository<Recommand2,Long>{
 
-	@Query("select r from Recommand r where TO_DAYS(NOW()) - TO_DAYS(time) = 7")
-	public List<Recommand2> getrecomad( String userid);
+	@Query("select r from Recommand r where userid=?1 and week=?2")
+	public List<Recommand2> getrecomad( String userid,int week);
 
 }

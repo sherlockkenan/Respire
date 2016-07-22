@@ -65,9 +65,7 @@ public class RecommandController {
 		  jsonConfig.registerJsonValueProcessor(Date.class, new JsonDateValueProcessor());
 		   result.setData(JSONArray.fromObject(recommand,jsonConfig));
 		   return result;
-		}
-				
-		
+		}	
 		return result;	
 		
 	}
