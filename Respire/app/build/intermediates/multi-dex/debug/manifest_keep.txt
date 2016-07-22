@@ -33,6 +33,23 @@
 -keep class com.example.respireapp.Activity.ItineraryActivity { <init>(); }
 -keep class com.example.respireapp.Activity.PhotoInfoActivity { <init>(); }
 -keep class com.example.respireapp.Activity.SearchActivity { <init>(); }
+-keep class com.avoscloud.leanchatlib_demo.ConversationListActivity { <init>(); }
+-keep class com.avoscloud.leanchatlib.activity.AVChatActivity { <init>(); }
+-keep class com.avos.avoscloud.AVBroadcastReceiver { <init>(); }
+-keep class com.avos.avoscloud.PushService { <init>(); }
+-keep class com.avoscloud.leanchatlib.activity.ImageBrowserActivity { <init>(); }
+-keep class com.leancloud.im.guide.activity.AVSquareActivity { <init>(); }
+-keep class com.leancloud.im.guide.activity.AVSquareMembersActivity { <init>(); }
+-keep class com.leancloud.im.guide.activity.AVSingleChatActivity { <init>(); }
+-keep class com.avos.avoscloud.PushService { <init>(); }
+-keep class com.leancloud.im.guide.NotificationBroadcastReceiver { <init>(); }
+-keep class com.avos.avoscloud.AVBroadcastReceiver { <init>(); }
+-keep class com.leancloud.im.guide.activity._AVSingleChatActivity { <init>(); }
+-keep class com.example.respireapp.Activity.SceneryInfoActivity { <init>(); }
+-keep class com.example.respireapp.Service.RecommandService { <init>(); }
+-keep class com.example.respireapp.Service.AlarmReceiver { <init>(); }
+-keep class com.example.respireapp.Activity.RecommendActivity { <init>(); }
+-keep class com.baidu.location.f { <init>(); }
 -keep public class * extends android.app.backup.BackupAgent {
     <init>();
 }

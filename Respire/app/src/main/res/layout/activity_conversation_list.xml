@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<include layout="@layout/tool_bar"/>-->
+
+    <TableLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/tabbar"
+        android:shrinkColumns="0,1,2"
+        android:stretchColumns="1"
+        >
+
+        <TableRow>
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:background="@drawable/backicon"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/backButton"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chat Room"
+                android:textColor="#ffffff"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Entry"
+                android:textSize="20dp"
+                android:layout_gravity="right"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#00ffffff"
+                android:id="@+id/SquareEntry"
+                />
+        </TableRow>
+    </TableLayout>
+
+    <fragment
+        android:id="@+id/fragment_c"
+        android:name="com.avoscloud.leanchatlib_demo.ConversationFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.RecommendActivity"
+    android:background="@drawable/discoverybackground"
+    >
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:background="@drawable/todaybackicon"
+        android:id="@+id/rbackButton"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Recommend"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="7dp"
+
+        android:id="@+id/textView18" />
+    <EditText
+        android:layout_width="265dp"
+        android:layout_height="52dp"
+        android:id="@+id/searchtext"
+        android:background="#00ffffff"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/rbackButton"
+        android:layout_alignLeft="@+id/rbackButton"
+        android:layout_alignStart="@+id/rbackButton">
+    </EditText>
+    <View
+        android:layout_width="320dp"
+        android:layout_height="1dp"
+        android:background="#FF909090"
+        android:id="@+id/line"
+        android:layout_marginTop="1dp"
+       android:layout_alignLeft="@id/rbackButton"
+        android:layout_below="@+id/searchclick" />
+    <Button
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:id="@+id/searchclick"
+        android:background="@drawable/search"
+        android:adjustViewBounds="false"
+        android:clickable="true"
+
+        android:layout_marginTop="52dp"
+        android:layout_alignRight="@+id/general"
+        android:layout_alignEnd="@+id/general" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sort:"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="96dp"
+
+        android:id="@+id/sort"
+
+        android:layout_alignLeft="@+id/searchtext"
+        android:layout_alignStart="@+id/searchtext" />
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:text="Bydistance"
+        android:id="@+id/distance"
+        android:background="@drawable/loginbuttonbg"
+        android:textColor="#ffffff"
+        android:textSize="10dp"
+
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="110dp"
+        />
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:text="Bypm25"
+        android:id="@+id/environment"
+        android:background="@drawable/loginbuttonbg"
+        android:textColor="#ffffff"
+        android:textSize="10dp"
+
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="110dp"
+        />
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:text="General"
+        android:id="@+id/general"
+        android:background="@drawable/loginbuttonbg"
+        android:textColor="#ffffff"
+        android:textSize="10dp"
+
+        android:layout_marginLeft="265dp"
+        android:layout_marginTop="110dp"
+        />
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/rmapView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="150dp"
+
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rPhotos"
+        android:layout_below="@+id/rmapView"
+        android:layout_centerHorizontal="true"
+        >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/recommendTable"
+            android:shrinkColumns="0,1"
+            android:stretchColumns="0,1"
+            >
+
+        </TableLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>
