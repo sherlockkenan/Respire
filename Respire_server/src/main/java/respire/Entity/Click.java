@@ -18,7 +18,7 @@ public class Click {
 	private String clickid;
 	private String userid;
 	private String itemid;
-	private double length;
+	private int length;
 	
 	
 	public String getClickid() {
@@ -39,10 +39,10 @@ public class Click {
 	public void setItemid(String itemid) {
 		this.itemid = itemid;
 	}
-	public double getLength() {
+	public int getLength() {
 		return length;
 	}
-	public void setLength(double length) {
+	public void setLength(int length) {
 		this.length = length;
 	}
 

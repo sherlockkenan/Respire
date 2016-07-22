@@ -53,7 +53,7 @@ public class RecommandService {
 		item.setTime((int) map.get("time"));
 		item.setRecomid((String) map.get("recomid"));
 		click.setItemid(itemid);
-		click.setLength((double) map.get("length"));
+		click.setLength((int) map.get("length"));
 
 		User user = (User) request.getSession().getAttribute("user");
 		if (user != null) {
@@ -111,12 +111,12 @@ public class RecommandService {
 		}
 
 		//recommand2 得到的推荐
-		Calendar cal = Calendar.getInstance();
-		cal.setTime(new Date());
-		int w = cal.get(Calendar.DAY_OF_WEEK) - 1;
-		if(w==0){
-			w=7;
-		}
+//		Calendar cal = Calendar.getInstance();
+//		cal.setTime(new Date());
+//		int w = cal.get(Calendar.DAY_OF_WEEK) - 1;
+//		if(w==0){
+//			w=7;
+//		}
 //		List<Recommand2> recommand2=recommand2Dao.getrecomad(userid,w);
 //		if(recommand2.size()!=0){
 //			int hour=new Date().getHours();
