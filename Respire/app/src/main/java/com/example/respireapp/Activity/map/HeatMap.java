@@ -21,6 +21,7 @@ import com.baidu.location.LocationClientOption;
 import com.baidu.mapapi.SDKInitializer;
 import com.baidu.mapapi.map.*;
 import com.baidu.mapapi.model.LatLng;
+import com.example.respireapp.Entity.Myapp;
 import com.example.respireapp.R;
 
 import org.json.JSONArray;
@@ -48,6 +49,8 @@ public class HeatMap extends Activity {
     private Button pm25;
     private Button co2;
     private Button so2;
+
+    private Myapp myApp;
 
     //获得的数据
     List<WeightedLatLng> pm25_list = new ArrayList<WeightedLatLng>();
@@ -158,7 +161,8 @@ public class HeatMap extends Activity {
 
     //发送请求
     public void  Send_request(){
-        String url="http://192.168.16.130:8000/map/getalldata";
+        myApp=(Myapp)getApplication();
+        String url= myApp.getUrl()+"/map/getalldata";
         RequestQueue requestQueue= Volley.newRequestQueue(this);
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url,
                 null, new Response.Listener<JSONObject>(){

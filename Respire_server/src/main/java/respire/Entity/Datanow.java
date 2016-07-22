@@ -27,7 +27,15 @@ public class Datanow {
     
     private double latitude;
     private double longitude;
+    private String tag;
     
+    
+	public String getTag() {
+		return tag;
+	}
+	public void setTag(String tag) {
+		this.tag = tag;
+	}
 	public String getUserid() {
 		return userid;
 	}

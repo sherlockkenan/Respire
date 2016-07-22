@@ -61,6 +61,16 @@ public class UpdateAirService {
 			place.setCo2(datanows.get(min).getCo2());
 			place.setPm25(datanows.get(min).getPm25());
 			place.setSo2(datanows.get(min).getSo2());
+			
+			if(place.getSceneries().size()!=0){
+				List<Scenery> sceneries=place.getSceneries();
+				for(int i=0;i<sceneries.size();i++){
+					sceneries.get(i).setCo2(datanows.get(min).getCo2());
+					sceneries.get(i).setSo2(datanows.get(min).getSo2());
+					sceneries.get(i).setPm25(datanows.get(min).getPm25());
+					
+				}
+			}
 		}
 		}catch (Exception e){
 			System.out.print(e.toString());

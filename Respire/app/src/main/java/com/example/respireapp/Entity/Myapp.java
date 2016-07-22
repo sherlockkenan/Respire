@@ -10,8 +10,7 @@ package com.example.respireapp.Entity;
  */
 public class Myapp  extends Application {
     public String sessionid;
-    public String url="http://59.78.45.13:8000";
-    //public String url="http://10.189.140.174:8000";
+    public String url="http://10.185.111.87:8000";
     public String getUrl(){return url;};
     public void setUrl(String url){this.url=url;};
     public String getSessionid() {

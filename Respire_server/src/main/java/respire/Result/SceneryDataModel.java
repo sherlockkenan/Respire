@@ -5,7 +5,8 @@ import java.util.Date;
 import respire.Entity.Scenery;
 
 public class SceneryDataModel {
-     private String sceneryid;
+     private String id;
+     private String uid;
 	
 	 private String photo;
 	
@@ -38,19 +39,31 @@ public class SceneryDataModel {
 		this.longitude=scenery.getLongitude();
 		this.photo=scenery.getPhoto();
 		this.pm25=scenery.getPm25();
-		this.sceneryid=scenery.getId();
+		this.id=scenery.getId();
+		this.uid=scenery.getUid();
 		this.so2=scenery.getSo2();
 		this.time=scenery.getTime();
 		this.username=scenery.getUsername();
 		this.distance=distance;
 	}
 	
-	public String getSceneryid() {
-		return sceneryid;
+	
+	public String getId() {
+		return id;
 	}
-	public void setSceneryid(String sceneryid) {
-		this.sceneryid = sceneryid;
+
+	public void setId(String id) {
+		this.id = id;
 	}
+
+	public String getUid() {
+		return uid;
+	}
+
+	public void setUid(String uid) {
+		this.uid = uid;
+	}
+
 	public String getPhoto() {
 		return photo;
 	}

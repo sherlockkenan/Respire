@@ -40,12 +40,36 @@ public class BMapPlace {
     	  geocoding.setUid(uid);
     	  return geocoding;
       }
+      static public String gettag(double latitude,double longitude){
+    	 
+    	  
+    	  String url="http://api.map.baidu.com/geocoder/v2/";
+    	  String param="ak="+ak+"&location="+latitude+","+longitude+"&output=json&pois=1";
+    	  
+    	  String res=Httprequest.sendGet(url, param);
+    	  
+    	  JSONObject jsonObject=JSONObject.fromObject(res);
+
+    	  JSONObject result=jsonObject.getJSONObject("result");
+    	  
+
+    	  
+    	  JSONArray pois=result.getJSONArray("pois");
+    	  if(pois.size()!=0){
+    		  String tag=pois.getJSONObject(0).getString("poiType");
+    		  if(tag.equals("旅游景点")||tag.equals("运动健身")){
+    			  return tag;
+    		  }	  
+    	  }
+    	  return null;
+
+      }
       
       static public List<Place> getplacebyloc(double latitude,double longitude ,String query){
     	  List<Place> places=new ArrayList<Place>();
     	  
     	  String url="http://api.map.baidu.com/place/v2/search";
-    	  String param="ak="+ak+"&location="+latitude+","+longitude+"&radius=2000&output=json"+"&query="+query;
+    	  String param="ak="+ak+"&location="+latitude+","+longitude+"&radius=20000&output=json"+"&query="+query;
     	  
     	  String res=Httprequest.sendGet(url, param);
     	  

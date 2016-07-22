@@ -9,6 +9,7 @@ import respire.Dao.DatanowDao;
 import respire.Dao.UserDao;
 import respire.Entity.Datanow;
 import respire.Entity.User;
+import respire.Utils.BMapPlace;
 
 @Service
 public class UserService {
@@ -38,8 +39,12 @@ public class UserService {
       }
      
      public void postdata(Datanow datanow){
- 	    
+ 	     String tag=BMapPlace.gettag(datanow.getLatitude(), datanow.getLongitude());
+ 	     if(tag!=null){
+ 	    	 datanow.setTag(tag);
+ 	     }
   		 datanowDao.save(datanow);
+  		 
       	 
        }
      

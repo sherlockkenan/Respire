@@ -61,7 +61,7 @@ public class PhotoInfoActivity extends AppCompatActivity {
                 double length=((end-start)/100)*0.1;
 
                 RequestQueue requestQueue= Volley.newRequestQueue(PhotoInfoActivity.this);
-                String url=head+"/recommend/getclickitem";
+                String url=head+"/recommand/getclickitem";
                 JSONObject object=new JSONObject();
                 try {
                     object.put("recomid",sceneryid);

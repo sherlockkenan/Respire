@@ -127,14 +127,17 @@
         android:theme="@style/AppTheme">
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
-            android:value="beeGXOImauL9aQzr1ZMO4ymyAqBDBk4r" />
+            android:value="6dFzvhCUAtyyYyFHPhUC5MlmRWl7b8LB" />
 
+        <activity android:name=".Activity.Test_notification">
+
+        </activity>
         <activity android:name=".Activity.LoginActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
         </activity>
         <activity android:name=".Activity.MainActivity" />
         <activity android:name=".Activity.RegisterActivity" />
@@ -142,6 +145,9 @@
         <activity android:name=".Activity.MeActivity" />
 
         <service android:name=".Service.LoginService" />
+        //增加
+        <service android:name=".Service.RecommandService"/>
+        <receiver android:name=".Service.AlarmReceiver"/>
 
         <!-- <receiver android:name=".Activity.LoginActivity$MyReceiver" /> -->
 
@@ -166,6 +172,7 @@
         <activity android:name=".Activity.ItineraryActivity" />
         <activity android:name=".Activity.PhotoInfoActivity" />
         <activity android:name=".Activity.SearchActivity"></activity>
+        <activity android:name=".Activity.SceneryInfoActivity"/>
     </application>
 
 </manifest>

@@ -37,8 +37,18 @@ public class Scenery {
 	 private String location;
 	 private String description;
 	 private Date time;
+	 
+	 private String tag;
 
 	
+
+	public String getTag() {
+		return tag;
+	}
+
+	public void setTag(String tag) {
+		this.tag = tag;
+	}
 
 	public String getId() {
 		return id;

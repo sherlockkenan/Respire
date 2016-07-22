@@ -247,7 +247,7 @@ public class PoolActivity extends Activity {
                             //picurl=new String[data.length()];
                             //pics=new Bitmap[data.length()];
                             picurl=tmp.getString("photo").split(";");
-                            String sid=tmp.getString("sceneryid");
+                            String sid=tmp.getString("uid");
                             int pm25=tmp.getInt("pm25");
                             int co2=tmp.getInt("co2");
                             int so2=tmp.getInt("so2");

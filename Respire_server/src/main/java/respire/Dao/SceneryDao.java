@@ -16,5 +16,7 @@ public interface SceneryDao extends CrudRepository<Scenery,String>{
 	
 	public List<Scenery> findByUid(String uid);
 	public Scenery findById(String id);
+	
+	public List<Scenery> findByTag(String tag);
 }
 
