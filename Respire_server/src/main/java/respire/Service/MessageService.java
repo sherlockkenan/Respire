@@ -25,10 +25,10 @@ public class MessageService {
 		if(room!=null){
 			return room;
 		}else{
-			String result = Httprequest.sendPost_LeanCloud("https://api.leancloud.cn/1.1/classes/_Conversation", "{\"name\": \"Chat Room\",\"tr\": true}");
+			CityNode cityNode = cityNodeDao.findByCityid(cityid);
+			String result = Httprequest.sendPost_LeanCloud("https://api.leancloud.cn/1.1/classes/_Conversation", "{\"name\": \""+cityNode.getName()+"\",\"tr\": true}");
 			JSONObject json = JSONObject.fromObject(result);
 			String roomid =  json.getString("objectId");
-			CityNode cityNode = cityNodeDao.findByCityid(cityid);
 			if(roomid!=null){
 				room = new ChatRoom(cityid,roomid,cityNode.getName());
 				chatRoomDao.save(room);

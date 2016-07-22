@@ -43,7 +43,7 @@ public class RecommandController {
 		ReturnValue result=new ReturnValue();
 		List<Place>places=recommandService.search(search);
 		result.setReturn_type("success");
-		result.setData(JSONObject.fromObject(places));
+		result.setData(JSONArray.fromObject(places));
 		
 		return result;	
 	}
