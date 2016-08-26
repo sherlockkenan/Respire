@@ -2,186 +2,305 @@
 <items version="2" >
 
     <item
-        jar="G:\Respire\app\libs\baidumapapi_util_v4_0_0.jar"
+        jar="C:\Users\佳雯\.gradle\caches\modules-2\files-2.1\cn.leancloud.android\fastjson\1.1.39-leancloud\94d4ebd4acdaf01d7445435382eea2d2d38e7534\fastjson-1.1.39-leancloud.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="1e9069435803e5a4f32dc429906def33a95aaf17">
-        <dex dex="G:\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_util_v4_0_0_b217a4ad20c9928ad9176c80feae767d1cb8c48b\classes.dex" />
+        sha1="94d4ebd4acdaf01d7445435382eea2d2d38e7534">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\fastjson-1.1.39-leancloud_f13846419be9be46e8368ed23c94b5de259a27b3\classes.dex" />
     </item>
     <item
-        jar="G:\Respire\app\libs\baidumapapi_map_v4_0_0.jar"
+        jar="E:\git\respire\Respire\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.1.0_e09d7fdba72f4d72139a612789796bc7c43a470b\classes.dex" />
+    </item>
+    <item
+        jar="E:\git\respire\Respire\app\build\intermediates\exploded-aar\cn.leancloud.android\avoscloud-push\v3.14.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="28d54081605cb1829ebae6d36fcf24e76d49ecc0">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\cn.leancloud.android-avoscloud-push-v3.14.1_e6cbfbe661073276e179ac2f6ff1d5f9a59233a8\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\佳雯\.gradle\caches\modules-2\files-2.1\cn.leancloud.android\okio\1.6.0-leancloud\7086c00a30a6de0ee3b963ec2c3702d37f1de11d\okio-1.6.0-leancloud.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="7086c00a30a6de0ee3b963ec2c3702d37f1de11d">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0-leancloud_f85329274752a4d7192d0f08293d7659ef48db4a\classes.dex" />
+    </item>
+    <item
+        jar="E:\git\respire\Respire\app\libs\baidumapapi_map_v4_0_0.jar"
         jumboMode="true"
         revision="23.0.3"
         sha1="db4a1025ee9c6f95747aab4a69baa1391534d80e">
-        <dex dex="G:\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_map_v4_0_0_386b677ece0539206f14a666508f8d792b9939e2\classes.dex" />
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_map_v4_0_0_ebe512774478eb5fef724eab21454154cdba77f8\classes.dex" />
     </item>
     <item
-        jar="G:\Respire\app\libs\baidumapapi_search_v4_0_0.jar"
+        jar="E:\git\respire\Respire\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="08f97ee0e35fb17d405d29bf62eef305faffffcc">
-        <dex dex="G:\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_search_v4_0_0_5e2cb855951da04dacc036208c86131cc2d249f6\classes.dex" />
+        sha1="697ef09cf6d96a49bfe1b966235702ce93a6c2f1">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_b377010a7a80bc2f1782740081cd0d6f257657b8\classes.dex" />
     </item>
     <item
-        jar="G:\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jar="C:\Users\佳雯\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="G:\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_2092003d33252f8d489d8ec93b241b246f5f08c7\classes.dex" />
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-7.0.1_12db18c97c6ffecb908adb7133d3e19dc451f237\classes.dex" />
     </item>
     <item
-        jar="G:\Respire\app\libs\baidumapapi_cloud_v4_0_0.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="e2aca735ca322917c5ee5fd40d663773391cf0a6">
-        <dex dex="G:\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_cloud_v4_0_0_37299c9f124a832fc1d4a57c70824143f4939529\classes.dex" />
-    </item>
-    <item
-        jar="G:\Respire\app\libs\universal-image-loader-1.9.5.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
-        <dex dex="G:\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\2\universal-image-loader-1.9.5_0a88251adc8deef9876abaf87f8873fa1ed2e655\classes.dex" />
-    </item>
-    <item
-        jar="G:\Respire\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="G:\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_c7c288d242d7149f46de1b42383f6a49e4eb7d16\classes.dex" />
-    </item>
-    <item
-        jar="G:\Respire\app\libs\httpmime-4.3.5.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="1dd0d38df9c6d21e893f2e52403f1cd99e91cd81">
-        <dex dex="G:\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpmime-4.3.5_37884706115ac398d40ab8000bbcfe6fd8766725\classes.dex" />
-    </item>
-    <item
-        jar="G:\Respire\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="G:\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_022b356d956c5d4cf5f9690a9d4afd53c93770c4\classes.dex" />
-    </item>
-    <item
-        jar="G:\Respire\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="46965d47db9a23884666bcbe39805caa43efa72c">
-        <dex dex="G:\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_33bc6dba77fce1a503146c5fc0861f40b9b707e1\classes.dex" />
-    </item>
-    <item
-        jar="G:\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="G:\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_0410752766772428ce2d9c265731b8c8a4186942\classes.dex" />
-    </item>
-    <item
-        jar="G:\Respire\app\libs\baidumapapi_base_v4_0_0.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="dc207932ddfb65566a157ca311a6a6dffc7fccab">
-        <dex dex="G:\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_base_v4_0_0_cbfef0c374c7d6ce692ca380d0f75a3a68338a1d\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\piglet\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="G:\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_a50be6174d850dfd2a3bfa4766474781bfa9e6c0\classes.dex" />
-    </item>
-    <item
-        jar="G:\Respire\app\libs\httpclient-4.2.5.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="3bfeb9062b12d5b340445336790dbc14c59c2d79">
-        <dex dex="G:\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpclient-4.2.5_4bf5aa4c4d64875a2ce469108460574892db6b7b\classes.dex" />
-    </item>
-    <item
-        jar="G:\Respire\app\libs\servlet-api.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="008d3bc2183f5fe10a6ea335c701ad2d1f188850">
-        <dex dex="G:\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\2\servlet-api_4e483b399918381abadf1b31f29d30633bd55c4c\classes.dex" />
-    </item>
-    <item
-        jar="G:\Respire\app\libs\sun.misc.BASE64Decoder.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="acd93e3727886196f9b8434279ff445ba8611186">
-        <dex dex="G:\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\2\sun.misc.BASE64Decoder_1ad3e2fe6b83a4a30f2c0b16958909f734de7c36\classes.dex" />
-    </item>
-    <item
-        jar="G:\Respire\app\libs\baidumapapi_radar_v4_0_0.jar"
+        jar="E:\git\respire\Respire\app\libs\baidumapapi_radar_v4_0_0.jar"
         jumboMode="true"
         revision="23.0.3"
         sha1="81b00e6e2da11e12554d8cbf0acc23627fd1225b">
-        <dex dex="G:\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_radar_v4_0_0_439d32d9da2601422c3e2744cc055a6cb1efe3ac\classes.dex" />
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_radar_v4_0_0_9a693b8671bd1c40104b06a9151b1b5bba01b7f2\classes.dex" />
     </item>
     <item
-        jar="G:\Respire\app\libs\volley.jar"
+        jar="E:\git\respire\Respire\app\build\intermediates\exploded-aar\Respire\redpacketlibrary\unspecified\jars\libs\redpacket2.0.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="4a94601db9bdfb7dc60efabb3dea91a0675f591d">
-        <dex dex="G:\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\2\volley_665dee53521dc9d27bf05955fbd752e52c3f7a5c\classes.dex" />
+        sha1="f59dd007a64b6434c4e238c3d9185c161289f6e1">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\8\redpacket2.0_36f342b5524f4668ffd504aae7bc1e193eb2cfe0\classes.dex" />
     </item>
     <item
-        jar="G:\Respire\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
-        <dex dex="G:\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_3761f38507f8a70d68f13f307a26fcd31544d8cf\classes.dex" />
-    </item>
-    <item
-        jar="G:\Respire\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="f778a7ff05114a8c5b9ff7136dffabefd4c91f2f">
-        <dex dex="G:\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_0251c72ad4b40b07fa423ac829e4c91a264e7b0c\classes.dex" />
-    </item>
-    <item
-        jar="G:\Respire\app\libs\uk-co-senab-photoview.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="3746c6e7e5faa897fd6689bfbf19d39b9a4fc0c5">
-        <dex dex="G:\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\2\uk-co-senab-photoview_762f9ce11250b6e7a11953a28ddebfece6e2bebe\classes.dex" />
-    </item>
-    <item
-        jar="G:\Respire\app\libs\Yuntx_IMLib_v5.2.1r.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="88e33d9d66c6718b5d1fdb4ce5b402ec96709a15">
-        <dex dex="G:\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\2\Yuntx_IMLib_v5.2.1r_3fde9e6ede7cbd95fb7f756612d5a40c248d706a\classes.dex" />
-    </item>
-    <item
-        jar="G:\Respire\app\libs\locSDK_6.13.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="2cdb37444b41b42e1ce5a8a27e5d3c22e1c57479">
-        <dex dex="G:\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\2\locSDK_6.13_b56bf2bfcc81a6e35feb0318593b22fc89c9e073\classes.dex" />
-    </item>
-    <item
-        jar="G:\Respire\app\libs\achartengine-1.1.0.jar"
+        jar="E:\git\respire\Respire\app\libs\achartengine-1.1.0.jar"
         jumboMode="true"
         revision="23.0.3"
         sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250">
-        <dex dex="G:\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\2\achartengine-1.1.0_e597642cadd2811b768afce437ea11c35dd687db\classes.dex" />
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\2\achartengine-1.1.0_155c39a3b3d0975b09bcdf7d44f6a098d7d071df\classes.dex" />
     </item>
     <item
-        jar="G:\Respire\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jar="E:\git\respire\Respire\app\libs\sun.misc.BASE64Decoder.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="acd93e3727886196f9b8434279ff445ba8611186">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\2\sun.misc.BASE64Decoder_407364ee091ec89a39e428b060c512fcae6f761e\classes.dex" />
+    </item>
+    <item
+        jar="E:\git\respire\Respire\app\libs\baidumapapi_base_v4_0_0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="dc207932ddfb65566a157ca311a6a6dffc7fccab">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_base_v4_0_0_d6401047096f242136d9356359b5a6a190241418\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\佳雯\.gradle\caches\modules-2\files-2.1\cn.leancloud.android\okhttp\2.6.0-leancloud\7d1a8dbbc128e91cf41ab6eafaa741ab2a6ff930\okhttp-2.6.0-leancloud.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="7d1a8dbbc128e91cf41ab6eafaa741ab2a6ff930">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-2.6.0-leancloud_ec1f832aa974c12c5121b469b282ccfa58480d4b\classes.dex" />
+    </item>
+    <item
+        jar="E:\git\respire\Respire\app\libs\httpclient-4.2.5.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3bfeb9062b12d5b340445336790dbc14c59c2d79">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpclient-4.2.5_dc9d5e55c641c40bf08cfecf7ed9559375554ba2\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\佳雯\.gradle\caches\modules-2\files-2.1\com.github.stuxuhai\jpinyin\1.0\1147a356363940a13f955933d6fbab0622b189f7\jpinyin-1.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1147a356363940a13f955933d6fbab0622b189f7">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\jpinyin-1.0_b6b4c87f85f0b37ce50412e95cfa75a0e9c21a9f\classes.dex" />
+    </item>
+    <item
+        jar="E:\git\respire\Respire\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="87ad217aac33c1437834d51af400c17f375f84fd">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_4a3df05dbbc30080e3fb4cdabc16a142f1244ce9\classes.dex" />
+    </item>
+    <item
+        jar="E:\git\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
         jumboMode="true"
         revision="23.0.3"
         sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="G:\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_9773fde22a3832779c1fecefb05a497d58afa24c\classes.dex" />
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_4a5d1c75e84f1ad8715fb03e874baf708ea06a7d\classes.dex" />
     </item>
     <item
-        jar="G:\Respire\app\libs\httpcore-4.2.4.jar"
+        jar="E:\git\respire\Respire\app\libs\volley.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4a94601db9bdfb7dc60efabb3dea91a0675f591d">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\2\volley_eedb55d03b36db90bd3bfab4335793c87d7a680e\classes.dex" />
+    </item>
+    <item
+        jar="E:\git\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_2d3130092011a731d78a7a6b65f8b658e999d7cc\classes.dex" />
+    </item>
+    <item
+        jar="E:\git\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_e6c83a28c660b8e3cce587b63c07ecc0dd2af3dd\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\佳雯\.gradle\caches\modules-2\files-2.1\cn.leancloud.android\Java-WebSocket\1.3.2-leancloud\169fd461930335df8099bcbac99c0f206912ced1\Java-WebSocket-1.3.2-leancloud.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="169fd461930335df8099bcbac99c0f206912ced1">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\Java-WebSocket-1.3.2-leancloud_e0cd6e836bd322659c1bca054f7bb5ebe4589195\classes.dex" />
+    </item>
+    <item
+        jar="E:\git\respire\Respire\app\libs\servlet-api.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="008d3bc2183f5fe10a6ea335c701ad2d1f188850">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\2\servlet-api_839c60b6d3378f93278d227c8c9676bff0041b54\classes.dex" />
+    </item>
+    <item
+        jar="E:\git\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_69792e78d10a83278019864746f7b181b6c2644d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\佳雯\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.6.2\f1bc476cc167b18e66c297df599b2377131a8947\gson-2.6.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.6.2_19fd4d6eb213a32fc3da2c3c93e987687efb7b59\classes.dex" />
+    </item>
+    <item
+        jar="E:\git\respire\Respire\app\libs\locSDK_6.13.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2cdb37444b41b42e1ce5a8a27e5d3c22e1c57479">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\2\locSDK_6.13_7806f75df049cff4248cf23dcf3b2f00c8a47572\classes.dex" />
+    </item>
+    <item
+        jar="E:\git\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.1.0_2270b25eef6837e3440125e732fc7ae5264eb2df\classes.dex" />
+    </item>
+    <item
+        jar="E:\git\respire\Respire\app\libs\Yuntx_IMLib_v5.2.1r.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="88e33d9d66c6718b5d1fdb4ce5b402ec96709a15">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\2\Yuntx_IMLib_v5.2.1r_2abedaabba8d27def5119be9c2bb8cdcd4d69abb\classes.dex" />
+    </item>
+    <item
+        jar="E:\git\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_142f6c01a0d23fb3a678698d7c26c967a908b201\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\佳雯\.gradle\caches\modules-2\files-2.1\de.greenrobot\eventbus\2.4.0\ddd166d01b3158d1c00576d29f7ed15c030df719\eventbus-2.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\eventbus-2.4.0_c4eb4d9abb5f6fcd71a2ee09d280e3982b825bd2\classes.dex" />
+    </item>
+    <item
+        jar="E:\git\respire\Respire\app\libs\uk-co-senab-photoview.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3746c6e7e5faa897fd6689bfbf19d39b9a4fc0c5">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\2\uk-co-senab-photoview_31acb593e081cfebd18216f1ce98c9938326c179\classes.dex" />
+    </item>
+    <item
+        jar="E:\git\respire\Respire\app\build\intermediates\exploded-aar\Respire\leanchatlib\unspecified\jars\libs\prettytime-3.2.5.Final.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8fb460b35d7784eb97571401e9eac9b051dc1e04">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\8\prettytime-3.2.5.Final_f3a4c7fe07d776a00ad9efa55a1d3df08d11a4ed\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\佳雯\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpmime\4.2.4\dba4d4d224e2ca872af5be8d2992777583145478\httpmime-4.2.4.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="dba4d4d224e2ca872af5be8d2992777583145478">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\httpmime-4.2.4_f96643b35b21e7932d593168c61d1d1f76035438\classes.dex" />
+    </item>
+    <item
+        jar="E:\git\respire\Respire\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.1.0_e21da89b2112ee403de8cd269482a886b8ffebd9\classes.dex" />
+    </item>
+    <item
+        jar="D:\Users\Jessy\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_54035f98a31f2b1c07a358826242ce20c69db5f7\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\佳雯\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.2.4\3b7f38df6de5dd8b500e602ae8c2dd5ee446f883\httpcore-4.2.4.jar"
         jumboMode="true"
         revision="23.0.3"
         sha1="3b7f38df6de5dd8b500e602ae8c2dd5ee446f883">
-        <dex dex="G:\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpcore-4.2.4_43c425962d87d150de84e4ac04b24f07f0a4aca8\classes.dex" />
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\httpcore-4.2.4_dbd0c6f0687369cbbe759148c2556529e194161d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\佳雯\.gradle\caches\modules-2\files-2.1\com.google.protobuf\protobuf-java\2.6.1\d9521f2aecb909835746b7a5facf612af5e890e8\protobuf-java-2.6.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d9521f2aecb909835746b7a5facf612af5e890e8">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\protobuf-java-2.6.1_b552e3274ab673138e8e22d02f3a30b618c0f643\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\佳雯\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.3\a85588bec3e2c4584d593d3f15df1677321bca72\universal-image-loader-1.9.3.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\universal-image-loader-1.9.3_a4e476e4a71b22faeb2c48c731455c7f9e55b3eb\classes.dex" />
+    </item>
+    <item
+        jar="E:\git\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_182366e506a5d5e6db4240f6464bc403308d6e7a\classes.dex" />
+    </item>
+    <item
+        jar="E:\git\respire\Respire\app\libs\baidumapapi_search_v4_0_0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="08f97ee0e35fb17d405d29bf62eef305faffffcc">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_search_v4_0_0_edd2f4bc2d2225ff926054a2758d16ef59bf2ac8\classes.dex" />
+    </item>
+    <item
+        jar="E:\git\respire\Respire\app\libs\baidumapapi_util_v4_0_0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1e9069435803e5a4f32dc429906def33a95aaf17">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_util_v4_0_0_a5cff0ea76ea0d9bff6d9edf4701e6f9d88c4341\classes.dex" />
+    </item>
+    <item
+        jar="E:\git\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\design\22.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-22.2.0_a7d2d5b79ab6a2a7ae5b1fdb22cd09f112432278\classes.dex" />
+    </item>
+    <item
+        jar="E:\git\respire\Respire\app\libs\baidumapapi_cloud_v4_0_0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e2aca735ca322917c5ee5fd40d663773391cf0a6">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_cloud_v4_0_0_e062a6e1311b842450f6706a833a18dde75d80a9\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\佳雯\.gradle\caches\modules-2\files-2.1\cn.leancloud.android\avoscloud-sdk\v3.14.1\addb6ac981a130b554a0e06e771bcc423c4e2533\avoscloud-sdk-v3.14.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="addb6ac981a130b554a0e06e771bcc423c4e2533">
+        <dex dex="E:\git\respire\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\avoscloud-sdk-v3.14.1_e4c18fc4e5186b05ed50706a3dd7080d53ef83d0\classes.dex" />
     </item>
 
 </items>

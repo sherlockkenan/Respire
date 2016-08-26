@@ -1,7 +1,7 @@
--injars 'F:\workspace\project\summer project\respire\Respire\app\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
--outjars 'F:\workspace\project\summer project\respire\Respire\app\build\intermediates\multi-dex\debug\componentClasses.jar'
+-injars 'E:\git\respire\Respire\app\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
+-outjars 'E:\git\respire\Respire\app\build\intermediates\multi-dex\debug\componentClasses.jar'
 
--libraryjars 'E:\android-sdk\build-tools\23.0.3\lib\shrinkedAndroid.jar'
+-libraryjars 'D:\Users\Jessy\AppData\Local\Android\sdk\build-tools\23.0.3\lib\shrinkedAndroid.jar'
 
 -forceprocessing
 -dontoptimize
@@ -10,7 +10,7 @@
 -dontpreverify
 -dontnote **,com.android.tools.fd.**,android.support.multidex.MultiDexExtractor
 -dontwarn **
--printconfiguration 'F:\workspace\project\summer project\respire\Respire\app\build\intermediates\multi-dex\debug\components.flags'
+-printconfiguration 'E:\git\respire\Respire\app\build\intermediates\multi-dex\debug\components.flags'
 
 
 -keep class com.yuntongxun.ecsdk.ECClientService {
@@ -139,6 +139,74 @@
 }
 
 -keep class com.example.respireapp.Activity.SearchActivity {
+    <init>();
+}
+
+-keep class com.avoscloud.leanchatlib_demo.ConversationListActivity {
+    <init>();
+}
+
+-keep class com.avoscloud.leanchatlib.activity.AVChatActivity {
+    <init>();
+}
+
+-keep class com.avos.avoscloud.AVBroadcastReceiver {
+    <init>();
+}
+
+-keep class com.avos.avoscloud.PushService {
+    <init>();
+}
+
+-keep class com.avoscloud.leanchatlib.activity.ImageBrowserActivity {
+    <init>();
+}
+
+-keep class com.leancloud.im.guide.activity.AVSquareActivity {
+    <init>();
+}
+
+-keep class com.leancloud.im.guide.activity.AVSquareMembersActivity {
+    <init>();
+}
+
+-keep class com.leancloud.im.guide.activity.AVSingleChatActivity {
+    <init>();
+}
+
+-keep class com.avos.avoscloud.PushService {
+    <init>();
+}
+
+-keep class com.leancloud.im.guide.NotificationBroadcastReceiver {
+    <init>();
+}
+
+-keep class com.avos.avoscloud.AVBroadcastReceiver {
+    <init>();
+}
+
+-keep class com.leancloud.im.guide.activity._AVSingleChatActivity {
+    <init>();
+}
+
+-keep class com.example.respireapp.Activity.SceneryInfoActivity {
+    <init>();
+}
+
+-keep class com.example.respireapp.Service.RecommandService {
+    <init>();
+}
+
+-keep class com.example.respireapp.Service.AlarmReceiver {
+    <init>();
+}
+
+-keep class com.example.respireapp.Activity.RecommendActivity {
+    <init>();
+}
+
+-keep class com.baidu.location.f {
     <init>();
 }
 
