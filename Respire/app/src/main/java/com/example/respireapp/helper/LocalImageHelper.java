@@ -3,6 +3,8 @@ package com.example.respireapp.helper;
 import android.database.Cursor;
 import android.provider.MediaStore;
 
+import com.example.respireapp.Activity.AppContext;
+
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -10,8 +12,6 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import com.example.respireapp.Activity.AppContext;
 
 /**
  * Created by linjizong on 15/6/11.

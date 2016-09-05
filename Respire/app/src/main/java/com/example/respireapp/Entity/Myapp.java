@@ -3,19 +3,20 @@ package com.example.respireapp.Entity;
 /**
  * Created by 佳雯 on 2016/7/12.
  */
-        import android.app.Application;
-        import android.content.Context;
 
-        import com.avos.avoscloud.AVOSCloud;
-        import com.avos.avoscloud.im.v2.AVIMMessageManager;
-        import com.avos.avoscloud.im.v2.AVIMTypedMessage;
-        import com.avoscloud.leanchatlib.controller.ChatManager;
-        import com.avoscloud.leanchatlib.utils.ThirdPartUserUtils;
-        import com.avoscloud.leanchatlib_demo.CustomUserProvider;
-        import com.leancloud.im.guide.MessageHandler;
-        import com.nostra13.universalimageloader.core.ImageLoader;
-        import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
-        import com.nostra13.universalimageloader.core.assist.QueueProcessingType;
+import android.app.Application;
+import android.content.Context;
+
+import com.avos.avoscloud.AVOSCloud;
+import com.avos.avoscloud.im.v2.AVIMMessageManager;
+import com.avos.avoscloud.im.v2.AVIMTypedMessage;
+import com.avoscloud.leanchatlib.controller.ChatManager;
+import com.avoscloud.leanchatlib.utils.ThirdPartUserUtils;
+import com.avoscloud.leanchatlib_demo.CustomUserProvider;
+import com.leancloud.im.guide.MessageHandler;
+import com.nostra13.universalimageloader.core.ImageLoader;
+import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
+import com.nostra13.universalimageloader.core.assist.QueueProcessingType;
 
 /**
  * Created by piglet on 2016/7/5.
@@ -23,7 +24,7 @@ package com.example.respireapp.Entity;
 public class Myapp  extends Application {
     public String sessionid;
     //public String url="http://59.78.44.166:8000";
-    public String url="http://192.168.10.251:8000";
+    public String url="http://202.120.40.178:22180";
     //public String url="http://10.189.140.174:8000";
     public String getUrl(){return url;};
     public void setUrl(String url){this.url=url;};

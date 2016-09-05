@@ -7,8 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.leancloud.im.guide.Constants;
 import com.example.respireapp.R;
+import com.leancloud.im.guide.Constants;
 import com.leancloud.im.guide.activity.AVSingleChatActivity;
 import com.leancloud.im.guide.adapter.MembersAdapter;
 

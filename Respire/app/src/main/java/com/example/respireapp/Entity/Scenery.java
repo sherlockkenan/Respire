@@ -4,8 +4,6 @@ package com.example.respireapp.Entity;
  * Created by keke on 2016/7/19.
  */
 
-import java.util.Date;
-
 public class Scenery {
 
     private String id;

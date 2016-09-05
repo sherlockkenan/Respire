@@ -12,13 +12,11 @@ import com.avos.avoscloud.im.v2.AVIMConversationQuery;
 import com.avos.avoscloud.im.v2.AVIMException;
 import com.avos.avoscloud.im.v2.callback.AVIMConversationCallback;
 import com.avos.avoscloud.im.v2.callback.AVIMConversationQueryCallback;
-import com.avoscloud.leanchatlib.controller.ChatManager;
-import com.avoscloud.leanchatlib.utils.ConversationManager;
+import com.example.respireapp.R;
 import com.leancloud.im.guide.AVImClientManager;
 import com.leancloud.im.guide.Constants;
-import com.example.respireapp.R;
-import com.leancloud.im.guide.fragment.ChatFragment;
 import com.leancloud.im.guide.event.LeftChatItemClickEvent;
+import com.leancloud.im.guide.fragment.ChatFragment;
 
 import java.util.Arrays;
 import java.util.List;

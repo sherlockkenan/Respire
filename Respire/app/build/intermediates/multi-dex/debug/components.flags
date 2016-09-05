@@ -1,7 +1,7 @@
--injars 'E:\git\respire\Respire\app\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
--outjars 'E:\git\respire\Respire\app\build\intermediates\multi-dex\debug\componentClasses.jar'
+-injars 'F:\workspace\project\summer project\Respire\app\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
+-outjars 'F:\workspace\project\summer project\Respire\app\build\intermediates\multi-dex\debug\componentClasses.jar'
 
--libraryjars 'D:\Users\Jessy\AppData\Local\Android\sdk\build-tools\23.0.3\lib\shrinkedAndroid.jar'
+-libraryjars 'E:\android-sdk\build-tools\23.0.3\lib\shrinkedAndroid.jar'
 
 -forceprocessing
 -dontoptimize
@@ -10,7 +10,7 @@
 -dontpreverify
 -dontnote **,com.android.tools.fd.**,android.support.multidex.MultiDexExtractor
 -dontwarn **
--printconfiguration 'E:\git\respire\Respire\app\build\intermediates\multi-dex\debug\components.flags'
+-printconfiguration 'F:\workspace\project\summer project\Respire\app\build\intermediates\multi-dex\debug\components.flags'
 
 
 -keep class com.yuntongxun.ecsdk.ECClientService {

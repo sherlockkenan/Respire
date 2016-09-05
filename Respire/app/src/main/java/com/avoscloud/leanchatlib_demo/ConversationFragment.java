@@ -15,7 +15,6 @@ import com.avos.avoscloud.im.v2.AVIMConversation;
 import com.avos.avoscloud.im.v2.AVIMException;
 import com.avos.avoscloud.im.v2.AVIMMessage;
 import com.avos.avoscloud.im.v2.callback.AVIMSingleMessageQueryCallback;
-import com.avoscloud.leanchatlib.activity.AVChatActivity;
 import com.avoscloud.leanchatlib.adapter.CommonListAdapter;
 import com.avoscloud.leanchatlib.event.ConversationItemClickEvent;
 import com.avoscloud.leanchatlib.event.ImTypeMessageEvent;
@@ -25,7 +24,6 @@ import com.avoscloud.leanchatlib.utils.ConversationManager;
 import com.avoscloud.leanchatlib.view.DividerItemDecoration;
 import com.avoscloud.leanchatlib.viewholder.ConversationItemHolder;
 import com.example.respireapp.R;
-import com.leancloud.im.guide.activity.AVSingleChatActivity;
 import com.leancloud.im.guide.activity._AVSingleChatActivity;
 
 import java.util.ArrayList;

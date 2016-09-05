@@ -1,22 +1,19 @@
 package com.example.respireapp.Activity;
-import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+
 import android.app.Activity;
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.ImageButton;
-import android.widget.Toast;
-import com.example.respireapp.Service.LoginService;
+import android.widget.TextView;
+
 import com.example.respireapp.R;
-import android.content.ServiceConnection;
-import android.content.BroadcastReceiver;
-import android.content.Context;
-import android.content.IntentFilter;
+import com.example.respireapp.Service.LoginService;
 public class LoginActivity extends Activity {
     private OnClickListener submitlistener=new OnClickListener(){
         public void onClick(View v){

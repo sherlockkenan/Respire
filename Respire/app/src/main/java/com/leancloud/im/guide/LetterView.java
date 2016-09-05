@@ -6,10 +6,12 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
 import com.leancloud.im.guide.event.MemberLetterEvent;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import de.greenrobot.event.EventBus;
 
 

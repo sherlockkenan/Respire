@@ -131,14 +131,14 @@
         android:theme="@style/AppTheme">
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
-            android:value="beeGXOImauL9aQzr1ZMO4ymyAqBDBk4r" />
+            android:value="6dFzvhCUAtyyYyFHPhUC5MlmRWl7b8LB" />
 
         <activity android:name=".Activity.LoginActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
         </activity>
         <activity android:name=".Activity.MainActivity" />
         <activity android:name=".Activity.RegisterActivity" />
@@ -165,8 +165,12 @@
         <activity android:name=".Activity.PoolActivity" />
         <activity android:name=".Activity.TestpicActivity" />
         <activity
-            android:name=".Activity.map.HeatMap"
-            android:label="@string/app_name" />
+            android:name=".Activity.map.HeatMap">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
         <activity android:name=".Activity.ItineraryActivity" />
         <activity android:name=".Activity.PhotoInfoActivity" />
         <activity android:name=".Activity.SearchActivity" />
@@ -226,8 +230,8 @@
         <service
             android:name="com.baidu.location.f"
             android:enabled="true"
-            android:process=":remote" >
-
+            android:process=":remote"
+            android:permission="android.permission.BAIDU_LOCATION_SERVICE">
         </service>
     </application>
 

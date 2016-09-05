@@ -343,6 +343,7 @@ android/support/annotation/ColorInt.class
 com/avos/avoscloud/PushService.class
 com/alibaba/fastjson/serializer/DoubleArraySerializer.class
 com/avos/avoscloud/GetDataCallback.class
+com/avos/avoscloud/AVUser$32.class
 com/example/respireapp/Activity/ProfileActivity$10.class
 android/support/v7/app/AppCompatCallback.class
 com/avos/avoscloud/AVObject$8.class
@@ -1157,6 +1158,7 @@ com/avos/avoscloud/AVObject$9.class
 com/google/gson/reflect/TypeToken.class
 com/example/respireapp/Activity/RegisterActivity$10.class
 com/avos/avoscloud/GetCallback.class
+com/avos/avoscloud/AVUser$33.class
 android/support/design/widget/AppBarLayout$LayoutParams$ScrollFlags.class
 com/avos/avoscloud/AVObject$7.class
 android/support/v4/media/MediaMetadataCompat.class

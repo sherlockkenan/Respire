@@ -1,8 +1,6 @@
 package com.leancloud.im.guide.viewholder;
 
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
-import android.text.TextUtils;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
@@ -13,7 +11,6 @@ import android.widget.TextView;
 import com.avos.avoscloud.im.v2.AVIMMessage;
 import com.avos.avoscloud.im.v2.messages.AVIMTextMessage;
 import com.example.respireapp.R;
-import com.leancloud.im.guide.adapter.MembersAdapter;
 import com.leancloud.im.guide.event.ImTypeMessageResendEvent;
 
 import java.text.SimpleDateFormat;

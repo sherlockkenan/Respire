@@ -12,11 +12,11 @@ import android.view.View;
 import com.avos.avoscloud.im.v2.AVIMConversation;
 import com.avos.avoscloud.im.v2.AVIMException;
 import com.avos.avoscloud.im.v2.callback.AVIMConversationCallback;
+import com.example.respireapp.R;
 import com.leancloud.im.guide.AVImClientManager;
 import com.leancloud.im.guide.Constants;
 import com.leancloud.im.guide.LetterView;
 import com.leancloud.im.guide.adapter.MembersAdapter;
-import com.example.respireapp.R;
 import com.leancloud.im.guide.event.MemberLetterEvent;
 
 import java.util.ArrayList;
