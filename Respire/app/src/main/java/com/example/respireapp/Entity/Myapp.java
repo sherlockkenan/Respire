@@ -1,4 +1,4 @@
-package com.example.respireapp.Entity;
+﻿package com.example.respireapp.Entity;
 
 /**
  * Created by 佳雯 on 2016/7/12.
