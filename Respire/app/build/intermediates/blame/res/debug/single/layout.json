@@ -1,634 +1,634 @@
 [
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_hint_message_dialog.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_hint_message_dialog.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_message.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_message.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\layout\\design_navigation_item_separator.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_header_item_layout.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\common_header_item_layout.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_icon.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_right_text_view.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\src\\main\\res\\layout\\chat_right_text_view.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_snackbar_include.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\layout\\layout_snackbar_include.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_textview.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_textview.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\conversation_fragment.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\src\\main\\res\\layout\\conversation_fragment.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_pay_sms_dialog.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_pay_sms_dialog.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_pay_change_no_pwd_dialog.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_pay_change_no_pwd_dialog.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_lines.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_image_layout.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_item_image_layout.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_gridpasswordview.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_gridpasswordview.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_recommend.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\src\\main\\res\\layout\\activity_recommend.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_fragment_group_packet_detail.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_fragment_group_packet_detail.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_activity_record.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_activity_record.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_activity_bind_bankcard.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_activity_bind_bankcard.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_dialog_title_material.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_details_list_footer.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_details_list_footer.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_big_media.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_pay_add_card_dialog.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_pay_add_card_dialog.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\layout\\design_navigation_item.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_emotion_item.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_emotion_item.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_media_cancel_action.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_history.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\src\\main\\res\\layout\\activity_history.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_square.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\src\\main\\res\\layout\\activity_square.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_location.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_item_location.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lc_chat_item_left_text_redpacket_layout.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\lc_chat_item_left_text_redpacket_layout.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_bank_city_list_item.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_bank_city_list_item.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_left_text_layout.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_item_left_text_layout.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_record_layout.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_record_layout.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_me.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\src\\main\\res\\layout\\activity_me.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lc_chat_item_right_text_redpacket_layout.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\lc_chat_item_right_text_redpacket_layout.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_fragment_set_pay_password.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_fragment_set_pay_password.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_simple.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_fragment_bind_bankcard.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_fragment_bind_bankcard.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_media_action.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_location_activity.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_location_activity.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_fragment_withdraw_money.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_fragment_withdraw_money.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_emotion_gridview.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_emotion_gridview.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_itinerary.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\src\\main\\res\\layout\\activity_itinerary.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_activity_red_packet.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_activity_red_packet.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_bottom_text_layout.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_bottom_text_layout.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_error_page.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_error_page.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_common_base_header_right_btn.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_common_base_header_right_btn.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_fragment_single_chat_packet.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_fragment_single_chat_packet.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_chat.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\fragment_chat.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_right_layout.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_item_right_layout.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_conversation_list.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\src\\main\\res\\layout\\activity_conversation_list.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_choose_pay_dialog.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_choose_pay_dialog.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_layout.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_layout.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_media_cancel_action.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_conversation_list.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\src\\main\\res\\layout\\activity_conversation_list.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\src\\main\\res\\layout\\activity_register.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\load_more_footer_layout.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\load_more_footer_layout.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\layout\\design_navigation_item_subheader.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_today.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\src\\main\\res\\layout\\activity_today.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_bottom_add_layout.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_bottom_add_layout.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_change_email.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\src\\main\\res\\layout\\activity_change_email.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_send_record_list_item.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_send_record_list_item.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\src\\main\\res\\layout\\activity_search.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_layout.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_fragment_group_chat_packet.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_fragment_group_chat_packet.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_bottom_add_layout.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_bottom_add_layout.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_fragment_phone_captcha.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_fragment_phone_captcha.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\conversation_item.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\conversation_item.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_photo_info.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\src\\main\\res\\layout\\activity_photo_info.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_pull_to_refresh.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_pull_to_refresh.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_chronometer.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_record_list_footer.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_record_list_footer.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_multichoice_material.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_loginjump.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\src\\main\\res\\layout\\activity_loginjump.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_record_fragment.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_record_fragment.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_fragment_red_packet_detail.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_fragment_red_packet_detail.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_change_username.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\src\\main\\res\\layout\\activity_change_username.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_media.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_send_record_list_header.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_send_record_list_header.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lc_chat_item_empty.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\lc_chat_item_empty.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_textview.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_textview.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tool_bar.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\tool_bar.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_image_show_cancel.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\src\\main\\res\\layout\\view_image_show_cancel.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sceneryinfo.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\src\\main\\res\\layout\\activity_sceneryinfo.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_client_state_view.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_client_state_view.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_fragment_withdraw_money.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_fragment_withdraw_money.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_fragment_phone_captcha.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_fragment_phone_captcha.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_left_text_view.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\src\\main\\res\\layout\\chat_left_text_view.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_left_text_layout.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_item_left_text_layout.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\layout\\design_navigation_item_header.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_activity_webview.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_activity_webview.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_right_text_layout.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_item_right_text_layout.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\conversation_item.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\conversation_item.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_change_sex.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\src\\main\\res\\layout\\activity_change_sex.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_details_list_header.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_details_list_header.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_pay_tips_dialog.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_pay_tips_dialog.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_image_brower_layout.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_image_brower_layout.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_title_item.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_square.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\src\\main\\res\\layout\\activity_square.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_me.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\src\\main\\res\\layout\\activity_me.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_change_password.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\src\\main\\res\\layout\\activity_change_password.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_content_include.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_common_base_header_right_btn.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_common_base_header_right_btn.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_fragment_set_pay_password.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_fragment_set_pay_password.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_page.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\src\\main\\res\\layout\\activity_page.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_image.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_item_image.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_activity_change.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_activity_change.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lc_chat_item_empty.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\lc_chat_item_empty.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_pay_change_no_pwd_dialog.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_pay_change_no_pwd_dialog.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_layout.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pool.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\src\\main\\res\\layout\\activity_pool.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_chat.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\fragment_chat.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\layout\\design_navigation_item_header.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_fragment_change.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_fragment_change.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\src\\main\\res\\layout\\activity_home.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_details_list_footer.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_details_list_footer.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pic.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\src\\main\\res\\layout\\activity_pic.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_bank_city_list_dialog.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_bank_city_list_dialog.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_divider.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_divider.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_fragment_complete_card_info.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_fragment_complete_card_info.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_alert_dialog_material.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_record_layout.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_record_layout.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_square_members.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\src\\main\\res\\layout\\activity_square_members.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_change_city.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\src\\main\\res\\layout\\activity_change_city.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_common_base_header.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_common_base_header.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_widget_title_bar.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_widget_title_bar.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_recommend.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\src\\main\\res\\layout\\activity_recommend.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_error_page.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_error_page.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_media.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_emotion_gridview.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_emotion_gridview.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_loading.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_loading.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_loginjump.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\src\\main\\res\\layout\\activity_loginjump.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_fragment_complete_card_info.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_fragment_complete_card_info.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_right_text_layout.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_item_right_text_layout.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_discovery.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\src\\main\\res\\layout\\activity_discovery.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_divider.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_divider.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_send_record_list_header.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_send_record_list_header.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_item_material.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\conversation_fragment.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\src\\main\\res\\layout\\conversation_fragment.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_loading.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_loading.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_popup_layout.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_popup_layout.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_simple.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_item_layout.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_bottom_more_layout.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_bottom_more_layout.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\layout\\design_navigation_menu.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_left_layout.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_item_left_layout.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_media_action.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_received_record_list_item.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_received_record_list_item.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_bank_city_list_dialog.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_bank_city_list_dialog.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_radio.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_right_layout.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_item_right_layout.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_location.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_item_location.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_profile.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\src\\main\\res\\layout\\activity_profile.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\input_bottom_bar.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\src\\main\\res\\layout\\input_bottom_bar.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chat.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\activity_chat.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_details_list_item.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_details_list_item.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_details_list_header.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_details_list_header.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_gridpasswordview.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_gridpasswordview.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_open_packet_dialog.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_open_packet_dialog.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_big_media_narrow.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_search_view.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_change_city.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\src\\main\\res\\layout\\activity_change_city.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_fragment_single_packet_detail.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_fragment_single_packet_detail.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_image.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_item_image.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pool.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\src\\main\\res\\layout\\activity_pool.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_location_activity.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_location_activity.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\src\\main\\res\\layout\\activity_home.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_choose_pay_dialog.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_choose_pay_dialog.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_page.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\src\\main\\res\\layout\\activity_page.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_fragment_single_packet_detail.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_fragment_single_packet_detail.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_activity_bind_bankcard.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_activity_bind_bankcard.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sceneryinfo.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\src\\main\\res\\layout\\activity_sceneryinfo.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_pay_sms_dialog.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_pay_sms_dialog.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_itinerary.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\src\\main\\res\\layout\\activity_itinerary.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_change_phone.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\src\\main\\res\\layout\\activity_change_phone.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_expanded_menu_layout.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_image_layout.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_item_image_layout.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_member_item.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\src\\main\\res\\layout\\activity_member_item.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_snackbar.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\layout\\layout_snackbar.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_left_audio_layout.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_item_left_audio_layout.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_client_state_view.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_client_state_view.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_change_username.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\src\\main\\res\\layout\\activity_change_username.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_fragment_red_packet_detail.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_fragment_red_packet_detail.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_fragment_group_chat_packet.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_fragment_group_chat_packet.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_emotion_item.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_emotion_item.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_pay_has_pwd_dialog.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_pay_has_pwd_dialog.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_activity_webview.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_activity_webview.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_popup_layout.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_popup_layout.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_select_dialog_material.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_activity_record.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_activity_record.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_pay_add_card_dialog.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_pay_add_card_dialog.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_toolbar.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_fragment_single_chat_packet.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_fragment_single_chat_packet.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_right_text_view.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\src\\main\\res\\layout\\chat_right_text_view.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_photo_info.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\src\\main\\res\\layout\\activity_photo_info.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\src\\main\\res\\layout\\activity_register.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_received_record_list_item.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_received_record_list_item.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\load_more_footer_layout.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\load_more_footer_layout.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_content_include.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_details_list_item.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_details_list_item.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_time.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_member_item.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\src\\main\\res\\layout\\activity_member_item.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_message.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_message.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_activity_red_packet.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_activity_red_packet.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_discovery.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\src\\main\\res\\layout\\activity_discovery.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\layout\\design_navigation_item.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_footer_item_layout.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\common_footer_item_layout.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lc_chat_item_redpacket_ack.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\lc_chat_item_redpacket_ack.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_right_audio_layout.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_item_right_audio_layout.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_left_layout.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_item_left_layout.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_up_container.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_square_members.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\src\\main\\res\\layout\\activity_square_members.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_pull_to_refresh.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_pull_to_refresh.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_big_media.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_today.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\src\\main\\res\\layout\\activity_today.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_common_base_header.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_common_base_header.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_search_view.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_activity_red_packet_detail.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_activity_red_packet_detail.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\input_bottom_bar.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\src\\main\\res\\layout\\input_bottom_bar.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_open_packet_dialog.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_open_packet_dialog.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_activity_change.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_activity_change.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_snackbar.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\layout\\layout_snackbar.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_bottom_more_layout.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_bottom_more_layout.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_heatmap.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\src\\main\\res\\layout\\activity_heatmap.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_time.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_input_bottom_bar_layout.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_input_bottom_bar_layout.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_fragment_bind_bankcard.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_fragment_bind_bankcard.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_send_record_list_item.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_send_record_list_item.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_pay_has_pwd_dialog.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_pay_has_pwd_dialog.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chat.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\activity_chat.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_received_record_list_header.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_received_record_list_header.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_record_fragment.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_record_fragment.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_header_item_layout.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\common_header_item_layout.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_change_sex.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\src\\main\\res\\layout\\activity_change_sex.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_bank_city_list_item.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_bank_city_list_item.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_change_email.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\src\\main\\res\\layout\\activity_change_email.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_pay_tips_dialog.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_pay_tips_dialog.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lc_chat_item_redpacket_ack.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\lc_chat_item_redpacket_ack.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_left_text_view.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\src\\main\\res\\layout\\chat_left_text_view.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_widget_title_bar.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_widget_title_bar.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_footer_item_layout.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\common_footer_item_layout.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_change_phone.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\src\\main\\res\\layout\\activity_change_phone.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_snackbar_include.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\layout\\layout_snackbar_include.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_choose_record_popup_layout.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_choose_record_popup_layout.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_profile.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\src\\main\\res\\layout\\activity_profile.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pic.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\src\\main\\res\\layout\\activity_pic.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_activity_chooser_view.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_lines.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_received_record_list_header.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_received_record_list_header.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_bottom_text_layout.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_bottom_text_layout.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_image_brower_layout.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_image_brower_layout.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_common_base_header_right_image_btn.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_common_base_header_right_image_btn.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\layout\\design_navigation_menu.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_input_bottom_bar_layout.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_input_bottom_bar_layout.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_image_show_cancel.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\src\\main\\res\\layout\\view_image_show_cancel.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_history.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\src\\main\\res\\layout\\activity_history.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_choose_record_popup_layout.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_choose_record_popup_layout.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lc_chat_item_left_text_redpacket_layout.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\lc_chat_item_left_text_redpacket_layout.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tool_bar.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\tool_bar.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_layout.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_layout.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_record_list_footer.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_record_list_footer.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_right_audio_layout.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_item_right_audio_layout.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_activity_red_packet_detail.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_activity_red_packet_detail.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_common_base_header_right_image_btn.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_common_base_header_right_image_btn.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_change_password.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\src\\main\\res\\layout\\activity_change_password.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_fragment_change.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_fragment_change.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\src\\main\\res\\layout\\activity_search.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_hint_message_dialog.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_hint_message_dialog.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_left_audio_layout.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\layout\\chat_item_left_audio_layout.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rp_fragment_group_packet_detail.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\rp_fragment_group_packet_detail.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_heatmap.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\src\\main\\res\\layout\\activity_heatmap.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lc_chat_item_right_text_redpacket_layout.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\layout\\lc_chat_item_right_text_redpacket_layout.xml"
     },
     {
-        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_mode_bar.xml"
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_chronometer.xml"
     }
 ]

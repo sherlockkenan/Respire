@@ -1,7 +1,13 @@
 package com.example.respireapp.Activity;
 
-import android.os.Bundle;
+import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.util.DisplayMetrics;
+import android.view.WindowManager;
+import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.example.respireapp.R;
 

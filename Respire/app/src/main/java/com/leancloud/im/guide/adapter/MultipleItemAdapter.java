@@ -8,7 +8,6 @@ import com.leancloud.im.guide.AVImClientManager;
 import com.leancloud.im.guide.viewholder.AVCommonViewHolder;
 import com.leancloud.im.guide.viewholder.LeftTextHolder;
 import com.leancloud.im.guide.viewholder.RightTextHolder;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
