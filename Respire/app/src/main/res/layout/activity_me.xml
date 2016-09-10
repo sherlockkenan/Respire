@@ -137,121 +137,119 @@
 
 
 
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="20dp"
-            android:id="@+id/imageView8"
-            android:src="@drawable/meequipicon"
-            android:layout_column="0"
-            android:layout_gravity="center_vertical|right"
-            android:layout_row="6"
-            android:adjustViewBounds="true" />
+        <!--<ImageView-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="20dp"-->
+            <!--android:id="@+id/imageView8"-->
+            <!--android:src="@drawable/meequipicon"-->
+            <!--android:layout_column="0"-->
+            <!--android:layout_gravity="center_vertical|right"-->
+            <!--android:layout_row="6"-->
+            <!--android:adjustViewBounds="true" />-->
 
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Equipments"
-            android:id="@+id/textView11"
-            android:layout_row="6"
-            android:layout_column="1"
-            android:layout_gravity="center_vertical"
-            android:textSize="20dp"
-            android:textColor="#ffffff"
-            />
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Equipments"-->
+            <!--android:id="@+id/textView11"-->
+            <!--android:layout_row="6"-->
+            <!--android:layout_column="1"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:textSize="20dp"-->
+            <!--android:textColor="#ffffff"-->
+            <!--/>-->
 
-        <ImageView
-            android:layout_width="15dp"
-            android:layout_height="25dp"
-            android:id="@+id/imageView14"
-            android:layout_row="6"
-            android:layout_column="3"
-            android:layout_gravity="right|center_vertical"
-            android:src="@drawable/meright"
-            android:layout_marginRight="25dp"
-            />
+        <!--<ImageView-->
+            <!--android:layout_width="15dp"-->
+            <!--android:layout_height="25dp"-->
+            <!--android:id="@+id/imageView14"-->
+            <!--android:layout_row="6"-->
+            <!--android:layout_column="3"-->
+            <!--android:layout_gravity="right|center_vertical"-->
+            <!--android:src="@drawable/meright"-->
+            <!--android:layout_marginRight="25dp"-->
+            <!--/>-->
 
-        <Button
-            android:layout_width="fill_parent"
-            android:layout_height="40dp"
-            android:layout_row="6"
-            android:id="@+id/equipmentButton"
-            android:layout_columnSpan="4"
-            android:layout_gravity="center_vertical"
-            android:layout_column="0"
-            android:background="#00ffffff"
-            />
+        <!--<Button-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_row="6"-->
+            <!--android:id="@+id/equipmentButton"-->
+            <!--android:layout_columnSpan="4"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:layout_column="0"-->
+            <!--android:background="#00ffffff"-->
+            <!--/>-->
 
-        <ImageView
-            android:layout_width="fill_parent"
-            android:layout_height="20dp"
-            android:id="@+id/imageView15"
-            android:src="@drawable/divider"
-            android:layout_column="0"
-            android:layout_columnSpan="4"
-            android:layout_gravity="bottom"
-            android:layout_row="7"
-            />
-
-
-
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="20dp"
-            android:id="@+id/imageView16"
-            android:src="@drawable/mecardicon"
-            android:layout_column="0"
-            android:layout_gravity="center_vertical|right"
-            android:layout_row="8"
-            android:adjustViewBounds="true" />
+        <!--<ImageView-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="20dp"-->
+            <!--android:id="@+id/imageView15"-->
+            <!--android:src="@drawable/divider"-->
+            <!--android:layout_column="0"-->
+            <!--android:layout_columnSpan="4"-->
+            <!--android:layout_gravity="bottom"-->
+            <!--android:layout_row="7"-->
+            <!--/>-->
 
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Manage Display Cards"
-            android:id="@+id/textView12"
-            android:layout_row="8"
-            android:layout_column="1"
-            android:layout_gravity="center_vertical"
-            android:textSize="20dp"
-            android:textColor="#ffffff"
-            />
 
-        <ImageView
-            android:layout_width="15dp"
-            android:layout_height="25dp"
-            android:id="@+id/imageView17"
-            android:layout_row="8"
-            android:layout_column="3"
-            android:layout_gravity="right|center_vertical"
-            android:src="@drawable/meright"
-            android:layout_marginRight="25dp"
-            />
-
-        <Button
-            android:layout_width="fill_parent"
-            android:layout_height="40dp"
-            android:layout_row="8"
-            android:id="@+id/cardsButton"
-            android:layout_columnSpan="4"
-            android:layout_gravity="center_vertical"
-            android:layout_column="0"
-            android:background="#00ffffff"
-            />
-
-        <ImageView
-            android:layout_width="fill_parent"
-            android:layout_height="20dp"
-            android:id="@+id/imageView18"
-            android:src="@drawable/divider"
-            android:layout_column="0"
-            android:layout_columnSpan="4"
-            android:layout_gravity="bottom"
-            android:layout_row="9"
-            />
+        <!--<ImageView-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="20dp"-->
+            <!--android:id="@+id/imageView16"-->
+            <!--android:src="@drawable/mecardicon"-->
+            <!--android:layout_column="0"-->
+            <!--android:layout_gravity="center_vertical|right"-->
+            <!--android:layout_row="8"-->
+            <!--android:adjustViewBounds="true" />-->
 
 
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Manage Display Cards"-->
+            <!--android:id="@+id/textView12"-->
+            <!--android:layout_row="8"-->
+            <!--android:layout_column="1"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:textSize="20dp"-->
+            <!--android:textColor="#ffffff"-->
+            <!--/>-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="15dp"-->
+            <!--android:layout_height="25dp"-->
+            <!--android:id="@+id/imageView17"-->
+            <!--android:layout_row="8"-->
+            <!--android:layout_column="3"-->
+            <!--android:layout_gravity="right|center_vertical"-->
+            <!--android:src="@drawable/meright"-->
+            <!--android:layout_marginRight="25dp"-->
+            <!--/>-->
+
+        <!--<Button-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_row="8"-->
+            <!--android:id="@+id/cardsButton"-->
+            <!--android:layout_columnSpan="4"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:layout_column="0"-->
+            <!--android:background="#00ffffff"-->
+            <!--/>-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="20dp"-->
+            <!--android:id="@+id/imageView18"-->
+            <!--android:src="@drawable/divider"-->
+            <!--android:layout_column="0"-->
+            <!--android:layout_columnSpan="4"-->
+            <!--android:layout_gravity="bottom"-->
+            <!--android:layout_row="9"-->
+            <!--/>-->
 
         <ImageView
             android:layout_width="50dp"

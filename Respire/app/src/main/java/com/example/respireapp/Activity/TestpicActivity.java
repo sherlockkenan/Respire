@@ -1,5 +1,4 @@
 package com.example.respireapp.Activity;
-
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -19,7 +18,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -29,7 +27,6 @@ import android.widget.RelativeLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -37,25 +34,14 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
-import com.example.respireapp.Entity.LocationUtils;
-import com.example.respireapp.Entity.MyBluetooth;
 import com.example.respireapp.Entity.Myapp;
 import com.example.respireapp.R;
 import com.example.respireapp.Utils.ImageUtils;
-import com.example.respireapp.helper.LocalImageHelper;
-import com.example.respireapp.widget.FlowLayout;
-import com.example.respireapp.widget.MyImageUploadView;
-import com.example.respireapp.widget.SelectViewPager;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 import com.nostra13.universalimageloader.core.display.SimpleBitmapDisplayer;
 import com.nostra13.universalimageloader.core.imageaware.ImageViewAware;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -65,10 +51,19 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.UUID;
-
-import uk.co.senab.photoview.PhotoView;
-
+import com.example.respireapp.helper.LocalImageHelper;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemSelectedListener;
 //import com.example.respireapp.moudle.MultipartRequest;
+import com.example.respireapp.widget.FlowLayout;
+import com.example.respireapp.widget.MyImageUploadView;
+import com.example.respireapp.widget.SelectViewPager;
+import com.example.respireapp.Entity.LocationUtils;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+import uk.co.senab.photoview.PhotoView;
+import com.example.respireapp.Entity.MyBluetooth;
 public class TestpicActivity extends AppCompatActivity implements View.OnClickListener {
     private String JSESSIONID;
     private Myapp myApp;
