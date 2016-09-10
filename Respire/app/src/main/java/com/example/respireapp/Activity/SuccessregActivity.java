@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.respireapp.R;
 import com.example.respireapp.Service.LoginService;
@@ -35,8 +36,10 @@ public class SuccessregActivity extends Activity {
         button.setOnClickListener(listener);
         Bundle bundle=this.getIntent().getExtras();
         String message=bundle.getString("message");
-        TextView information=(TextView)findViewById(R.id.informationText);
-        information.setText(message);
+//        TextView information=(TextView)findViewById(R.id.informationText);
+//        information.setText(message);
+        Toast.makeText(getApplicationContext(), "注册成功请登录",
+                Toast.LENGTH_SHORT).show();
 
     }
 }

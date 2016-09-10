@@ -29,7 +29,8 @@
             android:layout_row="0"
             android:adjustViewBounds="true"
             android:background="#00000000"
-            android:foreground="#00000000" />
+            android:foreground="#00000000"
+            android:visibility="invisible" />
 
         <Button
             android:layout_width="30dp"
@@ -38,17 +39,19 @@
             android:layout_column="3"
             android:layout_gravity="right"
             android:layout_row="0"
-            android:background="#00ffffff" />
+            android:background="#00ffffff"
+            android:visibility="invisible"
+            android:clickable="false" />
 
         <Button
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:id="@+id/refreshButton"
             android:layout_column="0"
+            android:layout_columnSpan="4"
             android:layout_row="0"
-            android:layout_gravity="left"
             android:background="@drawable/refresh"
-            />
+            android:layout_gravity="right" />
 
         <ImageView
             android:layout_width="200dp"
@@ -211,7 +214,7 @@
                 android:layout_gravity="center_vertical"
                 android:textSize="15dp"
                 android:textColor="#ffffff"
-                />
+                android:visibility="invisible" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -234,7 +237,7 @@
                 android:layout_row="6"
                 android:layout_column="3"
                 android:layout_gravity="right|center_vertical"
-                />
+                android:visibility="invisible" />
 
             <ImageView
                 android:layout_width="fill_parent"

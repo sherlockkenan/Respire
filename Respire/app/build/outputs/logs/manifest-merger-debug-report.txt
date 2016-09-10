@@ -1,486 +1,486 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:2:1-238:12
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:2:1-234:12
 	package
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:3:5-37
-		INJECTED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml
-		INJECTED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml
+		INJECTED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml
-		INJECTED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml
+		INJECTED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml
+		INJECTED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml
-		INJECTED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml
+		INJECTED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml
+		INJECTED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:5:5-71
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:5:5-71
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:5:22-68
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:5:22-68
 uses-permission#android.permission.READ_LOGS
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:6:5-68
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:6:5-68
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:6:22-65
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:6:22-65
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:7:5-81
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:7:5-81
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:7:22-78
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:7:22-78
 uses-permission#android.permission.VIBRATE
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:8:5-66
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:8:5-66
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:8:22-63
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:8:22-63
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:9:5-81
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:9:5-81
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:9:22-78
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:9:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:10:5-80
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:10:5-80
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:10:22-77
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:10:22-77
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:11:5-75
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:11:5-75
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:11:22-72
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:11:22-72
 uses-permission#android.permission.CAMERA
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:12:5-65
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:12:5-65
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:12:22-62
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:12:22-62
 uses-permission#android.permission.WRITE_SETTINGS
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:13:5-73
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:13:5-73
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:13:22-70
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:13:22-70
 uses-permission#com.android.launcher.permission.READ_SETTINGS
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:14:5-85
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:14:5-85
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:14:22-82
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:14:22-82
 uses-permission#android.permission.INTERNET
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:15:5-67
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:15:5-67
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:15:22-64
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:15:22-64
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:18:5-81
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:18:5-81
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:18:22-78
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:18:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:20:5-79
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:20:5-79
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:20:22-76
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:20:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:22:5-76
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:22:5-76
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:22:22-73
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:22:22-73
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:24:5-79
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:24:22-76
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:24:22-76
 uses-permission#android.permission.BLUETOOTH
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:29:5-68
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:29:5-68
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:29:22-65
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:29:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:30:5-74
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:30:5-74
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:30:22-71
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:30:22-71
 permission#com.yuntongxun.ecdemo.permission.RECEIVE_MSG
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:33:5-35:47
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:33:5-35:47
 	android:protectionLevel
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:35:9-44
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:35:9-44
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:34:9-68
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:34:9-68
 permission#com.yuntongxun.ecdemo.permission.INCOMING_CALL
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:36:5-38:47
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:36:5-38:47
 	android:protectionLevel
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:38:9-44
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:38:9-44
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:37:9-70
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:37:9-70
 uses-permission#com.yuntongxun.ecdemo.permission.RECEIVE_MSG
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:40:5-84
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:40:5-84
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:40:22-81
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:40:22-81
 uses-permission#com.yuntongxun.ecdemo.permission.INCOMING_CALL
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:42:5-86
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:42:5-86
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:42:22-83
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:42:22-83
 uses-permission#android.permission.GET_TASKS
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:56:5-68
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:56:5-68
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:56:22-65
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:56:22-65
 uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:60:5-80
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:60:5-80
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:60:22-77
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:60:22-77
 uses-permission#android.permission.WAKE_LOCK
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:62:5-68
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:62:5-68
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:62:22-65
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:62:22-65
 service#com.yuntongxun.ecsdk.ECClientService
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:66:5-69:35
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:66:5-69:35
 	android:enabled
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:68:9-31
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:68:9-31
 	android:process
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:69:9-32
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:69:9-32
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:67:9-60
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:67:9-60
 receiver#com.yuntongxun.ecsdk.booter.CCPReceivers$AlarmReceiver
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:71:5-73:35
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:71:5-73:35
 	android:process
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:73:9-32
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:73:9-32
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:72:9-78
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:72:9-78
 receiver#com.yuntongxun.ecsdk.booter.Alarm
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:75:5-78:35
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:75:5-78:35
 	android:process
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:78:9-32
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:78:9-32
 	android:exported
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:77:9-33
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:77:9-33
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:76:9-57
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:76:9-57
 receiver#com.yuntongxun.ecsdk.booter.CCPReceivers$ConnectionReceiver
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:80:5-86:16
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:80:5-86:16
 	android:process
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:82:9-32
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:82:9-32
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:81:9-83
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:81:9-83
 intent-filter#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:83:9-85:25
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:83:9-85:25
 action#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:84:13-75
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:84:13-75
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:84:21-72
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:84:21-72
 receiver#com.yuntongxun.ecsdk.booter.CCPReceivers$BootReceiver
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:89:5-95:16
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:89:5-95:16
 	android:process
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:91:9-32
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:91:9-32
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:90:9-77
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:90:9-77
 intent-filter#android.intent.action.BOOT_COMPLETED
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:92:9-94:25
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:92:9-94:25
 action#android.intent.action.BOOT_COMPLETED
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:93:13-75
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:93:13-75
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:93:21-72
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:93:21-72
 receiver#com.example.respireapp.service.YuntxNotifyReceiver
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:109:5-120:16
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:109:5-120:16
 	android:exported
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:111:9-33
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:111:9-33
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:110:9-52
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:110:9-52
 intent-filter#com.yuntongxun.ecdemo.action.MESSAGE+com.yuntongxun.ecdemo.action.NOTIFICATION_CLICK+com.yuntongxun.ecdemo.action.PERSON_VERSION+com.yuntongxun.ecdemo.action.VOIP_CALL
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:112:9-119:25
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:112:9-119:25
 action#com.yuntongxun.ecdemo.action.VOIP_CALL
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:115:13-77
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:115:13-77
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:115:21-74
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:115:21-74
 action#com.yuntongxun.ecdemo.action.MESSAGE
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:116:13-75
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:116:13-75
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:116:21-72
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:116:21-72
 action#com.yuntongxun.ecdemo.action.NOTIFICATION_CLICK
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:117:13-86
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:117:13-86
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:117:21-83
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:117:21-83
 action#com.yuntongxun.ecdemo.action.PERSON_VERSION
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:118:13-82
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:118:13-82
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:118:21-79
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:118:21-79
 application
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:123:5-236:19
-MERGED from [com.android.support:appcompat-v7:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
-MERGED from [Respire:leanchatlib:unspecified] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\Respire\leanchatlib\unspecified\AndroidManifest.xml:11:5-15:19
-MERGED from [com.android.support:support-v4:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:22.2.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\design\22.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.1.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:123:5-232:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [Respire:leanchatlib:unspecified] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\Respire\leanchatlib\unspecified\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:support-v4:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:22.2.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\design\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:128:9-41
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:128:9-41
 	android:supportsRtl
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:130:9-35
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:130:9-35
 	android:hardwareAccelerated
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:126:9-44
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:126:9-44
 	android:allowBackup
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:125:9-35
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:125:9-35
 	android:icon
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:127:9-43
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:127:9-39
 	android:largeHeap
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:129:9-33
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:129:9-33
 	android:theme
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:131:9-40
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:131:9-40
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:124:9-37
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:124:9-37
 meta-data#com.baidu.lbsapi.API_KEY
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:132:9-134:64
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:132:9-134:64
 	android:value
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:134:13-61
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:134:13-61
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:133:13-52
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:133:13-52
 activity#com.example.respireapp.Activity.LoginActivity
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:136:9-142:20
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:136:9-142:20
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:136:19-57
-activity#com.example.respireapp.Activity.MainActivity
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:143:9-59
-	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:143:19-56
-activity#com.example.respireapp.Activity.RegisterActivity
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:144:9-63
-	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:144:19-60
-activity#com.example.respireapp.Activity.HomeActivity
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:145:9-59
-	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:145:19-56
-activity#com.example.respireapp.Activity.MeActivity
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:146:9-57
-	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:146:19-54
-service#com.example.respireapp.Service.LoginService
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:148:9-57
-	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:148:18-54
-activity#com.example.respireapp.Activity.LoginjumpActivity
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:152:9-64
-	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:152:19-61
-activity#com.example.respireapp.Activity.ProfileActivity
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:153:9-62
-	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:153:19-59
-activity#com.example.respireapp.Activity.DiscoveryActivity
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:154:9-64
-	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:154:19-61
-activity#com.example.respireapp.Activity.HistoryActivity
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:155:9-62
-	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:155:19-59
-activity#com.example.respireapp.Activity.PageActivity
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:156:9-59
-	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:156:19-56
-activity#com.example.respireapp.Activity.SuccessregActivity
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:157:9-65
-	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:157:19-62
-activity#com.example.respireapp.Activity.ChangeUsernameActivity
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:158:9-69
-	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:158:19-66
-activity#com.example.respireapp.Activity.ChangePasswordActivity
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:159:9-69
-	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:159:19-66
-activity#com.example.respireapp.Activity.ChangePhoneActivity
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:160:9-66
-	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:160:19-63
-activity#com.example.respireapp.Activity.ChangeEmailActivity
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:161:9-66
-	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:161:19-63
-activity#com.example.respireapp.Activity.ChangeSexActivity
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:162:9-64
-	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:162:19-61
-activity#com.example.respireapp.Activity.ChangeCityActivity
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:163:9-65
-	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:163:19-62
-activity#com.example.respireapp.Activity.TodayActivity
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:164:9-60
-	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:164:19-57
-activity#com.example.respireapp.Activity.PoolActivity
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:165:9-59
-	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:165:19-56
-activity#com.example.respireapp.Activity.TestpicActivity
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:166:9-62
-	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:166:19-59
-activity#com.example.respireapp.Activity.map.HeatMap
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:167:9-173:20
-	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:168:13-49
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:136:19-57
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:169:9-172:25
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:137:13-141:29
 action#android.intent.action.MAIN
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:170:13-65
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:138:17-69
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:170:21-62
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:138:25-66
 category#android.intent.category.LAUNCHER
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:171:13-73
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:140:17-77
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:171:23-70
-activity#com.example.respireapp.Activity.ItineraryActivity
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:174:9-64
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:140:27-74
+activity#com.example.respireapp.Activity.MainActivity
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:143:9-59
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:174:19-61
-activity#com.example.respireapp.Activity.PhotoInfoActivity
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:175:9-64
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:143:19-56
+activity#com.example.respireapp.Activity.RegisterActivity
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:144:9-63
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:175:19-61
-activity#com.example.respireapp.Activity.SearchActivity
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:176:9-61
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:144:19-60
+activity#com.example.respireapp.Activity.HomeActivity
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:145:9-59
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:176:19-58
-activity#com.avoscloud.leanchatlib_demo.ConversationListActivity
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:177:9-180:70
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:145:19-56
+activity#com.example.respireapp.Activity.MeActivity
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:146:9-57
+	android:name
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:146:19-54
+service#com.example.respireapp.Service.LoginService
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:148:9-57
+	android:name
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:148:18-54
+activity#com.example.respireapp.Activity.LoginjumpActivity
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:152:9-64
+	android:name
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:152:19-61
+activity#com.example.respireapp.Activity.ProfileActivity
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:153:9-62
+	android:name
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:153:19-59
+activity#com.example.respireapp.Activity.DiscoveryActivity
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:154:9-64
+	android:name
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:154:19-61
+activity#com.example.respireapp.Activity.HistoryActivity
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:155:9-62
+	android:name
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:155:19-59
+activity#com.example.respireapp.Activity.PageActivity
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:156:9-59
+	android:name
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:156:19-56
+activity#com.example.respireapp.Activity.SuccessregActivity
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:157:9-65
+	android:name
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:157:19-62
+activity#com.example.respireapp.Activity.ChangeUsernameActivity
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:158:9-69
+	android:name
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:158:19-66
+activity#com.example.respireapp.Activity.ChangePasswordActivity
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:159:9-69
+	android:name
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:159:19-66
+activity#com.example.respireapp.Activity.ChangePhoneActivity
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:160:9-66
+	android:name
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:160:19-63
+activity#com.example.respireapp.Activity.ChangeEmailActivity
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:161:9-66
+	android:name
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:161:19-63
+activity#com.example.respireapp.Activity.ChangeSexActivity
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:162:9-64
+	android:name
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:162:19-61
+activity#com.example.respireapp.Activity.ChangeCityActivity
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:163:9-65
+	android:name
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:163:19-62
+activity#com.example.respireapp.Activity.TodayActivity
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:164:9-60
+	android:name
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:164:19-57
+activity#com.example.respireapp.Activity.PoolActivity
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:165:9-59
+	android:name
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:165:19-56
+activity#com.example.respireapp.Activity.TestpicActivity
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:166:9-62
+	android:name
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:166:19-59
+activity#com.example.respireapp.Activity.map.HeatMap
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:167:9-169:48
 	android:label
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:179:13-45
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:169:13-45
+	android:name
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:168:13-49
+activity#com.example.respireapp.Activity.ItineraryActivity
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:170:9-64
+	android:name
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:170:19-61
+activity#com.example.respireapp.Activity.PhotoInfoActivity
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:171:9-64
+	android:name
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:171:19-61
+activity#com.example.respireapp.Activity.SearchActivity
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:172:9-61
+	android:name
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:172:19-58
+activity#com.avoscloud.leanchatlib_demo.ConversationListActivity
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:173:9-176:70
+	android:label
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:175:13-45
 	android:theme
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:180:13-58
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:176:13-58
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:178:13-83
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:174:13-83
 activity#com.avoscloud.leanchatlib.activity.AVChatActivity
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:181:9-86
-MERGED from [Respire:leanchatlib:unspecified] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\Respire\leanchatlib\unspecified\AndroidManifest.xml:14:9-86
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:177:9-86
+MERGED from [Respire:leanchatlib:unspecified] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\Respire\leanchatlib\unspecified\AndroidManifest.xml:14:9-86
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:181:19-83
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:177:19-83
 receiver#com.avos.avoscloud.AVBroadcastReceiver
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:183:9-188:20
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:179:9-184:20
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:183:19-72
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:179:19-72
 intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.USER_PRESENT
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:184:13-187:29
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:180:13-183:29
 action#android.intent.action.USER_PRESENT
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:186:17-77
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:182:17-77
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:186:25-74
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:182:25-74
 service#com.avos.avoscloud.PushService
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:190:9-66
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:186:9-66
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:190:18-63
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:186:18-63
 activity#com.avoscloud.leanchatlib.activity.ImageBrowserActivity
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:192:9-92
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:188:9-92
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:192:19-89
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:188:19-89
 activity#com.leancloud.im.guide.activity.AVSquareActivity
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:195:9-198:75
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:191:9-194:75
 	android:launchMode
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:197:13-44
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:193:13-44
 	android:windowSoftInputMode
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:198:13-73
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:194:13-73
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:196:13-76
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:192:13-76
 activity#com.leancloud.im.guide.activity.AVSquareMembersActivity
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:200:9-91
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:196:9-91
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:200:19-89
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:196:19-89
 activity#com.leancloud.im.guide.activity.AVSingleChatActivity
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:201:9-204:75
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:197:9-200:75
 	android:launchMode
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:203:13-43
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:199:13-43
 	android:windowSoftInputMode
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:204:13-73
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:200:13-73
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:202:13-80
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:198:13-80
 receiver#com.leancloud.im.guide.NotificationBroadcastReceiver
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:208:9-88
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:204:9-88
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:208:19-86
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:204:19-86
 activity#com.leancloud.im.guide.activity._AVSingleChatActivity
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:217:9-218:83
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:213:9-214:83
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:218:13-81
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:214:13-81
 meta-data#com.google.android.gms.version
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:220:9-222:69
-MERGED from [com.google.android.gms:play-services-basement:8.1.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:216:9-218:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:222:13-66
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:218:13-66
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:221:13-58
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:217:13-58
 activity#com.example.respireapp.Activity.SceneryInfoActivity
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:225:9-65
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:221:9-65
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:225:19-63
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:221:19-63
 service#com.example.respireapp.Service.RecommandService
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:226:9-60
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:222:9-60
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:226:18-58
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:222:18-58
 receiver#com.example.respireapp.Service.AlarmReceiver
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:227:9-58
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:223:9-58
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:227:19-56
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:223:19-56
 activity#com.example.respireapp.Activity.RecommendActivity
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:228:9-63
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:224:9-63
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:228:19-61
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:224:19-61
 service#com.baidu.location.f
-ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:230:9-235:19
+ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:226:9-231:19
 	android:enabled
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:232:13-35
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:228:13-35
 	android:process
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:233:13-38
-	android:permission
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:234:13-75
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:229:13-38
 	android:name
-		ADDED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml:231:13-48
+		ADDED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml:227:13-48
 uses-sdk
-INJECTED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:multidex:1.0.1] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:appcompat-v7:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-vector-drawable:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [Respire:leanchatlib:unspecified] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\Respire\leanchatlib\unspecified\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:multidex:1.0.1] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
-MERGED from [Respire:redpacketlibrary:unspecified] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\Respire\redpacketlibrary\unspecified\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:support-v4:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [cn.leancloud.android:avoscloud-push:v3.14.4] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\cn.leancloud.android\avoscloud-push\v3.14.4\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:support-v4:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-vector-drawable:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.1.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:design:22.2.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\design\22.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-vector-drawable:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.1.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+INJECTED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:appcompat-v7:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [Respire:leanchatlib:unspecified] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\Respire\leanchatlib\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.1] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
+MERGED from [Respire:redpacketlibrary:unspecified] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\Respire\redpacketlibrary\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [cn.leancloud.android:avoscloud-push:v3.14.5] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\cn.leancloud.android\avoscloud-push\v3.14.5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:22.2.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\design\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:23.4.0] F:\workspace\project\summer project\Respire\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:23.4.0] D:\git3\respire\Respire\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml
-		INJECTED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml
+		INJECTED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml
+		INJECTED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml
-		INJECTED from F:\workspace\project\summer project\Respire\app\src\main\AndroidManifest.xml
+		INJECTED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml
+		INJECTED from D:\git3\respire\Respire\app\src\main\AndroidManifest.xml

@@ -12,7 +12,10 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -77,6 +80,30 @@ public class RegisterActivity extends Activity {
             return key;
         }
     }
+    //判断手机格式是否正确
+    public boolean isMobileNO(String mobiles) {
+        Pattern p = Pattern
+                .compile("^((13[0-9])|(15[^4,\\D])|(18[0,5-9]))\\d{8}$");
+        Matcher m = p.matcher(mobiles);
+
+        return m.matches();
+    }
+    //判断email格式是否正确
+    public boolean isEmail(String email) {
+        String str = "^([a-zA-Z0-9_\\-\\.]+)@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.)|(([a-zA-Z0-9\\-]+\\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\\]?)$";
+        Pattern p = Pattern.compile(str);
+        Matcher m = p.matcher(email);
+
+        return m.matches();
+    }
+    public boolean isPassword(String password){
+        //String str = "^(?=.*?[A-Z])[a-zA-Z0-9]{6,}$";
+        String str = "^(?=.*?)[a-zA-Z0-9]{6,}$";
+        Pattern p = Pattern.compile(str);
+        Matcher m = p.matcher(password);
+
+        return m.matches();
+    }
     private View.OnClickListener listener=new View.OnClickListener(){
         public void onClick(View v){
             username=((EditText)findViewById(R.id.usernameText)).getText().toString();
@@ -87,27 +114,27 @@ public class RegisterActivity extends Activity {
             //判断是不是非空
             String wmessage="";
             boolean wrong=false;
-            if(username==null){
+            if(username.equals("")){
                 wrong=true;
                 wmessage="用户名为必填项！";
             }
-            else if(password==null){
+            else if(password.equals("")){
                 wrong=true;
                 wmessage="密码为必填项！";
             }
-            else if(passwordagain==null){
+            else if(passwordagain.equals("")){
                 wrong=true;
                 wmessage="确认密码为必填项！";
             }
-            else if(phone==null){
+            else if(phone.equals("")){
                 wrong=true;
                 wmessage="电话号码为必填项！";
             }
-            else if(email==null){
+            else if(email.equals("")){
                 wrong=true;
                 wmessage="邮箱为必填项！";
             }
-            else if(gender==null){
+            else if(gender.equals("")){
                 wrong=true;
                 wmessage="性别为必填项！";
             }
@@ -115,11 +142,28 @@ public class RegisterActivity extends Activity {
                 wrong=true;
                 wmessage="确认密码不正确!";
             }
-            if(wrong==true){
-                TextView information=(TextView)findViewById(R.id.informationText);
-                information.setText(wmessage);
+            if(!isEmail(email)){
+                wrong=true;
+                wmessage="邮箱格式不正确!";
             }
+            if(!isMobileNO(phone)){
+                wrong=true;
+                wmessage="手机格式不正确!";
+            }
+            if(!isPassword(password)){
+                wrong=true;
+                wmessage="密码格式不正确!";
+            }
+            if(wrong==true){
+//                TextView information=(TextView)findViewById(R.id.informationText);
+//                information.setText(wmessage);
+                Toast.makeText(getApplicationContext(), wmessage,
+                        Toast.LENGTH_SHORT).show();
+            }
+
             else {
+                Toast.makeText(getApplicationContext(), "注册成功请登录",
+                        Toast.LENGTH_SHORT).show();
                 sendregisterrequest();
             }
         }
@@ -183,11 +227,12 @@ public class RegisterActivity extends Activity {
             public void onResponse(JSONObject result){
                 try {
                     JSONArray returnvalue = result.getJSONArray("data");
-                    city3data = new Pair[returnvalue.length()+1];
+                    city3data = new Pair[returnvalue.length()];
                     for(int i=0;i<returnvalue.length();++i){
                         JSONObject temp= (JSONObject)returnvalue.get(i);
                         String name=temp.getString("name");
                         String cityid=temp.getString("cityid");
+
                         Pair tmp=new Pair(cityid,name);
                         city3data[i]=tmp;
                     }
@@ -223,23 +268,25 @@ public class RegisterActivity extends Activity {
             public void onResponse(JSONObject result){
                 try {
                     JSONArray returnvalue = result.getJSONArray("data");
-                    city4data = new Pair[returnvalue.length()+1];
-                    for(int i=0;i<returnvalue.length();++i){
-                        JSONObject temp= (JSONObject)returnvalue.get(i);
-                        String name=temp.getString("name");
-                        String cityid=temp.getString("cityid");
-                        Pair tmp=new Pair(cityid,name);
-                        city4data[i]=tmp;
+                    city4data = new Pair[returnvalue.length()];
+                    if(returnvalue.length()>0) {
+                        for (int i = 0; i < returnvalue.length(); ++i) {
+                            JSONObject temp = (JSONObject) returnvalue.get(i);
+                            String name = temp.getString("name");
+                            String cityid = temp.getString("cityid");
+                            Pair tmp = new Pair(cityid, name);
+                            city4data[i] = tmp;
+                        }
+                        city4adapter = new ArrayAdapter<Pair>(RegisterActivity.this, android.R.layout.simple_spinner_item, city4data);
+                        //设置下拉列表的风格
+                        city4adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+                        //将adapter 添加到spinner中
+                        city4spinner.setAdapter(city4adapter);
+                        //添加事件Spinner事件监听
+                        city4spinner.setOnItemSelectedListener(new City4SpinnerSelectedListener());
+                        //设置默认值
+                        city4spinner.setVisibility(View.VISIBLE);
                     }
-                    city4adapter = new ArrayAdapter<Pair>(RegisterActivity.this,android.R.layout.simple_spinner_item,city4data);
-                    //设置下拉列表的风格
-                    city4adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-                    //将adapter 添加到spinner中
-                    city4spinner.setAdapter(city4adapter);
-                    //添加事件Spinner事件监听
-                    city4spinner.setOnItemSelectedListener(new City4SpinnerSelectedListener());
-                    //设置默认值
-                    city4spinner.setVisibility(View.VISIBLE);
                 }
                 catch (JSONException e) {
                     e.printStackTrace();
@@ -263,23 +310,25 @@ public class RegisterActivity extends Activity {
             public void onResponse(JSONObject result){
                 try {
                     JSONArray returnvalue = result.getJSONArray("data");
-                    city2data = new Pair[returnvalue.length()+1];
-                    for(int i=0;i<returnvalue.length();++i){
-                        JSONObject temp= (JSONObject)returnvalue.get(i);
-                        String name=temp.getString("name");
-                        String cityid=temp.getString("cityid");
-                        Pair tmp=new Pair(cityid,name);
-                        city2data[i]=tmp;
+                    city2data = new Pair[returnvalue.length()];
+                    if(returnvalue.length()>0) {
+                        for (int i = 0; i < returnvalue.length(); ++i) {
+                            JSONObject temp = (JSONObject) returnvalue.get(i);
+                            String name = temp.getString("name");
+                            String cityid = temp.getString("cityid");
+                            Pair tmp = new Pair(cityid, name);
+                            city2data[i] = tmp;
+                        }
+                        city2adapter = new ArrayAdapter<Pair>(RegisterActivity.this, android.R.layout.simple_spinner_item, city2data);
+                        //设置下拉列表的风格
+                        city2adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+                        //将adapter 添加到spinner中
+                        city2spinner.setAdapter(city2adapter);
+                        //添加事件Spinner事件监听
+                        city2spinner.setOnItemSelectedListener(new City2SpinnerSelectedListener());
+                        //设置默认值
+                        city2spinner.setVisibility(View.VISIBLE);
                     }
-                    city2adapter = new ArrayAdapter<Pair>(RegisterActivity.this,android.R.layout.simple_spinner_item,city2data);
-                    //设置下拉列表的风格
-                    city2adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-                    //将adapter 添加到spinner中
-                    city2spinner.setAdapter(city2adapter);
-                    //添加事件Spinner事件监听
-                    city2spinner.setOnItemSelectedListener(new City2SpinnerSelectedListener());
-                    //设置默认值
-                    city2spinner.setVisibility(View.VISIBLE);
                 }
                 catch (JSONException e) {
                     e.printStackTrace();
@@ -306,7 +355,7 @@ public class RegisterActivity extends Activity {
             public void onResponse(JSONObject result){
                 try {
                     JSONArray returnvalue = result.getJSONArray("data");
-                    city1data = new Pair[returnvalue.length()+1];
+                    city1data = new Pair[returnvalue.length()];
                     for(int i=0;i<returnvalue.length();++i){
                         JSONObject temp= (JSONObject)returnvalue.get(i);
                         String name=temp.getString("name");
@@ -382,13 +431,14 @@ public class RegisterActivity extends Activity {
         }
 
         public void onNothingSelected(AdapterView<?> arg0) {
+            System.out.println("4");
         }
     }
     class City3SpinnerSelectedListener implements OnItemSelectedListener{
 
         public void onItemSelected(AdapterView<?> arg0, View arg1, int arg2,
                                    long arg3) {
-            city4data=new Pair[1];
+            //city4data=new Pair[1];
             city3_fid=((Pair)city3spinner.getSelectedItem()).getkey();
             sendcity4request(city3_fid);
 
@@ -396,6 +446,7 @@ public class RegisterActivity extends Activity {
         }
 
         public void onNothingSelected(AdapterView<?> arg0) {
+            System.out.println("3");
         }
     }
 
@@ -403,8 +454,8 @@ public class RegisterActivity extends Activity {
 
         public void onItemSelected(AdapterView<?> arg0, View arg1, int arg2,
                                    long arg3) {
-            city3data=new Pair[1];
-            city4data=new Pair[1];
+           // city3data=new Pair[1];
+            //city4data=new Pair[1];
             city2_fid=((Pair)city2spinner.getSelectedItem()).getkey();
             sendcity3request(city2_fid);
 
@@ -413,21 +464,23 @@ public class RegisterActivity extends Activity {
         }
 
         public void onNothingSelected(AdapterView<?> arg0) {
+            System.out.println("2");
         }
     }
     public class City1SpinnerSelectedListener implements OnItemSelectedListener{
 
         public void onItemSelected(AdapterView<?> arg0, View arg1, int arg2,
                                    long arg3) {
-            city2data=new Pair[1];
-            city3data=new Pair[1];
-            city4data=new Pair[1];
+            //city2data=new Pair[1];
+            //city3data=new Pair[1];
+            //city4data=new Pair[1];
 
             city1_fid=((Pair)city1spinner.getSelectedItem()).getkey();
             sendcity2request(city1_fid);
 
         }
         public void onNothingSelected(AdapterView<?> arg0) {
+            System.out.println("1");
         }
     }
     //使用数组形式操作

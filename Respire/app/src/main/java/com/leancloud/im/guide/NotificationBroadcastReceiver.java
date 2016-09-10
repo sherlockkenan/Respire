@@ -5,10 +5,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.text.TextUtils;
 
+//import com.leancloud.im.guide.activity.AVLoginActivity;
 import com.leancloud.im.guide.activity.AVSingleChatActivity;
 import com.leancloud.im.guide.activity.AVSquareActivity;
-
-//import com.leancloud.im.guide.activity.AVLoginActivity;
 
 /**
  * Created by wli on 15/9/8.

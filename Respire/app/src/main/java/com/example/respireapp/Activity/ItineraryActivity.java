@@ -1,7 +1,7 @@
 package com.example.respireapp.Activity;
 
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -27,6 +27,9 @@ public class ItineraryActivity extends AppCompatActivity {
         int nowpm25=bundle.getInt("nowpm25");
 
         TextView info=(TextView) findViewById(R.id.infoText);
+        if (nowpm25==0){
+            info.setText("当前没有数据");
+        }
         if (nowpm25>500){
             info.setText("当前空气污染严重，推荐乘坐地铁出行");
         }

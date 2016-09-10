@@ -6,9 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
-
 import com.leancloud.im.guide.event.EmptyEvent;
-
 import butterknife.ButterKnife;
 import de.greenrobot.event.EventBus;
 

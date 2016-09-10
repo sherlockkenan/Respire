@@ -3,7 +3,8 @@ package com.example.respireapp.Entity;
 /**
  * Created by piglet on 2016/7/18.
  */
-
+import com.example.respireapp.Entity.Scenery;
+import java.io.Serializable;
 import java.util.List;
 
 public class Place{

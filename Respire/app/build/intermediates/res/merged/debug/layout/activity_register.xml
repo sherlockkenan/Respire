@@ -76,6 +76,7 @@
             android:layout_gravity="right"
             android:inputType="textPassword"
             android:ems="10"
+            android:hint="大于5位数字与字母组合"
             android:background="@drawable/regtypein" />
 
         <TextView
@@ -241,14 +242,14 @@
         android:layout_marginTop="480dp"
         />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="InformationText"
-        android:id="@+id/informationText"
-        android:layout_below="@id/textView2"
-        android:layout_alignParentRight="true"
-        android:textColor="#fe0202"
-        android:textSize="18dp" />
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="InformationText"-->
+        <!--android:id="@+id/informationText"-->
+        <!--android:layout_below="@id/textView2"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:textColor="#fe0202"-->
+        <!--android:textSize="18dp" />-->
 
 </RelativeLayout>

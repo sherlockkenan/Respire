@@ -5,7 +5,6 @@ import android.content.Context;
 import android.view.Display;
 import android.view.WindowManager;
 
-import com.example.respireapp.helper.LocalImageHelper;
 import com.nostra13.universalimageloader.cache.disc.naming.Md5FileNameGenerator;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
@@ -13,6 +12,8 @@ import com.nostra13.universalimageloader.core.assist.QueueProcessingType;
 import com.nostra13.universalimageloader.core.download.BaseImageDownloader;
 
 import java.io.File;
+
+import com.example.respireapp.helper.LocalImageHelper;
 
 //
 
