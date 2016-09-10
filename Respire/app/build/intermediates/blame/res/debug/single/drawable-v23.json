@@ -1,6 +1,11 @@
 [
     {
+<<<<<<< HEAD
         "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
         "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-v23\\abc_control_background_material.xml"
+=======
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
+        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-v23\\abc_control_background_material.xml"
+>>>>>>> 398cf7faef86f5b578879399665a419bade6edc2
     }
 ]

@@ -1,6 +1,10 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\values-v18\\values-v18.xml",
+=======
+        "outputFile": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\values-v18\\values-v18.xml",
+>>>>>>> 398cf7faef86f5b578879399665a419bade6edc2
         "map": [
             {
                 "to": {
@@ -11,7 +15,11 @@
                     "endOffset": 99
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v18\\values-v18.xml",
+=======
+                    "file": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v18\\values-v18.xml",
+>>>>>>> 398cf7faef86f5b578879399665a419bade6edc2
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

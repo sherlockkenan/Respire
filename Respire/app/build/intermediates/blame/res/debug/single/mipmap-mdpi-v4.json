@@ -1,6 +1,11 @@
 [
     {
+<<<<<<< HEAD
         "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher.png",
         "source": "D:\\git3\\respire\\Respire\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+=======
+        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher.png",
+        "source": "E:\\git\\respire\\Respire\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+>>>>>>> 398cf7faef86f5b578879399665a419bade6edc2
     }
 ]

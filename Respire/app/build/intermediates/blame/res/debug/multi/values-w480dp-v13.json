@@ -1,6 +1,10 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\values-w480dp-v13\\values-w480dp-v13.xml",
+=======
+        "outputFile": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\values-w480dp-v13\\values-w480dp-v13.xml",
+>>>>>>> 398cf7faef86f5b578879399665a419bade6edc2
         "map": [
             {
                 "to": {
@@ -11,7 +15,11 @@
                     "endOffset": 112
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-w480dp-v13\\values-w480dp-v13.xml",
+=======
+                    "file": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-w480dp-v13\\values-w480dp-v13.xml",
+>>>>>>> 398cf7faef86f5b578879399665a419bade6edc2
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +38,11 @@
                     "endOffset": 184
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-w480dp-v13\\values-w480dp-v13.xml",
+=======
+                    "file": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-w480dp-v13\\values-w480dp-v13.xml",
+>>>>>>> 398cf7faef86f5b578879399665a419bade6edc2
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,

@@ -1,3 +1,176 @@
 <?xml version="1.0" encoding="utf-8"?>
 <items version="2" />
 
+<<<<<<< HEAD
+=======
+    <item
+        jar="E:\git\respire\Respire\leanchatlib-demo\build\intermediates\exploded-aar\Respire\redpacketlibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="908cf88c1e985627efd449d9759c320af891121f">
+        <dex dex="E:\git\respire\Respire\leanchatlib-demo\build\intermediates\pre-dexed\debug\Respire-redpacketlibrary-unspecified_fdff65b9192b435e6e911dafddc06ffa94a196a2.jar" />
+    </item>
+    <item
+        jar="C:\Users\佳雯\.gradle\caches\modules-2\files-2.1\cn.leancloud.android\Java-WebSocket\1.3.2-leancloud\169fd461930335df8099bcbac99c0f206912ced1\Java-WebSocket-1.3.2-leancloud.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="169fd461930335df8099bcbac99c0f206912ced1">
+        <dex dex="E:\git\respire\Respire\leanchatlib-demo\build\intermediates\pre-dexed\debug\Java-WebSocket-1.3.2-leancloud_e0cd6e836bd322659c1bca054f7bb5ebe4589195.jar" />
+    </item>
+    <item
+        jar="E:\git\respire\Respire\leanchatlib-demo\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="E:\git\respire\Respire\leanchatlib-demo\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-22.2.1_34abbdb4cf9d493f18cf002a1b7486c72b559a7f.jar" />
+    </item>
+    <item
+        jar="C:\Users\佳雯\.gradle\caches\modules-2\files-2.1\de.greenrobot\eventbus\2.4.0\ddd166d01b3158d1c00576d29f7ed15c030df719\eventbus-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="E:\git\respire\Respire\leanchatlib-demo\build\intermediates\pre-dexed\debug\eventbus-2.4.0_c4eb4d9abb5f6fcd71a2ee09d280e3982b825bd2.jar" />
+    </item>
+    <item
+        jar="D:\Users\Jessy\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="E:\git\respire\Respire\leanchatlib-demo\build\intermediates\pre-dexed\debug\support-annotations-23.1.0_3330c50cc28fb1e311887527dae278507aa2c9f1.jar" />
+    </item>
+    <item
+        jar="C:\Users\佳雯\.gradle\caches\modules-2\files-2.1\cn.leancloud.android\avoscloud-sdk\v3.14.4\956ddd9b6d98ff5235326c2993f5caa796eee68c\avoscloud-sdk-v3.14.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="956ddd9b6d98ff5235326c2993f5caa796eee68c">
+        <dex dex="E:\git\respire\Respire\leanchatlib-demo\build\intermediates\pre-dexed\debug\avoscloud-sdk-v3.14.4_8f0a5108979458a4d23c530723aaae4db0abbfb3.jar" />
+    </item>
+    <item
+        jar="E:\git\respire\Respire\leanchatlib-demo\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="E:\git\respire\Respire\leanchatlib-demo\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.0_39bd6759d735b01038995c64119b75f8f08d7c2d.jar" />
+    </item>
+    <item
+        jar="E:\git\respire\Respire\leanchatlib-demo\build\intermediates\exploded-aar\Respire\leanchatlib\unspecified\jars\libs\prettytime-3.2.5.Final.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8fb460b35d7784eb97571401e9eac9b051dc1e04">
+        <dex dex="E:\git\respire\Respire\leanchatlib-demo\build\intermediates\pre-dexed\debug\prettytime-3.2.5.Final_938221f6992716788c21b58a465a11b8d4dcecb4.jar" />
+    </item>
+    <item
+        jar="C:\Users\佳雯\.gradle\caches\modules-2\files-2.1\com.github.stuxuhai\jpinyin\1.0\1147a356363940a13f955933d6fbab0622b189f7\jpinyin-1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1147a356363940a13f955933d6fbab0622b189f7">
+        <dex dex="E:\git\respire\Respire\leanchatlib-demo\build\intermediates\pre-dexed\debug\jpinyin-1.0_b6b4c87f85f0b37ce50412e95cfa75a0e9c21a9f.jar" />
+    </item>
+    <item
+        jar="C:\Users\佳雯\.gradle\caches\modules-2\files-2.1\cn.leancloud.android\okhttp\2.6.0-leancloud\7d1a8dbbc128e91cf41ab6eafaa741ab2a6ff930\okhttp-2.6.0-leancloud.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7d1a8dbbc128e91cf41ab6eafaa741ab2a6ff930">
+        <dex dex="E:\git\respire\Respire\leanchatlib-demo\build\intermediates\pre-dexed\debug\okhttp-2.6.0-leancloud_ec1f832aa974c12c5121b469b282ccfa58480d4b.jar" />
+    </item>
+    <item
+        jar="E:\git\respire\Respire\leanchatlib-demo\build\intermediates\exploded-aar\com.android.support\design\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="E:\git\respire\Respire\leanchatlib-demo\build\intermediates\pre-dexed\debug\com.android.support-design-22.2.0_b12e8a55ce2b3d3f71be8b6b5ca6cb674baf7031.jar" />
+    </item>
+    <item
+        jar="E:\git\respire\Respire\leanchatlib-demo\build\intermediates\exploded-aar\Respire\redpacketlibrary\unspecified\jars\libs\redpacket2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f59dd007a64b6434c4e238c3d9185c161289f6e1">
+        <dex dex="E:\git\respire\Respire\leanchatlib-demo\build\intermediates\pre-dexed\debug\redpacket2.0_f0bb397951c244374fa97239f4a86ad9a76ec11e.jar" />
+    </item>
+    <item
+        jar="C:\Users\佳雯\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="E:\git\respire\Respire\leanchatlib-demo\build\intermediates\pre-dexed\debug\butterknife-7.0.1_12db18c97c6ffecb908adb7133d3e19dc451f237.jar" />
+    </item>
+    <item
+        jar="C:\Users\佳雯\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.2.4\3b7f38df6de5dd8b500e602ae8c2dd5ee446f883\httpcore-4.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3b7f38df6de5dd8b500e602ae8c2dd5ee446f883">
+        <dex dex="E:\git\respire\Respire\leanchatlib-demo\build\intermediates\pre-dexed\debug\httpcore-4.2.4_dbd0c6f0687369cbbe759148c2556529e194161d.jar" />
+    </item>
+    <item
+        jar="E:\git\respire\Respire\leanchatlib-demo\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="E:\git\respire\Respire\leanchatlib-demo\build\intermediates\pre-dexed\debug\internal_impl-23.1.0_09165ea309e6e3a98587b7183a787da4d4673246.jar" />
+    </item>
+    <item
+        jar="C:\Users\佳雯\.gradle\caches\modules-2\files-2.1\cn.leancloud.android\okio\1.6.0-leancloud\7086c00a30a6de0ee3b963ec2c3702d37f1de11d\okio-1.6.0-leancloud.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7086c00a30a6de0ee3b963ec2c3702d37f1de11d">
+        <dex dex="E:\git\respire\Respire\leanchatlib-demo\build\intermediates\pre-dexed\debug\okio-1.6.0-leancloud_f85329274752a4d7192d0f08293d7659ef48db4a.jar" />
+    </item>
+    <item
+        jar="C:\Users\佳雯\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpmime\4.2.4\dba4d4d224e2ca872af5be8d2992777583145478\httpmime-4.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dba4d4d224e2ca872af5be8d2992777583145478">
+        <dex dex="E:\git\respire\Respire\leanchatlib-demo\build\intermediates\pre-dexed\debug\httpmime-4.2.4_f96643b35b21e7932d593168c61d1d1f76035438.jar" />
+    </item>
+    <item
+        jar="E:\git\respire\Respire\leanchatlib-demo\build\intermediates\exploded-aar\cn.leancloud.android\avoscloud-push\v3.14.4\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ed0adee505a966c6440b570792c33b0dd55eb234">
+        <dex dex="E:\git\respire\Respire\leanchatlib-demo\build\intermediates\pre-dexed\debug\cn.leancloud.android-avoscloud-push-v3.14.4_6d9d4056ce8daa5c07d588d1853214429bc7dd39.jar" />
+    </item>
+    <item
+        jar="E:\git\respire\Respire\leanchatlib-demo\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="E:\git\respire\Respire\leanchatlib-demo\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.1.0_cff0b38ca5e77a8794821d5e65418abed4945f89.jar" />
+    </item>
+    <item
+        jar="C:\Users\佳雯\.gradle\caches\modules-2\files-2.1\com.google.protobuf\protobuf-java\2.6.1\d9521f2aecb909835746b7a5facf612af5e890e8\protobuf-java-2.6.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d9521f2aecb909835746b7a5facf612af5e890e8">
+        <dex dex="E:\git\respire\Respire\leanchatlib-demo\build\intermediates\pre-dexed\debug\protobuf-java-2.6.1_b552e3274ab673138e8e22d02f3a30b618c0f643.jar" />
+    </item>
+    <item
+        jar="E:\git\respire\Respire\leanchatlib-demo\build\intermediates\exploded-aar\Respire\leanchatlib\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cd10f0b98e511ce383bf1878ea044feb3dba8493">
+        <dex dex="E:\git\respire\Respire\leanchatlib-demo\build\intermediates\pre-dexed\debug\Respire-leanchatlib-unspecified_74914df109779baad5d2b2429ce0773fc33a46a8.jar" />
+    </item>
+    <item
+        jar="E:\git\respire\Respire\leanchatlib-demo\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="E:\git\respire\Respire\leanchatlib-demo\build\intermediates\pre-dexed\debug\com.android.support-multidex-1.0.1_d6bc24aab21b529253dfcb1aeae2d4814f3537f1.jar" />
+    </item>
+    <item
+        jar="C:\Users\佳雯\.gradle\caches\modules-2\files-2.1\cn.leancloud.android\fastjson\1.1.39-leancloud\94d4ebd4acdaf01d7445435382eea2d2d38e7534\fastjson-1.1.39-leancloud.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="94d4ebd4acdaf01d7445435382eea2d2d38e7534">
+        <dex dex="E:\git\respire\Respire\leanchatlib-demo\build\intermediates\pre-dexed\debug\fastjson-1.1.39-leancloud_f13846419be9be46e8368ed23c94b5de259a27b3.jar" />
+    </item>
+    <item
+        jar="C:\Users\佳雯\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.3\a85588bec3e2c4584d593d3f15df1677321bca72\universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="E:\git\respire\Respire\leanchatlib-demo\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3_a4e476e4a71b22faeb2c48c731455c7f9e55b3eb.jar" />
+    </item>
+
+</items>
+>>>>>>> 398cf7faef86f5b578879399665a419bade6edc2
