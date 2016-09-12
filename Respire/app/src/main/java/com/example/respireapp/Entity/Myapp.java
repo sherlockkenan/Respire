@@ -24,7 +24,7 @@ public class Myapp  extends Application {
     public String sessionid;
     //public String url="http://59.78.44.166:8000";
     public String url="http://202.120.40.178:22180";
-    //public String url="http://10.189.140.174:8000";
+    //public String url="http://10.189.76.151:8000";
     public String flag="";
     public String getUrl(){return url;};
     public void setUrl(String url){this.url=url;};

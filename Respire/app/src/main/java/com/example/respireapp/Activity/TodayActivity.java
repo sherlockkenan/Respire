@@ -21,9 +21,19 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
+import com.baidu.location.BDLocation;
+import com.baidu.location.BDLocationListener;
+import com.baidu.location.LocationClient;
+import com.baidu.location.LocationClientOption;
 import com.baidu.mapapi.SDKInitializer;
 import com.baidu.mapapi.map.BaiduMap;
+import com.baidu.mapapi.map.BitmapDescriptor;
+import com.baidu.mapapi.map.MapStatus;
+import com.baidu.mapapi.map.MapStatusUpdate;
+import com.baidu.mapapi.map.MapStatusUpdateFactory;
 import com.baidu.mapapi.map.MapView;
+import com.baidu.mapapi.map.MyLocationConfiguration;
+import com.baidu.mapapi.map.MyLocationData;
 import com.baidu.mapapi.map.OverlayOptions;
 import com.baidu.mapapi.map.Polyline;
 import com.baidu.mapapi.map.PolylineOptions;
@@ -52,7 +62,15 @@ public class TodayActivity extends Activity {
     BaiduMap mBaiduMap;
     List<LatLng> points = new ArrayList<LatLng>();
     Polyline mPolyline;
+    LocationClient mLocClient;
 
+    //当前位置经纬度
+    private double latitude;
+    private double longitude;
+    boolean isFirstLoc = true; // 是否首次定位
+
+    private static final int accuracyCircleFillColor = 0xAAFFFF88;
+    private static final int accuracyCircleStrokeColor = 0xAA00FF00;
     String JSESSIONID;
     private static final Object TAG = new Object();
 
@@ -64,9 +82,24 @@ public class TodayActivity extends Activity {
         Bundle bundle=this.getIntent().getExtras();
         JSESSIONID=bundle.getString("sessionid");
 
-        // 初始化地图
+        // 获取LocationClient
+        mLocClient = new LocationClient(this);
+
+        LocationClientOption option = new LocationClientOption();
+        option.setCoorType("bd09ll");
+        mLocClient.setLocOption(option);
+
+        // 获取BaiduMap
         mMapView = (MapView) findViewById(R.id.bmapView);
         mBaiduMap = mMapView.getMap();
+
+
+        // 显示出当前位置的小图标
+        mBaiduMap.setMyLocationEnabled(true);
+
+        MyLocationListener mListener = new MyLocationListener();
+        mLocClient.registerLocationListener(mListener);
+        mLocClient.start();
 
         Button backButton=(Button) findViewById(R.id.backButton);
         backButton.setOnClickListener(new View.OnClickListener() {
@@ -127,13 +160,13 @@ public class TodayActivity extends Activity {
                             }
                             LinearLayout layout1=(LinearLayout) findViewById(R.id.chart1);
                             layout1.removeAllViews();
-                            layout1.addView(getLineChartView(getApplicationContext(),daypm25,Color.parseColor("#8F676390"),1500),
+                            layout1.addView(getLineChartView(getApplicationContext(),daypm25,Color.parseColor("#8F676390"),2000),
                                     new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
                                             ViewGroup.LayoutParams.MATCH_PARENT));
 
                             LinearLayout layout2=(LinearLayout) findViewById(R.id.chart2);
                             layout2.removeAllViews();
-                            layout2.addView(getLineChartView(getApplicationContext(),dayco2,Color.parseColor("#8F477A7B"),1500),
+                            layout2.addView(getLineChartView(getApplicationContext(),dayco2,Color.parseColor("#8F477A7B"),1000),
                                     new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
                                             ViewGroup.LayoutParams.MATCH_PARENT));
 
@@ -198,6 +231,8 @@ public class TodayActivity extends Activity {
         });
 
         timeButton.performClick();
+
+
     }
 
     public View getLineChartView(Context context, int[] temperatureLists,int color,int high) {
@@ -270,7 +305,7 @@ public class TodayActivity extends Activity {
     public void  getdata(){
         Myapp myApp=(Myapp)getApplication();
         String header=myApp.getUrl();
-        String url=header+"/map/getalldata";
+        String url=header+"/map/getdatabyuser";
         RequestQueue requestQueue= Volley.newRequestQueue(this);
 
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url,
@@ -296,19 +331,43 @@ public class TodayActivity extends Activity {
             public void onErrorResponse(VolleyError error) {
 
             }
-        });
-//        {
-//            @Override
-//            public Map<String, String> getHeaders() throws AuthFailureError {
-//                super.getHeaders();
-//                Map<String,String> headers=new HashMap<String,String>();
-//                headers.put("Cookie","JSESSIONID="+JSESSIONID);
-//                return headers;
-//            }
-//        };
+        }) {
+            @Override
+            public Map<String, String> getHeaders() throws AuthFailureError {
+                super.getHeaders();
+                Map<String,String> headers=new HashMap<String,String>();
+                headers.put("Cookie","JSESSIONID="+JSESSIONID);
+                return headers;
+            }
+        };
         requestQueue.add(request);
     }
 
+
+    /**
+     * 定位SDK监听函数
+     */
+    private class MyLocationListener implements BDLocationListener {
+        @Override
+        public void onReceiveLocation(BDLocation location) {
+            // 只是完成了定位
+            MyLocationData locData = new MyLocationData.Builder().latitude(location.getLatitude())
+                    .longitude(location.getLongitude()).build();
+
+            //设置图标在地图上的位置
+            mBaiduMap.setMyLocationData(locData);
+            //获取经纬度
+            latitude = location.getLatitude();
+            longitude = location.getLongitude();
+            if (isFirstLoc) {
+                isFirstLoc = false;
+                // 开始移动百度地图的定位地点到中心位置
+                LatLng ll = new LatLng(location.getLatitude(), location.getLongitude());
+                MapStatusUpdate u = MapStatusUpdateFactory.newLatLngZoom(ll, 16.0f);
+                mBaiduMap.animateMapStatus(u);
+            }
+        }
+    }
     @Override
     protected void onPause() {
         mMapView.onPause();

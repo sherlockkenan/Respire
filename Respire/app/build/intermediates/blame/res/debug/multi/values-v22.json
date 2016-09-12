@@ -1,10 +1,6 @@
 [
     {
-<<<<<<< HEAD
-        "outputFile": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\values-v22\\values-v22.xml",
-=======
-        "outputFile": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\values-v22\\values-v22.xml",
->>>>>>> 398cf7faef86f5b578879399665a419bade6edc2
+        "outputFile": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/values-v22/values-v22.xml",
         "map": [
             {
                 "to": {
@@ -15,11 +11,7 @@
                     "endOffset": 125
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v22\\values-v22.xml",
-=======
-                    "file": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v22\\values-v22.xml",
->>>>>>> 398cf7faef86f5b578879399665a419bade6edc2
+                    "file": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v22/values-v22.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -38,11 +30,7 @@
                     "endOffset": 212
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v22\\values-v22.xml",
-=======
-                    "file": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v22\\values-v22.xml",
->>>>>>> 398cf7faef86f5b578879399665a419bade6edc2
+                    "file": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v22/values-v22.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -62,11 +50,7 @@
                     "endOffset": 548
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v22\\values-v22.xml",
-=======
-                    "file": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v22\\values-v22.xml",
->>>>>>> 398cf7faef86f5b578879399665a419bade6edc2
+                    "file": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v22/values-v22.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -87,11 +71,7 @@
                     "endOffset": 896
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v22\\values-v22.xml",
-=======
-                    "file": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v22\\values-v22.xml",
->>>>>>> 398cf7faef86f5b578879399665a419bade6edc2
+                    "file": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v22/values-v22.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,

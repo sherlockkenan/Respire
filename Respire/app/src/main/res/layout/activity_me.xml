@@ -309,5 +309,23 @@
 
 
     </GridLayout>
+    <!--<ImageButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="55dp"-->
+        <!--android:id="@+id/logoutButton"-->
+        <!--android:src="@drawable/loginbuttonbg"-->
+        <!--android:adjustViewBounds="false"-->
+        <!--android:clickable="true"-->
+        <!--android:layout_marginTop="401dp"-->
+        <!--/>-->
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Log Out"-->
+        <!--android:id="@+id/textView"-->
+        <!--android:layout_marginTop="410dp"-->
+        <!--android:layout_marginLeft="138dp"-->
+        <!--android:textSize="30dp"-->
+        <!--android:textColor="#ffffff" />-->
 
 </RelativeLayout>

@@ -1,1323 +1,662 @@
 [
     {
-<<<<<<< HEAD
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_blush.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_blush.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_relaxed.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_relaxed.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_triumph.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_triumph.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_laughing.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_laughing.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_joy.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_joy.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_common_empty_photo.9.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_common_empty_photo.9.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_sweat.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_sweat.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_confused.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_confused.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_message_send_fail.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_message_send_fail.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_add_picture_pressed.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_add_picture_pressed.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_dizzy_face.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_dizzy_face.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_smirk.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_smirk.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_neutral_face.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_neutral_face.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_clap.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_clap.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_search_api_mtrl_alpha.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_voice_bg_pressed.9.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_voice_bg_pressed.9.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_dizzy_face.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_dizzy_face.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_yum.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_yum.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_anguished.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_anguished.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_add_picture_pressed.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_add_picture_pressed.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_top_voice_bg.9.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_top_voice_bg.9.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_thumbsup.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_thumbsup.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_keyboard_normal.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_keyboard_normal.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_sob.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_sob.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_kissing_heart.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_kissing_heart.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_unamused.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_unamused.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_base_action_bar_true_bg_pressed.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_base_action_bar_true_bg_pressed.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_fail_resend_normal.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_fail_resend_normal.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_left_qp.9.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_left_qp.9.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_angry.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_angry.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_money_pressed.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_money_pressed.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_send_normal.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_send_normal.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_frowning.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_frowning.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_flushed.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_flushed.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_emo_normal.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_emo_normal.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_keyboard_normal.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_keyboard_normal.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_common_image_load_fail.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_common_image_load_fail.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_icon_voice4.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_icon_voice4.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_clear_mtrl_alpha.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_clear_mtrl_alpha.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_emo_pressed.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_emo_pressed.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_hushed.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_hushed.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_grinning.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_grinning.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_icon_voice4.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_icon_voice4.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_add_normal.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_add_normal.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_money_normal.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_money_normal.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_kissing_smiling_eyes.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_kissing_smiling_eyes.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_satisfied.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_satisfied.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_voice_left2.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_voice_left2.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_xlistview_arrow.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_xlistview_arrow.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_xlistview_arrow.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_xlistview_arrow.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_send_normal.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_send_normal.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_yum.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_yum.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_common_empty_photo.9.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_common_empty_photo.9.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_kissing_heart.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_kissing_heart.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_time_block.9.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_time_block.9.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_item_location_default.9.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_item_location_default.9.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_clear_mtrl_alpha.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_ic_clear_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_worried.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_worried.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_emo_normal.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_emo_normal.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_emo_pressed.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_emo_pressed.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_add_location_normal.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_add_location_normal.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_mask.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_mask.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_rage.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_rage.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_disappointed_relieved.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_disappointed_relieved.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_anguished.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_anguished.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_voice_pressed.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_voice_pressed.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_weary.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_weary.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_voice_right.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_voice_right.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_voice_left.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_voice_left.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_tired_face.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_tired_face.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_voice_right1.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_voice_right1.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_cold_sweat.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_cold_sweat.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_send_pressed.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_send_pressed.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_icon_voice3.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_icon_voice3.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_voice_left3.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_voice_left3.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_sunglasses.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_sunglasses.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_satisfied.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_satisfied.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_point_left.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_point_left.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_stuck_out_tongue_winking_eye.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_stuck_out_tongue_winking_eye.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_layout_home_bg_bottombar.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_layout_home_bg_bottombar.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_fearful.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_fearful.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_heart_eyes.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_heart_eyes.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_no_mouth.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_no_mouth.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_astonished.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_astonished.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_weary.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_weary.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_voice_bg.9.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_voice_bg.9.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_add_camera_normal.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_add_camera_normal.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_base_action_bar_true_bg_normal.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_base_action_bar_true_bg_normal.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_cry.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_cry.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_cry.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_cry.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_icon_voice5.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_icon_voice5.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_common_image_load_fail.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_common_image_load_fail.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_open_mouth.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_open_mouth.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_sleeping.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_sleeping.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_time_block.9.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_time_block.9.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_kissing.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_kissing.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_add_pressed.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_add_pressed.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_sob.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_sob.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_wink.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_wink.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_kissing_smiling_eyes.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_kissing_smiling_eyes.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_fail_resend_press.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_fail_resend_press.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_scream.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_scream.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_confounded.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_confounded.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_icon_voice2.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_icon_voice2.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_full_open_on_phone.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\drawable-xhdpi\\common_full_open_on_phone.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_star_half_black_36dp.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_ic_star_half_black_36dp.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_fearful.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_fearful.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_star_black_36dp.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_ic_star_black_36dp.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_fail_resend_normal.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_fail_resend_normal.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_item_location_default.9.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_item_location_default.9.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_voice_bg.9.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_voice_bg.9.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_grin.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_grin.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_disappointed.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_disappointed.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_smile.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_smile.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_login_edit_normal.9.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_login_edit_normal.9.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_innocent.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_innocent.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_add_location_press.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_add_location_press.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_voice_right2.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_voice_right2.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_voice_left1.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_voice_left1.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_keyboard_press.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_keyboard_press.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_stuck_out_tongue.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_stuck_out_tongue.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_base_action_bar_true_bg_pressed.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_base_action_bar_true_bg_pressed.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_money_pressed.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_money_pressed.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_voice_right3.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_voice_right3.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_stuck_out_tongue_closed_eyes.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_stuck_out_tongue_closed_eyes.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_angry.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_angry.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_thumbsdown.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_thumbsdown.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_add_camera_normal.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_add_camera_normal.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_voice_bg_pressed.9.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_voice_bg_pressed.9.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_grinning.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_grinning.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_menu_people.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_menu_people.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_focused_holo.9.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_list_focused_holo.9.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_point_right.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_point_right.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_full_open_on_phone.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/drawable-xhdpi/common_full_open_on_phone.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_blush.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_blush.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_thumbsdown.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_thumbsdown.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_fail_resend_press.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_fail_resend_press.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_kissing_closed_eyes.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_kissing_closed_eyes.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_add_normal.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_add_normal.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_icon_voice0.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_icon_voice0.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_sweat.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_sweat.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_btn_voice_normal.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_btn_voice_normal.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_sleepy.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_sleepy.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_icon_voice0.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_icon_voice0.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_common_base_header_back_btn.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_common_base_header_back_btn.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_point_right.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_point_right.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_sleeping.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_sleeping.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_voice_right3.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_voice_right3.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_left_qp.9.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_left_qp.9.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_relaxed.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_relaxed.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_expressionless.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_expressionless.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_clap.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_clap.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_smirk.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_smirk.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_menu_people.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_menu_people.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_kissing.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_kissing.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_pensive.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_pensive.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_kissing_face.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_kissing_face.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_relieved.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_relieved.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_send_pressed.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_send_pressed.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_stuck_out_tongue_winking_eye.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_stuck_out_tongue_winking_eye.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_voice_left3.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_voice_left3.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_smile.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_smile.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_voice_right1.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_voice_right1.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_scream.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_scream.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_voice_right2.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_voice_right2.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_heart_eyes.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_heart_eyes.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_icon_voice1.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_icon_voice1.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_message_send_fail.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_message_send_fail.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_add_camera_press.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_add_camera_press.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_add_location_press.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_add_location_press.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_voice_left.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_voice_left.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_default_user_avatar.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_default_user_avatar.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_persevere.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_persevere.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_neutral_face.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_neutral_face.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_kissing_face.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_kissing_face.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_setmode_keyboard_btn_pressed.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_setmode_keyboard_btn_pressed.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_add_camera_press.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_add_camera_press.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_confused.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_confused.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_expressionless.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_expressionless.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_open_mouth.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_open_mouth.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_grimacing.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_grimacing.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_top_voice_bg.9.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_top_voice_bg.9.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_icon_voice1.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_icon_voice1.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_innocent.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_innocent.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_smiley.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_smiley.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_hushed.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_hushed.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_add_location_normal.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_add_location_normal.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_btn_voice_normal.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_btn_voice_normal.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_search_api_mtrl_alpha.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_ic_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_setmode_keyboard_btn_normal.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_setmode_keyboard_btn_normal.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_joy.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_joy.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_money_normal.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_money_normal.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_sunglasses.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_sunglasses.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_unamused.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_unamused.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_icon_voice3.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_icon_voice3.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_laughing.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_laughing.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_sweat_smile.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_sweat_smile.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_persevere.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_persevere.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_common_base_header_back_btn.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_common_base_header_back_btn.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_wink.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_wink.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_voice_left2.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_voice_left2.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_astonished.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_astonished.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_keyboard_press.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_keyboard_press.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_disappointed_relieved.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_disappointed_relieved.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_default_user_avatar.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_default_user_avatar.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_mask.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_mask.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_cold_sweat.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_cold_sweat.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_grimacing.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_grimacing.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_sleepy.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_sleepy.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_confounded.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_confounded.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_point_left.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_point_left.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_disappointed.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_disappointed.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_add_picture_normal.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_add_picture_normal.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_smiley.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_smiley.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_pensive.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_pensive.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_star_black_16dp.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_icon_voice2.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_icon_voice2.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_worried.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_worried.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_voice_right.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_voice_right.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_tired_face.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_tired_face.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_add_pressed.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_add_pressed.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_grin.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_grin.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_base_action_bar_true_bg_normal.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_base_action_bar_true_bg_normal.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_flushed.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_flushed.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_stuck_out_tongue.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_stuck_out_tongue.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_icon_voice5.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_icon_voice5.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_right_qp.9.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_right_qp.9.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_thumbsup.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_thumbsup.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_sweat_smile.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_sweat_smile.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_voice_left1.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_voice_left1.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_rage.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_rage.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_layout_home_bg_bottombar.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_layout_home_bg_bottombar.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_kissing_closed_eyes.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_kissing_closed_eyes.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_frowning.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_frowning.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_setmode_keyboard_btn_normal.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_setmode_keyboard_btn_normal.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_voice_pressed.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_voice_pressed.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_stuck_out_tongue_closed_eyes.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_stuck_out_tongue_closed_eyes.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_relieved.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_relieved.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_login_edit_normal.9.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_login_edit_normal.9.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_triumph.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_triumph.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/emoji_no_mouth.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/emoji_no_mouth.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_right_qp.9.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_right_qp.9.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/chat_add_picture_normal.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/leanchatlib/unspecified/res/drawable-xhdpi-v4/chat_add_picture_normal.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_setmode_keyboard_btn_pressed.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_setmode_keyboard_btn_pressed.png"
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
-        "source": "D:\\git3\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
-=======
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_icon_voice5.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_icon_voice5.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_sweat_smile.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_sweat_smile.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_confounded.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_confounded.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_wink.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_wink.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_unamused.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_unamused.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_tired_face.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_tired_face.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_add_picture_normal.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_add_picture_normal.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_flushed.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_flushed.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_login_edit_normal.9.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_login_edit_normal.9.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_voice_bg.9.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_voice_bg.9.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_grimacing.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_grimacing.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_keyboard_press.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_keyboard_press.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_disappointed.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_disappointed.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_open_mouth.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_open_mouth.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_add_location_normal.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_add_location_normal.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_pensive.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_pensive.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_grin.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_grin.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_icon_voice4.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_icon_voice4.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_thumbsup.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_thumbsup.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_emo_pressed.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_emo_pressed.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_smiley.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_smiley.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_astonished.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_astonished.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_point_left.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_point_left.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_laughing.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_laughing.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_confused.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_confused.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_voice_left.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_voice_left.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_btn_voice_normal.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_btn_voice_normal.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_neutral_face.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_neutral_face.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_default_user_avatar.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_default_user_avatar.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_cry.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_cry.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_persevere.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_persevere.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_dizzy_face.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_dizzy_face.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_scream.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_scream.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_kissing_face.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_kissing_face.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_icon_voice2.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_icon_voice2.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_relaxed.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_relaxed.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_add_normal.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_add_normal.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_clap.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_clap.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_anguished.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_anguished.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_left_qp.9.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_left_qp.9.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_keyboard_normal.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_keyboard_normal.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_smile.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_smile.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_add_camera_normal.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_add_camera_normal.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_fail_resend_normal.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_fail_resend_normal.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_icon_voice1.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_icon_voice1.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_kissing_smiling_eyes.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_kissing_smiling_eyes.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_kissing_closed_eyes.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_kissing_closed_eyes.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_thumbsdown.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_thumbsdown.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_menu_people.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_menu_people.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_weary.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_weary.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_expressionless.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_expressionless.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_layout_home_bg_bottombar.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_layout_home_bg_bottombar.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_blush.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_blush.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_voice_right.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_voice_right.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_no_mouth.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_no_mouth.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_frowning.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_frowning.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_fearful.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_fearful.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_add_location_press.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_add_location_press.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_smirk.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_smirk.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_sweat.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_sweat.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_voice_right3.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_voice_right3.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_kissing_heart.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_kissing_heart.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_cold_sweat.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_cold_sweat.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_xlistview_arrow.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_xlistview_arrow.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_kissing.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_kissing.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_angry.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_angry.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_voice_pressed.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_voice_pressed.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_mask.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_mask.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_voice_left3.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_voice_left3.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_clear_mtrl_alpha.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_clear_mtrl_alpha.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_stuck_out_tongue_closed_eyes.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_stuck_out_tongue_closed_eyes.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_time_block.9.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_time_block.9.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_send_pressed.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_send_pressed.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_hushed.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_hushed.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_disappointed_relieved.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_disappointed_relieved.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_emo_normal.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_emo_normal.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_sunglasses.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_sunglasses.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_message_send_fail.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_message_send_fail.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_add_picture_pressed.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_add_picture_pressed.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_base_action_bar_true_bg_pressed.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_base_action_bar_true_bg_pressed.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_voice_right1.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_voice_right1.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_voice_left2.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_voice_left2.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_satisfied.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_satisfied.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_voice_right2.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_voice_right2.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_common_base_header_back_btn.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_common_base_header_back_btn.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_setmode_keyboard_btn_normal.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_setmode_keyboard_btn_normal.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_innocent.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_innocent.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_send_normal.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_send_normal.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_yum.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_yum.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_rage.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_rage.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_stuck_out_tongue_winking_eye.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_stuck_out_tongue_winking_eye.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_sob.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_sob.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_money_normal.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_money_normal.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_heart_eyes.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_heart_eyes.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_add_pressed.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_add_pressed.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_voice_bg_pressed.9.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_voice_bg_pressed.9.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_relieved.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_relieved.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_voice_left1.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_voice_left1.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_sleeping.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_sleeping.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_right_qp.9.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_right_qp.9.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_full_open_on_phone.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\drawable-xhdpi\\common_full_open_on_phone.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_sleepy.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_sleepy.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_worried.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_worried.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_point_right.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_point_right.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_top_voice_bg.9.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_top_voice_bg.9.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_fail_resend_press.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_fail_resend_press.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_joy.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_joy.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_setmode_keyboard_btn_pressed.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_setmode_keyboard_btn_pressed.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_grinning.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_grinning.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_add_camera_press.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_add_camera_press.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_icon_voice0.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_icon_voice0.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_common_image_load_fail.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_common_image_load_fail.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_money_pressed.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_money_pressed.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_triumph.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_triumph.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_common_empty_photo.9.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_common_empty_photo.9.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_base_action_bar_true_bg_normal.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_base_action_bar_true_bg_normal.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_icon_voice3.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_icon_voice3.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoji_stuck_out_tongue.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\emoji_stuck_out_tongue.png"
-    },
-    {
-        "merged": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\chat_item_location_default.9.png",
-        "source": "E:\\git\\respire\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\leanchatlib\\unspecified\\res\\drawable-xhdpi-v4\\chat_item_location_default.9.png"
->>>>>>> 398cf7faef86f5b578879399665a419bade6edc2
+        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png"
     }
 ]

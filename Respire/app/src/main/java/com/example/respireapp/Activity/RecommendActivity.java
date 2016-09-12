@@ -32,6 +32,7 @@ import com.baidu.mapapi.map.Marker;
 import com.baidu.mapapi.map.MarkerOptions;
 import com.baidu.mapapi.map.MyLocationData;
 import com.baidu.mapapi.model.LatLng;
+import com.example.respireapp.Utils.ClickUtils;
 import com.example.respireapp.helper.Sortdistance;
 import com.example.respireapp.helper.Sortgeneral;
 import com.android.volley.AuthFailureError;
@@ -117,16 +118,22 @@ RecommendActivity extends Activity {
     private List<Marker> mMarker=new ArrayList<>();
 
    private List<Place> theplaces;
+
     class handleData{
         public Bitmap pic;
         public int i;
-        public handleData(Bitmap pic,int i){
+        public int status;
+        public handleData(Bitmap pic,int i,int status){
             this.pic=pic;
             this.i=i;
+            this.status=status;
         }
     }
     private View.OnClickListener distancelistener=new View.OnClickListener(){
         public void onClick(View v){
+            if (ClickUtils.isFastClick()) {
+                return ;
+            }
             Comparator comp = new Sortdistance();
             Collections.sort(theplaces,comp);
             _hRedraw.sendEmptyMessage(REFRESH);
@@ -135,6 +142,9 @@ RecommendActivity extends Activity {
     };
     private View.OnClickListener environmentlistener=new View.OnClickListener(){
         public void onClick(View v){
+            if (ClickUtils.isFastClick()) {
+                return ;
+            }
             Comparator comp = new Sortenvironment();
             Collections.sort(theplaces,comp);
             _hRedraw.sendEmptyMessage(REFRESH);
@@ -143,6 +153,9 @@ RecommendActivity extends Activity {
     };
     private View.OnClickListener generallistener=new View.OnClickListener(){
         public void onClick(View v){
+            if (ClickUtils.isFastClick()) {
+                return ;
+            }
             for(int i=0;i<theplaces.size();++i){
                 double general=theplaces.get(i).getDistance()*0.5+theplaces.get(i).getPm25()*0.5;
                 theplaces.get(i).setGeneral(general);
@@ -157,6 +170,9 @@ RecommendActivity extends Activity {
     private Handler pic_hdl;
     private View.OnClickListener searchclicklistener=new View.OnClickListener(){
         public void onClick(View v){
+            if (ClickUtils.isFastClick()) {
+                return ;
+            }
             table = (TableLayout) findViewById(R.id.recommendTable);
             table.removeAllViews();
             searchinfo=((EditText)findViewById(R.id.searchtext)).getText().toString();
@@ -374,9 +390,9 @@ RecommendActivity extends Activity {
                     String tmp2=theplaces.get(i).getTurl();
                     pic=getUrlImage(theplaces.get(i).getTurl());
                 }
+                int status=theplaces.get(i).getStatus();
 
-
-                handleData info=new handleData(pic,i);
+                handleData info=new handleData(pic,i,status);
                 Message msg = pic_hdl.obtainMessage();
                 msg.what = 0;
                 msg.obj = info;
@@ -411,6 +427,7 @@ RecommendActivity extends Activity {
 
             Bitmap imgs=info.pic;
             final int i=info.i;
+            final int status=info.status;
 
              table = (TableLayout) findViewById(R.id.recommendTable);
             TableRow tablerow = new TableRow(getBaseContext());
@@ -422,19 +439,32 @@ RecommendActivity extends Activity {
             img.setMaxWidth(250);
             img.setMinimumWidth(250);
             img.setMinimumHeight(250);
+
             img.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-
-                    Intent logIntent = new Intent();
-                    logIntent.setClass(RecommendActivity.this,SceneryInfoActivity.class);
-                    logIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                    Gson gson = new Gson();
-                    String result = gson.toJson(theplaces.get(i));
-                    Bundle bundle=new Bundle();
-                    bundle.putString("place",result);
-                    logIntent.putExtras(bundle);
-                    startActivity(logIntent);
+                    if(status==0) {
+                        Intent logIntent = new Intent();
+                        logIntent.setClass(RecommendActivity.this, SceneryInfoActivity.class);
+                        logIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                        Gson gson = new Gson();
+                        String result = gson.toJson(theplaces.get(i));
+                        Bundle bundle = new Bundle();
+                        bundle.putString("place", result);
+                        logIntent.putExtras(bundle);
+                        startActivity(logIntent);
+                    }
+                    else{
+                        Intent logIntent = new Intent();
+                        logIntent.setClass(RecommendActivity.this,NoPicAcitivity.class);
+                        logIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                        Gson gson = new Gson();
+                        String result = gson.toJson(theplaces.get(i));
+                        Bundle bundle = new Bundle();
+                        bundle.putString("place", result);
+                        logIntent.putExtras(bundle);
+                        startActivity(logIntent);
+                    }
                 }
             });
             tablerow.addView(img, 0);

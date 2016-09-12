@@ -3,8 +3,10 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Color;
+import android.graphics.Matrix;
 import android.media.ExifInterface;
 import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.v4.view.PagerAdapter;
@@ -64,7 +66,8 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import uk.co.senab.photoview.PhotoView;
 import com.example.respireapp.Entity.MyBluetooth;
-public class TestpicActivity extends AppCompatActivity implements View.OnClickListener {
+public class
+TestpicActivity extends AppCompatActivity implements View.OnClickListener {
     private String JSESSIONID;
     private Myapp myApp;
     private static final Object TAG = new Object();
@@ -327,7 +330,7 @@ public class TestpicActivity extends AppCompatActivity implements View.OnClickLi
      * @param path 图片绝对路径
      * @return 图片的旋转角度
      */
-    private int getBitmapDegree(String path) {
+    public static int getBitmapDegree(String path) {
         int degree = 0;
         try {
             // 从指定路径下读取图片，并获取其EXIF信息
@@ -349,6 +352,18 @@ public class TestpicActivity extends AppCompatActivity implements View.OnClickLi
             e.printStackTrace();
         }
         return degree;
+    }
+    public static Bitmap rotateBitmap(Bitmap bitmap, int degrees) {
+        if (degrees == 0 || null == bitmap) {
+            return bitmap;
+        }
+        Matrix matrix = new Matrix();
+        matrix.setRotate(degrees, bitmap.getWidth() / 2, bitmap.getHeight() / 2);
+        Bitmap bmp = Bitmap.createBitmap(bitmap, 0, 0, bitmap.getWidth(), bitmap.getHeight(), matrix, true);
+        if (null != bitmap) {
+            bitmap.recycle();
+        }
+        return bmp;
     }
 
     @Override
@@ -440,14 +455,21 @@ public class TestpicActivity extends AppCompatActivity implements View.OnClickLi
             } catch (JSONException e) {
                 e.printStackTrace();
             }
+        Toast.makeText(getApplicationContext(), "上传成功！",
+                Toast.LENGTH_SHORT).show();
             RequestQueue requestQueue= Volley.newRequestQueue(this);
            JsonObjectRequest request = new JsonObjectRequest(Request.Method.POST, url,
                    object, new Response.Listener<JSONObject>(){
                public void onResponse(JSONObject result){
                    try {
                        String returnvalue=result.getString("return_type");
-                       TextView infoText=(TextView) findViewById(R.id.infoText);
-                       infoText.setText(returnvalue);
+//                       TextView infoText=(TextView) findViewById(R.id.infoText);
+//                       infoText.setText(returnvalue);
+
+                       Intent logIntent = new Intent();
+                       logIntent.setClass(TestpicActivity.this,PoolActivity.class);
+                       logIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                       startActivity(logIntent);
                    }
                    catch (JSONException e) {
                        e.printStackTrace();

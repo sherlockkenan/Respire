@@ -1,6 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
-<merger version="3"><dataSet config="main"><source path="D:\git3\respire\Respire\app\src\androidTest\shaders"/></dataSet></merger>
-=======
-<merger version="3"><dataSet config="main"><source path="E:\git\respire\Respire\app\src\androidTest\shaders"/></dataSet></merger>
->>>>>>> 398cf7faef86f5b578879399665a419bade6edc2
+<merger version="3"><dataSet config="main"><source path="/Users/vito/Desktop/Respire/app/src/androidTest/shaders"/></dataSet></merger>

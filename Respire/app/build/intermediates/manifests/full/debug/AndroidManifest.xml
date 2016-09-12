@@ -137,7 +137,7 @@
         android:theme="@style/AppTheme" >
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
-            android:value="beeGXOImauL9aQzr1ZMO4ymyAqBDBk4r" />
+            android:value="5trhwzCl1Me23M2XQDSM08bsHQQPnyL2" />
 
         <activity android:name="com.example.respireapp.Activity.LoginActivity" >
             <intent-filter>
@@ -147,6 +147,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.respireapp.Activity.MainActivity" />
+        <activity android:name="com.example.respireapp.Activity.NoPicAcitivity" />
         <activity android:name="com.example.respireapp.Activity.RegisterActivity" />
         <activity android:name="com.example.respireapp.Activity.HomeActivity" />
         <activity android:name="com.example.respireapp.Activity.MeActivity" />
