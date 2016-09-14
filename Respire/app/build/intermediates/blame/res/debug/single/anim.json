@@ -1,126 +1,126 @@
 [
     {
-        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/anim/rp_fade_out.xml",
-        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/redpacketlibrary/unspecified/res/anim/rp_fade_out.xml"
+        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rp_progress_loading.xml",
+        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\anim\\rp_progress_loading.xml"
     },
     {
-        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/anim/rp_bottom_in.xml",
-        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/redpacketlibrary/unspecified/res/anim/rp_bottom_in.xml"
+        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rp_fade_out.xml",
+        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\anim\\rp_fade_out.xml"
     },
     {
-        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
-        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/anim/abc_slide_in_bottom.xml"
+        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rp_top_in.xml",
+        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\anim\\rp_top_in.xml"
     },
     {
-        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/anim/rp_top_out.xml",
-        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/redpacketlibrary/unspecified/res/anim/rp_top_out.xml"
+        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rp_scale_out.xml",
+        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\anim\\rp_scale_out.xml"
     },
     {
-        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
-        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/anim/abc_popup_enter.xml"
+        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rp_fade_in.xml",
+        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\anim\\rp_fade_in.xml"
     },
     {
-        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
-        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/anim/abc_grow_fade_in_from_bottom.xml"
+        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rp_left_in.xml",
+        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\anim\\rp_left_in.xml"
     },
     {
-        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
-        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/anim/abc_popup_exit.xml"
+        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
-        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
-        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/anim/abc_fade_in.xml"
+        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
-        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/anim/rp_bottom_out.xml",
-        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/redpacketlibrary/unspecified/res/anim/rp_bottom_out.xml"
+        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_slide_in_top.xml"
     },
     {
-        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
-        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/anim/abc_shrink_fade_out_from_bottom.xml"
+        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rp_right_in.xml",
+        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\anim\\rp_right_in.xml"
     },
     {
-        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/anim/rp_left_in.xml",
-        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/redpacketlibrary/unspecified/res/anim/rp_left_in.xml"
+        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\anim\\lc_slide_in_from_left.xml",
+        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\anim\\lc_slide_in_from_left.xml"
     },
     {
-        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/anim/lc_slide_out_to_left.xml",
-        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/redpacketlibrary/unspecified/res/anim/lc_slide_out_to_left.xml"
+        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\anim\\lc_slide_out_to_right.xml",
+        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\anim\\lc_slide_out_to_right.xml"
     },
     {
-        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/anim/lc_slide_in_from_left.xml",
-        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/redpacketlibrary/unspecified/res/anim/lc_slide_in_from_left.xml"
+        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rp_bottom_out.xml",
+        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\anim\\rp_bottom_out.xml"
     },
     {
-        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/anim/fab_out.xml",
-        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/anim/fab_out.xml"
+        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\anim\\snackbar_in.xml",
+        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\anim\\snackbar_in.xml"
     },
     {
-        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/anim/snackbar_in.xml",
-        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/anim/snackbar_in.xml"
+        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rp_top_out.xml",
+        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\anim\\rp_top_out.xml"
     },
     {
-        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
-        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/anim/abc_slide_in_top.xml"
+        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_out.xml",
+        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\anim\\fab_out.xml"
     },
     {
-        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/anim/rp_top_in.xml",
-        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/redpacketlibrary/unspecified/res/anim/rp_top_in.xml"
+        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_slide_out_top.xml"
     },
     {
-        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/anim/rp_scale_out.xml",
-        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/redpacketlibrary/unspecified/res/anim/rp_scale_out.xml"
+        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\anim\\lc_slide_in_from_right.xml",
+        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\anim\\lc_slide_in_from_right.xml"
     },
     {
-        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/anim/rp_progress_loading.xml",
-        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/redpacketlibrary/unspecified/res/anim/rp_progress_loading.xml"
+        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
-        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/anim/snackbar_out.xml",
-        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/anim/snackbar_out.xml"
+        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rp_scale_in.xml",
+        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\anim\\rp_scale_in.xml"
     },
     {
-        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/anim/rp_scale_in.xml",
-        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/redpacketlibrary/unspecified/res/anim/rp_scale_in.xml"
+        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
-        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/anim/abc_slide_out_bottom.xml"
+        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rp_bottom_in.xml",
+        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\anim\\rp_bottom_in.xml"
     },
     {
-        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
-        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/anim/abc_fade_out.xml"
+        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rp_left_out.xml",
+        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\anim\\rp_left_out.xml"
     },
     {
-        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/anim/rp_right_out.xml",
-        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/redpacketlibrary/unspecified/res/anim/rp_right_out.xml"
+        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_in.xml",
+        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\anim\\fab_in.xml"
     },
     {
-        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/anim/lc_slide_in_from_right.xml",
-        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/redpacketlibrary/unspecified/res/anim/lc_slide_in_from_right.xml"
+        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\anim\\lc_slide_out_to_left.xml",
+        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\anim\\lc_slide_out_to_left.xml"
     },
     {
-        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/anim/rp_left_out.xml",
-        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/redpacketlibrary/unspecified/res/anim/rp_left_out.xml"
+        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rp_right_out.xml",
+        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\Respire\\redpacketlibrary\\unspecified\\res\\anim\\rp_right_out.xml"
     },
     {
-        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/anim/rp_right_in.xml",
-        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/redpacketlibrary/unspecified/res/anim/rp_right_in.xml"
+        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_popup_enter.xml"
     },
     {
-        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/anim/lc_slide_out_to_right.xml",
-        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/redpacketlibrary/unspecified/res/anim/lc_slide_out_to_right.xml"
+        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\anim\\snackbar_out.xml",
+        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\anim\\snackbar_out.xml"
     },
     {
-        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
-        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/anim/abc_slide_out_top.xml"
+        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_popup_exit.xml"
     },
     {
-        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/anim/fab_in.xml",
-        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/anim/fab_in.xml"
+        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_fade_in.xml"
     },
     {
-        "merged": "/Users/vito/Desktop/Respire/app/build/intermediates/res/merged/debug/anim/rp_fade_in.xml",
-        "source": "/Users/vito/Desktop/Respire/app/build/intermediates/exploded-aar/Respire/redpacketlibrary/unspecified/res/anim/rp_fade_in.xml"
+        "merged": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "F:\\workspace\\project\\summer project\\Respire\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_fade_out.xml"
     }
 ]

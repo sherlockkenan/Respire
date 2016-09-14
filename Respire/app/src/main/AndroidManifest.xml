@@ -136,7 +136,6 @@
         <activity android:name=".Activity.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -164,6 +163,12 @@
         <activity android:name=".Activity.ChangeCityActivity" />
         <activity android:name=".Activity.TodayActivity" />
         <activity android:name=".Activity.PoolActivity" />
+
+        <activity android:name=".Activity.TestNotificationActivity" >
+
+        </activity>
+        <activity android:name=".Activity.TestShowrecommandActivity"></activity>
+
         <activity android:name=".Activity.TestpicActivity" />
         <activity
             android:name=".Activity.map.HeatMap"
@@ -199,6 +204,7 @@
             android:name="com.leancloud.im.guide.activity.AVSingleChatActivity"
             android:launchMode="singleTop"
             android:windowSoftInputMode="adjustResize|stateAlwaysHidden"/>
+
 
         <service android:name="com.avos.avoscloud.PushService"/>
 

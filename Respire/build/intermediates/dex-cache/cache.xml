@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="F:\workspace\project\summer project\Respire\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8655f277660f34562d2af21c91219164236dc1d0">
+        <dex dex="F:\workspace\project\summer project\Respire\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_030155d0293f41d3c7edaec5f04533c33969cbd9\classes.dex" />
+    </item>
+
+</items>

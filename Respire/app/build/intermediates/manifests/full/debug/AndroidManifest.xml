@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="15"
-        android:targetSdkVersion="23" />
+        android:targetSdkVersion="22" />
 
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.READ_LOGS" />
@@ -170,6 +170,9 @@
         <activity android:name="com.example.respireapp.Activity.ChangeCityActivity" />
         <activity android:name="com.example.respireapp.Activity.TodayActivity" />
         <activity android:name="com.example.respireapp.Activity.PoolActivity" />
+        <activity android:name="com.example.respireapp.Activity.TestNotificationActivity" >
+        </activity>
+        <activity android:name="com.example.respireapp.Activity.TestShowrecommandActivity" />
         <activity android:name="com.example.respireapp.Activity.TestpicActivity" />
         <activity
             android:name="com.example.respireapp.Activity.map.HeatMap"

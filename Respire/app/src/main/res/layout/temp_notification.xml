@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TestNotificationActivity" >
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="notificationMethod"
+        android:text="Middle level pollution Take the bus to work
+" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="notificationMethod"
+        android:text="remember to put on your mask" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="notificationMethod"
+        android:text="carbon dioxide is on high level.open the window" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="notificationMethod"
+        android:text="推荐风景
+" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="notificationMethod"
+        android:text="The air quality of your night jogging route is poor.
+Execise indoor will be more healthy." />
+
+</LinearLayout>

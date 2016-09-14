@@ -1006,9 +1006,9 @@ int id action_menu_presenter 0x7f0d0003
 int id action_mode_bar 0x7f0d005c
 int id action_mode_bar_stub 0x7f0d005b
 int id action_mode_close_button 0x7f0d0041
-int id action_settings 0x7f0d023c
+int id action_settings 0x7f0d0243
 int id activity_chooser_view_content 0x7f0d0042
-int id activity_member_menu_search 0x7f0d023b
+int id activity_member_menu_search 0x7f0d0242
 int id activity_square_members_letterview 0x7f0d010a
 int id activity_square_members_rv_list 0x7f0d0109
 int id activity_square_members_srl_list 0x7f0d0108
@@ -1032,6 +1032,11 @@ int id bluetoothSwitch 0x7f0d00a7
 int id bmapView 0x7f0d010f
 int id bottom 0x7f0d0021
 int id bottomLayout 0x7f0d0126
+int id btn1 0x7f0d0238
+int id btn2 0x7f0d0239
+int id btn3 0x7f0d023a
+int id btn4 0x7f0d023b
+int id btn5 0x7f0d023c
 int id btn_cancel 0x7f0d0221
 int id btn_captcha_confirm 0x7f0d01ee
 int id btn_change_password 0x7f0d01c1
@@ -1052,7 +1057,7 @@ int id button 0x7f0d0090
 int id buttonPanel 0x7f0d0049
 int id buttonlay 0x7f0d0091
 int id cancel_action 0x7f0d0170
-int id cancel_img 0x7f0d023a
+int id cancel_img 0x7f0d0241
 int id center 0x7f0d0022
 int id center_horizontal 0x7f0d0023
 int id center_vertical 0x7f0d0024
@@ -1300,7 +1305,7 @@ int id load_more_footer_progressbar 0x7f0d016d
 int id locationText 0x7f0d00c9
 int id locationView 0x7f0d0136
 int id loginButton 0x7f0d00b5
-int id main_img 0x7f0d0239
+int id main_img 0x7f0d0240
 int id mapButton 0x7f0d010c
 int id mapView 0x7f0d008c
 int id media_actions 0x7f0d0172
@@ -1348,6 +1353,7 @@ int id pull_to_refresh_head 0x7f0d014a
 int id rPhotos 0x7f0d0100
 int id radio 0x7f0d0059
 int id rbackButton 0x7f0d00f6
+int id recommand 0x7f0d023e
 int id recommendTable 0x7f0d0101
 int id record_fragment_container 0x7f0d0182
 int id record_list 0x7f0d022a
@@ -1422,6 +1428,7 @@ int id submit_area 0x7f0d006a
 int id tabMode 0x7f0d000d
 int id tagspinner 0x7f0d00d6
 int id target_layout 0x7f0d0187
+int id tbackButton 0x7f0d023d
 int id text 0x7f0d0178
 int id text1 0x7f0d00ce
 int id text2 0x7f0d00cf
@@ -1461,7 +1468,7 @@ int id titleView 0x7f0d0120
 int id title_bar 0x7f0d0181
 int id title_template 0x7f0d004d
 int id todayButton 0x7f0d00a3
-int id toolbar 0x7f0d0238
+int id toolbar 0x7f0d023f
 int id top 0x7f0d002e
 int id topPanel 0x7f0d004c
 int id totalText 0x7f0d00a4
@@ -1722,8 +1729,10 @@ int layout select_dialog_item_material 0x7f040099
 int layout select_dialog_multichoice_material 0x7f04009a
 int layout select_dialog_singlechoice_material 0x7f04009b
 int layout support_simple_spinner_dropdown_item 0x7f04009c
-int layout tool_bar 0x7f04009d
-int layout view_image_show_cancel 0x7f04009e
+int layout temp_notification 0x7f04009d
+int layout temp_show_recommand 0x7f04009e
+int layout tool_bar 0x7f04009f
+int layout view_image_show_cancel 0x7f0400a0
 int menu activity_member_menu 0x7f0e0000
 int menu menu_main 0x7f0e0001
 int menu menu_square 0x7f0e0002
