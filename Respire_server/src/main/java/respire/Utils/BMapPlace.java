@@ -57,9 +57,13 @@ public class BMapPlace {
     	  JSONArray pois=result.getJSONArray("pois");
     	  if(pois.size()!=0){
     		  String tag=pois.getJSONObject(0).getString("poiType");
-    		  if(tag.equals("旅游景点")||tag.equals("运动健身")){
-    			  return tag;
-    		  }	  
+    		  if(tag.equals("旅游景点")){
+    			  return "scenery";
+    			  
+    		  }else if(tag.equals("运动健身"))
+    		  {
+    			  return "sport";
+    		  }
     	  }
     	  return null;
 

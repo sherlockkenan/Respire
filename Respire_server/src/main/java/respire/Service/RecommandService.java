@@ -111,29 +111,24 @@ public class RecommandService {
 		}
 
 		//recommand2 得到的推荐
-//		Calendar cal = Calendar.getInstance();
-//		cal.setTime(new Date());
-//		int w = cal.get(Calendar.DAY_OF_WEEK) - 1;
-//		if(w==0){
-//			w=7;
-//		}
-//		List<Recommand2> recommand2=recommand2Dao.getrecomad(userid,w);
-//		if(recommand2.size()!=0){
-//			int hour=new Date().getHours();
-//			for(int i=0;i<recommand2.size();i++){
-//				if(recommand2.get(i).getHour()==hour){
-//					String tag=recommand2.get(i).getTag();
-//					Scenery scenery=findbytagandloc(tag,lat,lng);
-//					if(scenery!=null){
-//					     double distance = DistanceCompu.GetDistance(lat, lng, scenery.getLatitude(),
-//							scenery.getLongitude());
-//				       	 SceneryDataModel sModel = new SceneryDataModel(scenery, distance);
-//					     sceneries.add(sModel);
-//					}
-//				}
-//			}
-//		}
-//		
+		
+		List<Recommand2> recommand2=recommand2Dao.getrecomad(userid);
+		if(recommand2.size()!=0){
+			int hour=new Date().getHours();
+			for(int i=0;i<recommand2.size();i++){
+				if(recommand2.get(i).getHour()==hour){
+					String tag=recommand2.get(i).getTag();
+					Scenery scenery=findbytagandloc(tag,lat,lng);
+					if(scenery!=null){
+					     double distance = DistanceCompu.GetDistance(lat, lng, scenery.getLatitude(),
+							scenery.getLongitude());
+				       	 SceneryDataModel sModel = new SceneryDataModel(scenery, distance);
+					     sceneries.add(sModel);
+					}
+				}
+			}
+		}
+		
 		return sceneries;
 
 	}

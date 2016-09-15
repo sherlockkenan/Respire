@@ -43,8 +43,8 @@ public class MapController {
 	public ReturnValue getdatabuuser(HttpServletRequest request){
 		ReturnValue result=new ReturnValue();
 		User user=(User) request.getSession().getAttribute("user");
-		//List<MapDataModel> data=dataService.get_user_data(user.getUserid());
-		List<MapDataModel> data=dataService.get_user_data("1");
+		List<MapDataModel> data=dataService.get_user_data(user.getUserid());
+		//List<MapDataModel> data=dataService.get_user_data("1");
 		result.setReturn_type("success");
 		result.setData(JSONArray.fromObject(data));
 		return result;

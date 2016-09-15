@@ -16,13 +16,12 @@ public class Recommand2 {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long id;
 	
-	private String useid;
+	private String userid;
 	
 	private String tag;
 	
 	private int hour;
 	
-	private int week;
 
 	
 
@@ -34,12 +33,12 @@ public class Recommand2 {
 		this.id = id;
 	}
 
-	public String getUseid() {
-		return useid;
+	public String getUserid() {
+		return userid;
 	}
 
-	public void setUseid(String useid) {
-		this.useid = useid;
+	public void setUserid(String userid) {
+		this.userid = userid;
 	}
 
 	public String getTag() {
@@ -58,13 +57,6 @@ public class Recommand2 {
 		this.hour = hour;
 	}
 
-	public int getWeek() {
-		return week;
-	}
-
-	public void setWeek(int week) {
-		this.week = week;
-	}
 
 	
 	
