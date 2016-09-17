@@ -32,7 +32,7 @@
 
         <EditText
             android:layout_width="fill_parent"
-            android:layout_height="50dp"
+            android:layout_height="60dp"
             android:id="@+id/textUsername"
             android:hint="  User Name"
             android:layout_marginTop="295dp"
@@ -41,34 +41,14 @@
 
         <EditText
             android:layout_width="fill_parent"
-            android:layout_height="50dp"
+            android:layout_height="60dp"
             android:inputType="textPassword"
             android:ems="10"
             android:id="@+id/passwordText"
-            android:layout_marginTop="350dp"
+            android:layout_marginTop="360dp"
             android:layout_alignParentRight="true"
             android:drawableLeft="@drawable/loginpasswordicon"
             />
-
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="55dp"
-            android:id="@+id/loginButton"
-            android:src="@drawable/loginbuttonbg"
-            android:adjustViewBounds="false"
-            android:clickable="true"
-            android:layout_marginTop="401dp"
-            />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Log In"
-            android:id="@+id/textView"
-            android:layout_marginTop="410dp"
-            android:layout_marginLeft="138dp"
-            android:textSize="30dp"
-            android:textColor="#ffffff" />
 
         <ImageView
             android:layout_width="167dp"
@@ -81,14 +61,55 @@
 
             />
 
-        <Button
-            style="?android:attr/buttonStyleSmall"
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="420dp"
+            android:id="@+id/Table"
+            android:shrinkColumns="0,1"
+            android:stretchColumns="0,1">
+
+        <ImageButton
+            android:layout_width="175dp"
+            android:layout_height="55dp"
+            android:id="@+id/loginButton"
+            android:src="@drawable/loginbuttonbg"
+            android:adjustViewBounds="false"
+            android:clickable="true"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:layout_gravity="left"
+            />
+
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Register"
+            android:text="Log In"
+            android:id="@+id/textView"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:layout_gravity="center"
+            />
+
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="175dp"
+            android:layout_height="55dp"
             android:id="@+id/registerbutton"
-            android:layout_marginTop="470dp"
-            android:layout_marginLeft="250dp" />
+            android:background="@drawable/loginbuttonbg"
+            android:text="Register"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:textAllCaps="false"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:layout_gravity="right"
+            />
+        </GridLayout>
+
 
         <TextView
             android:layout_width="wrap_content"
@@ -99,7 +120,6 @@
             android:textColor="#fb0202"
             android:textSize="30dp"
             />
-
 
     </FrameLayout>
 

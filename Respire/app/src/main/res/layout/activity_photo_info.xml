@@ -25,17 +25,31 @@
         android:id="@+id/backButton"
         android:layout_marginTop="5dp"
         />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:id="@+id/imageView7"
+        android:src="@drawable/divider"
+        android:layout_marginTop="45dp"
+        />
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="60dp"
         android:id="@+id/photoTable"
         android:stretchColumns="0,1"
         android:shrinkColumns="0,1"
         ></TableLayout>
-
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:id="@+id/divid"
+        android:src="@drawable/divider"
+        android:layout_below="@+id/photoTable"
+        />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -43,7 +57,7 @@
         android:textSize="20dp"
         android:textColor="#ffffff"
         android:id="@+id/locationText"
-        android:layout_below="@+id/photoTable"
+        android:layout_below="@+id/divid"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         />
@@ -52,7 +66,7 @@
         android:layout_width="20dp"
         android:layout_height="25dp"
         android:id="@+id/imageView9"
-        android:layout_below="@+id/photoTable"
+        android:layout_below="@+id/divid"
         android:layout_toLeftOf="@+id/locationText"
         android:layout_toStartOf="@+id/locationText"
         android:src="@drawable/location"
@@ -68,7 +82,14 @@
         android:layout_below="@+id/imageView9"
         android:layout_alignLeft="@+id/photoTable"
         android:layout_alignStart="@+id/photoTable" />
-
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:id="@+id/divid2"
+        android:src="@drawable/divider"
+        android:layout_below="@+id/descriptionText"
+        android:layout_marginTop="30dp"
+        />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -76,10 +97,9 @@
         android:textColor="#ffffff"
         android:textSize="20dp"
         android:id="@+id/pm25Text"
-        android:layout_below="@+id/descriptionText"
+        android:layout_below="@+id/divid2"
         android:layout_alignLeft="@+id/descriptionText"
-        android:layout_alignStart="@+id/descriptionText"
-        android:layout_marginTop="30dp" />
+        android:layout_alignStart="@+id/descriptionText" />
 
     <TextView
         android:layout_width="wrap_content"

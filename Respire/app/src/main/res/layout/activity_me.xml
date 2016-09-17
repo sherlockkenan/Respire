@@ -259,7 +259,8 @@
             android:layout_column="0"
             android:layout_gravity="center_vertical|right"
             android:layout_row="10"
-            android:adjustViewBounds="true" />
+            android:adjustViewBounds="true"
+            android:visibility="invisible" />
 
 
         <TextView
@@ -272,7 +273,7 @@
             android:layout_gravity="center_vertical"
             android:textSize="20dp"
             android:textColor="#ffffff"
-            />
+            android:visibility="invisible" />
 
         <ImageView
             android:layout_width="15dp"
@@ -283,7 +284,7 @@
             android:layout_gravity="right|center_vertical"
             android:src="@drawable/meright"
             android:layout_marginRight="25dp"
-            />
+            android:visibility="invisible" />
 
         <Button
             android:layout_width="fill_parent"
@@ -294,7 +295,8 @@
             android:layout_gravity="center_vertical"
             android:layout_column="0"
             android:background="#00ffffff"
-            />
+            android:visibility="invisible"
+            android:clickable="false" />
 
         <ImageView
             android:layout_width="fill_parent"
@@ -305,7 +307,7 @@
             android:layout_columnSpan="4"
             android:layout_gravity="bottom"
             android:layout_row="11"
-            />
+            android:visibility="invisible" />
 
 
     </GridLayout>

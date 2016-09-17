@@ -34,12 +34,18 @@
         android:id="@+id/photoButton"
         android:background="@drawable/homeshareicon"
         android:layout_alignParentRight="true" />
-
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:id="@+id/divid3"
+        android:src="@drawable/divider"
+        android:layout_below="@id/photoButton"
+        />
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/Ranking"
-        android:layout_below="@+id/PoolName"
+        android:layout_below="@+id/divid3"
         android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true" >
         <TableLayout
@@ -86,15 +92,21 @@
         </TableLayout>
 
     </ScrollView>
-
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:id="@+id/divid4"
+        android:src="@drawable/divider"
+        android:layout_below="@id/Ranking"
+        android:layout_marginTop="20dp"
+        />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Photo Wall"
         android:id="@+id/wallText"
         android:layout_centerHorizontal="true"
-        android:layout_below="@id/Ranking"
-        android:layout_marginTop="20dp"
+        android:layout_below="@id/divid4"
         android:textColor="#ffffff"
         android:textSize="25dp"
         />

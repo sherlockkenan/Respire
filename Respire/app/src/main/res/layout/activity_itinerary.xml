@@ -41,4 +41,26 @@
         android:layout_below="@+id/textView17"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="63dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "When PM2.5 is over moderately polluted, it is suggested to use subway."
+        android:id="@+id/info1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="330dp"
+        android:textColor="#c6bdbd"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView20"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/info1"
+        android:text="When air quality is good, it is suggested to take bus."
+        android:textColor="#c6bdbd"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        />
 </RelativeLayout>
