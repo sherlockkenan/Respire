@@ -63,15 +63,15 @@
 
         <GridLayout
             android:layout_width="match_parent"
-            android:layout_height="55dp"
-            android:layout_marginTop="420dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="460dp"
             android:id="@+id/Table"
             android:shrinkColumns="0,1"
             android:stretchColumns="0,1">
 
         <ImageButton
-            android:layout_width="175dp"
-            android:layout_height="55dp"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
             android:id="@+id/loginButton"
             android:src="@drawable/loginbuttonbg"
             android:adjustViewBounds="false"
@@ -96,8 +96,8 @@
 
         <Button
             style="?android:attr/buttonStyleSmall"
-            android:layout_width="175dp"
-            android:layout_height="55dp"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
             android:id="@+id/registerbutton"
             android:background="@drawable/loginbuttonbg"
             android:text="Register"

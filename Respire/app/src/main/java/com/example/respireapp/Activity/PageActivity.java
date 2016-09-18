@@ -212,46 +212,46 @@ public class PageActivity extends Activity {
         view1.findViewById(R.id.refreshButton).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                int times=3;
-//                String[] result=new String[times+1];
-//                result=myBluetooth.getLines(times);
-//                double sum1 = 0;
-//                double sum2=0;
-//                double sum3=0;
-//                for (int i = 1; i <= times; i++) {
-//                    String[] now=result[i].split("\t");
-//                    double num1=Double.parseDouble(now[0]);
-//                    int pos= now[1].indexOf("p");
-//                    String str2=now[1].substring(0,pos);
-//                    double num2=Double.parseDouble(str2);
-//                    int pos2=now[2].indexOf("p");
-//                    String str3=now[2].substring(0,pos2);
-//                    double num3=Double.parseDouble(str3);
-//                    sum1 += num1;
-//                    sum2+=num2;
-//                    sum3+=num3;
-//                }
-//                sum1 = sum1 / times;
-//                sum2=sum2/times;
-//                sum3=sum3/times;
-//                nowpm25 = (int) sum1;
-//                nowco2=(int) sum2;
-//                nowso2=(int) sum3;
-//
-//                dataText.setText(Integer.toString(nowpm25));
-//                co2Text.setText(Integer.toString(nowco2));
-//                so2Text.setText(Integer.toString(nowso2));
-//
-//                if (nowpm25>500){
-//                    Toast.makeText(PageActivity.this, "空气污染十分严重！", Toast.LENGTH_SHORT).show();
-//                }
-//
-//                if (nowpm25>0){
-//                    senddata(nowpm25,nowco2,nowso2);
-//                }
-                Intent logIntent1 = new Intent();
-                logIntent1.setClass(PageActivity.this,TestNotificationActivity.class);
-                startActivity(logIntent1);
+                int times=3;
+                String[] result=new String[times+1];
+                result=myBluetooth.getLines(times);
+                double sum1 = 0;
+                double sum2=0;
+                double sum3=0;
+                for (int i = 1; i <= times; i++) {
+                    String[] now=result[i].split("\t");
+                    double num1=Double.parseDouble(now[0]);
+                    int pos= now[1].indexOf("p");
+                    String str2=now[1].substring(0,pos);
+                    double num2=Double.parseDouble(str2);
+                    int pos2=now[2].indexOf("p");
+                    String str3=now[2].substring(0,pos2);
+                    double num3=Double.parseDouble(str3);
+                    sum1 += num1;
+                    sum2+=num2;
+                    sum3+=num3;
+                }
+                sum1 = sum1 / times;
+                sum2=sum2/times;
+                sum3=sum3/times;
+                nowpm25 = (int) sum1;
+                nowco2=(int) sum2;
+                nowso2=(int) sum3;
+
+                dataText.setText(Integer.toString(nowpm25));
+                co2Text.setText(Integer.toString(nowco2));
+                so2Text.setText(Integer.toString(nowso2));
+
+                if (nowpm25>500){
+                    Toast.makeText(PageActivity.this, "空气污染十分严重！", Toast.LENGTH_SHORT).show();
+                }
+
+                if (nowpm25>0){
+                    senddata(nowpm25,nowco2,nowso2);
+                }
+//                Intent logIntent1 = new Intent();
+//                logIntent1.setClass(PageActivity.this,TestNotificationActivity.class);
+//                startActivity(logIntent1);
             }
         });
 
